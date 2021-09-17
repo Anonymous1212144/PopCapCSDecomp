@@ -1,0 +1,3834 @@
+﻿using System;
+
+namespace BejeweledLivePlus
+{
+	public static class ConstantsWP
+	{
+		public static void ScaleConstants()
+		{
+			ConstantsWP.LARGE_PROFILE_PICTURE_SIZE = (int)((double)ConstantsWP.LARGE_PROFILE_PICTURE_SIZE * 0.5);
+			ConstantsWP.MENU_QUAD_BUTTON_LEFT_X = (int)((double)ConstantsWP.MENU_QUAD_BUTTON_LEFT_X * 0.5);
+			ConstantsWP.MENU_QUAD_BUTTON_RIGHT_X = (int)((double)ConstantsWP.MENU_QUAD_BUTTON_RIGHT_X * 0.5);
+			ConstantsWP.MENU_QUAD_BUTTON_TOP_Y = (int)((double)ConstantsWP.MENU_QUAD_BUTTON_TOP_Y * 0.5);
+			ConstantsWP.MENU_QUAD_BUTTON_BTM_Y = (int)((double)ConstantsWP.MENU_QUAD_BUTTON_BTM_Y * 0.5);
+			ConstantsWP.DIALOG_INLAY_HEADING_OFFSET_Y = (int)((double)ConstantsWP.DIALOG_INLAY_HEADING_OFFSET_Y * 0.5);
+			ConstantsWP.DIALOG_INLAY_HEADING_OFFSET_LEFT = (int)((double)ConstantsWP.DIALOG_INLAY_HEADING_OFFSET_LEFT * 0.5);
+			ConstantsWP.DIALOG_INLAY_HEADING_OFFSET_RIGHT = (int)((double)ConstantsWP.DIALOG_INLAY_HEADING_OFFSET_RIGHT * 0.5);
+			ConstantsWP.DIALOG_OFFSET_FULLSCREEN_X = (int)((double)ConstantsWP.DIALOG_OFFSET_FULLSCREEN_X * 0.5);
+			ConstantsWP.DIALOG_OFFSET_FULLSCREEN_TOP = (int)((double)ConstantsWP.DIALOG_OFFSET_FULLSCREEN_TOP * 0.5);
+			ConstantsWP.DIALOG_OFFSET_FULLSCREEN_BOTTOM = (int)((double)ConstantsWP.DIALOG_OFFSET_FULLSCREEN_BOTTOM * 0.5);
+			ConstantsWP.DIALOG_OFFSET_NOBOX_FULLSCREEN_X = (int)((double)ConstantsWP.DIALOG_OFFSET_NOBOX_FULLSCREEN_X * 0.5);
+			ConstantsWP.DIALOG_OFFSET_NOBOX_FULLSCREEN_TOP = (int)((double)ConstantsWP.DIALOG_OFFSET_NOBOX_FULLSCREEN_TOP * 0.5);
+			ConstantsWP.DIALOG_OFFSET_NOBOX_FULLSCREEN_BOTTOM = (int)((double)ConstantsWP.DIALOG_OFFSET_NOBOX_FULLSCREEN_BOTTOM * 0.5);
+			ConstantsWP.DIALOG_OFFSET_X = (int)((double)ConstantsWP.DIALOG_OFFSET_X * 0.5);
+			ConstantsWP.DIALOG_OFFSET_TOP = (int)((double)ConstantsWP.DIALOG_OFFSET_TOP * 0.5);
+			ConstantsWP.DIALOG_OFFSET_BOTTOM = (int)((double)ConstantsWP.DIALOG_OFFSET_BOTTOM * 0.5);
+			ConstantsWP.DIALOG_INLAY_LIGHT_OFFSET = (int)((double)ConstantsWP.DIALOG_INLAY_LIGHT_OFFSET * 0.5);
+			ConstantsWP.DIALOG_BACKGROUND_OFFSET_TOP = (int)((double)ConstantsWP.DIALOG_BACKGROUND_OFFSET_TOP * 0.5);
+			ConstantsWP.DIALOG_BACKGROUND_OFFSET_BOTTOM = (int)((double)ConstantsWP.DIALOG_BACKGROUND_OFFSET_BOTTOM * 0.5);
+			ConstantsWP.DIALOG_HEADING_Y = (int)((double)ConstantsWP.DIALOG_HEADING_Y * 0.5);
+			ConstantsWP.DIALOG_HEADING_PADDING_X = (int)((double)ConstantsWP.DIALOG_HEADING_PADDING_X * 0.5);
+			ConstantsWP.DIALOG_HEADING_LABEL_Y = (int)((double)ConstantsWP.DIALOG_HEADING_LABEL_Y * 0.5);
+			ConstantsWP.DIALOG_HEADING_LABEL_MAX_WIDTH = (int)((double)ConstantsWP.DIALOG_HEADING_LABEL_MAX_WIDTH * 0.5);
+			ConstantsWP.MENU_DIVIDER_Y = (int)((double)ConstantsWP.MENU_DIVIDER_Y * 0.5);
+			ConstantsWP.MENU_DIVIDER_DIAMOND_OFFSET_LEFT = (int)((double)ConstantsWP.MENU_DIVIDER_DIAMOND_OFFSET_LEFT * 0.5);
+			ConstantsWP.MENU_DIVIDER_DIAMOND_OFFSET_RIGHT = (int)((double)ConstantsWP.MENU_DIVIDER_DIAMOND_OFFSET_RIGHT * 0.5);
+			ConstantsWP.MENU_DIVIDER_DIALOG_Y = (int)((double)ConstantsWP.MENU_DIVIDER_DIALOG_Y * 0.5);
+			ConstantsWP.MENU_OVERLAY_POS_TOP = (int)((double)ConstantsWP.MENU_OVERLAY_POS_TOP * 0.5);
+			ConstantsWP.MENU_OVERLAY_POS_BOTTOM = (int)((double)ConstantsWP.MENU_OVERLAY_POS_BOTTOM * 0.5);
+			ConstantsWP.MENU_OVERLAY_TOP_OFFSET = (int)((double)ConstantsWP.MENU_OVERLAY_TOP_OFFSET * 0.5);
+			ConstantsWP.MENU_BOTTOM_BUTTON_SIZE = (int)((double)ConstantsWP.MENU_BOTTOM_BUTTON_SIZE * 0.5);
+			ConstantsWP.MENU_BOTTOM_BUTTON_Y = (int)((double)ConstantsWP.MENU_BOTTOM_BUTTON_Y * 0.5);
+			ConstantsWP.MENU_OVERLAY_LEFT_X = (int)((double)ConstantsWP.MENU_OVERLAY_LEFT_X * 0.5);
+			ConstantsWP.MENU_OVERLAY_LEFT_Y = (int)((double)ConstantsWP.MENU_OVERLAY_LEFT_Y * 0.5);
+			ConstantsWP.MENU_OVERLAY_LEFT_HEIGHT = (int)((double)ConstantsWP.MENU_OVERLAY_LEFT_HEIGHT * 0.5);
+			ConstantsWP.MENU_OVERLAY_RIGHT_X = (int)((double)ConstantsWP.MENU_OVERLAY_RIGHT_X * 0.5);
+			ConstantsWP.MENU_OVERLAY_RIGHT_Y = (int)((double)ConstantsWP.MENU_OVERLAY_RIGHT_Y * 0.5);
+			ConstantsWP.MENU_OVERLAY_RIGHT_HEIGHT = (int)((double)ConstantsWP.MENU_OVERLAY_RIGHT_HEIGHT * 0.5);
+			ConstantsWP.MENU_OVERLAY_LEFT_BOX_X = (int)((double)ConstantsWP.MENU_OVERLAY_LEFT_BOX_X * 0.5);
+			ConstantsWP.MENU_OVERLAY_LEFT_BOX_Y = (int)((double)ConstantsWP.MENU_OVERLAY_LEFT_BOX_Y * 0.5);
+			ConstantsWP.MENU_OVERLAY_LEFT_BOX_HEIGHT = (int)((double)ConstantsWP.MENU_OVERLAY_LEFT_BOX_HEIGHT * 0.5);
+			ConstantsWP.MENU_OVERLAY_RIGHT_BOX_X = (int)((double)ConstantsWP.MENU_OVERLAY_RIGHT_BOX_X * 0.5);
+			ConstantsWP.MENU_OVERLAY_RIGHT_BOX_Y = (int)((double)ConstantsWP.MENU_OVERLAY_RIGHT_BOX_Y * 0.5);
+			ConstantsWP.MENU_OVERLAY_RIGHT_BOX_HEIGHT = (int)((double)ConstantsWP.MENU_OVERLAY_RIGHT_BOX_HEIGHT * 0.5);
+			ConstantsWP.DEVICE_WIDTH_F = (float)((double)ConstantsWP.DEVICE_WIDTH_F * 0.5);
+			ConstantsWP.DEVICE_HEIGHT_F = (float)((double)ConstantsWP.DEVICE_HEIGHT_F * 0.5);
+			ConstantsWP.MENU_Y_POS_HIDDEN = (int)((double)ConstantsWP.MENU_Y_POS_HIDDEN * 0.5);
+			ConstantsWP.MENU_DEFAULT_PADDING_TOP = (int)((double)ConstantsWP.MENU_DEFAULT_PADDING_TOP * 0.5);
+			ConstantsWP.MENU_DEFAULT_PADDING_BOTTOM = (int)((double)ConstantsWP.MENU_DEFAULT_PADDING_BOTTOM * 0.5);
+			ConstantsWP.MENU_INLAY_OFFSET_TOP = (int)((double)ConstantsWP.MENU_INLAY_OFFSET_TOP * 0.5);
+			ConstantsWP.MENU_INLAY_OFFSET_BOTTOM = (int)((double)ConstantsWP.MENU_INLAY_OFFSET_BOTTOM * 0.5);
+			ConstantsWP.MENU_INLAY_OFFSET_CUTAWAY = (int)((double)ConstantsWP.MENU_INLAY_OFFSET_CUTAWAY * 0.5);
+			ConstantsWP.MENU_INLAY_OFFSET_MAGIC_BOTTOM = (int)((double)ConstantsWP.MENU_INLAY_OFFSET_MAGIC_BOTTOM * 0.5);
+			ConstantsWP.MENU_INSIDE_CLIPPING_OFFSET_LEFT = (int)((double)ConstantsWP.MENU_INSIDE_CLIPPING_OFFSET_LEFT * 0.5);
+			ConstantsWP.MENU_INSIDE_CLIPPING_OFFSET_RIGHT = (int)((double)ConstantsWP.MENU_INSIDE_CLIPPING_OFFSET_RIGHT * 0.5);
+			ConstantsWP.HYPERLINK_UNDERLINE_HEIGHT_SUBHEADER = (int)((double)ConstantsWP.HYPERLINK_UNDERLINE_HEIGHT_SUBHEADER * 0.5);
+			ConstantsWP.SCROLLWIDGET_INSET_X = (int)((double)ConstantsWP.SCROLLWIDGET_INSET_X * 0.5);
+			ConstantsWP.SCROLLWIDGET_INSET_Y = (int)((double)ConstantsWP.SCROLLWIDGET_INSET_Y * 0.5);
+			ConstantsWP.SLIDE_BUTTON_TO_TEXT_OFFSET = (int)((double)ConstantsWP.SLIDE_BUTTON_TO_TEXT_OFFSET * 0.5);
+			ConstantsWP.SLIDE_BUTTON_TO_TEXT_SINGLE_OFFSET = (int)((double)ConstantsWP.SLIDE_BUTTON_TO_TEXT_SINGLE_OFFSET * 0.5);
+			ConstantsWP.SLIDE_BUTTON_MESSAGE_WIDTH = (int)((double)ConstantsWP.SLIDE_BUTTON_MESSAGE_WIDTH * 0.5);
+			ConstantsWP.RANKBARWIDGET_UPDATE_SPEED = (int)((double)ConstantsWP.RANKBARWIDGET_UPDATE_SPEED * 0.5);
+			ConstantsWP.RANKBARWIDGET_BG_OFFSET_NO_CROWN = (int)((double)ConstantsWP.RANKBARWIDGET_BG_OFFSET_NO_CROWN * 0.5);
+			ConstantsWP.RANKBARWIDGET_FILL_OFFSET = (int)((double)ConstantsWP.RANKBARWIDGET_FILL_OFFSET * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_Y = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_Y * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_SCALING_POS_Y = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_SCALING_POS_Y * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_1_X = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_1_X * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_2_X = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_2_X * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_3_X = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_3_X * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_4_X = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_4_X * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_4_WIDTH_OFFSET = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_4_WIDTH_OFFSET * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_5_X = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_5_X * 0.5);
+			ConstantsWP.RANKBARWIDGET_TEXT_POS_6_X = (int)((double)ConstantsWP.RANKBARWIDGET_TEXT_POS_6_X * 0.5);
+			ConstantsWP.RANKBARWIDGET_TOBLERONE = (int)((double)ConstantsWP.RANKBARWIDGET_TOBLERONE * 0.5);
+			ConstantsWP.RANKBARWIDGET_TOBLERONE_CLIP_TOP = (int)((double)ConstantsWP.RANKBARWIDGET_TOBLERONE_CLIP_TOP * 0.5);
+			ConstantsWP.RANKBARWIDGET_TOBLERONE_CLIP_BOTTOM = (int)((double)ConstantsWP.RANKBARWIDGET_TOBLERONE_CLIP_BOTTOM * 0.5);
+			ConstantsWP.SLIDESELECTOR_CONTAINER_HEIGHT_OFFSET = (int)((double)ConstantsWP.SLIDESELECTOR_CONTAINER_HEIGHT_OFFSET * 0.5);
+			ConstantsWP.BEJ3SCROLLWIDGET_TOLERANCE = (int)((double)ConstantsWP.BEJ3SCROLLWIDGET_TOLERANCE * 0.5);
+			ConstantsWP.POINTS_LIMIT = (float)((double)ConstantsWP.POINTS_LIMIT * 0.5);
+			ConstantsWP.POINTS_LIMIT_TOP = (float)((double)ConstantsWP.POINTS_LIMIT_TOP * 0.5);
+			ConstantsWP.EXPANDER_MIN_HEIGHT = (int)((double)ConstantsWP.EXPANDER_MIN_HEIGHT * 0.5);
+			ConstantsWP.EXPANDER_BUTTON_X = (int)((double)ConstantsWP.EXPANDER_BUTTON_X * 0.5);
+			ConstantsWP.EXPANDER_BUTTON_Y_OFFSET = (int)((double)ConstantsWP.EXPANDER_BUTTON_Y_OFFSET * 0.5);
+			ConstantsWP.EXPANDER_INFO_BUTTON_X = (int)((double)ConstantsWP.EXPANDER_INFO_BUTTON_X * 0.5);
+			ConstantsWP.EXPANDER_LABEL_Y = (int)((double)ConstantsWP.EXPANDER_LABEL_Y * 0.5);
+			ConstantsWP.EXPANDER_CHECKBOX_X = (int)((double)ConstantsWP.EXPANDER_CHECKBOX_X * 0.5);
+			ConstantsWP.EXPANDER_CHECKBOX_Y = (int)((double)ConstantsWP.EXPANDER_CHECKBOX_Y * 0.5);
+			ConstantsWP.EXPANDER_DIVIDER_DRAW_OFFSET = (int)((double)ConstantsWP.EXPANDER_DIVIDER_DRAW_OFFSET * 0.5);
+			ConstantsWP.EXPANDER_DIVIDER_OFFSET = (int)((double)ConstantsWP.EXPANDER_DIVIDER_OFFSET * 0.5);
+			ConstantsWP.EXPANDER_SPEED = (float)((double)ConstantsWP.EXPANDER_SPEED * 0.5);
+			ConstantsWP.LABEL_TO_SLIDER_OFFSET = (int)((double)ConstantsWP.LABEL_TO_SLIDER_OFFSET * 0.5);
+			ConstantsWP.LABEL_TO_CHECKBOX_OFFSET = (int)((double)ConstantsWP.LABEL_TO_CHECKBOX_OFFSET * 0.5);
+			ConstantsWP.LOADING_SMOOTH_STEP = (float)((double)ConstantsWP.LOADING_SMOOTH_STEP * 0.5);
+			ConstantsWP.GEM_PRE_SCALE_FACTOR = (float)((double)ConstantsWP.GEM_PRE_SCALE_FACTOR * 0.5);
+			ConstantsWP.MENU_BACK_BUTTON_X = (int)((double)ConstantsWP.MENU_BACK_BUTTON_X * 0.5);
+			ConstantsWP.MENU_BACK_BUTTON_Y = (int)((double)ConstantsWP.MENU_BACK_BUTTON_Y * 0.5);
+			ConstantsWP.BOARD_MAX_REWIND_TIME = (int)((double)ConstantsWP.BOARD_MAX_REWIND_TIME * 0.5);
+			ConstantsWP.BOARD_X = (int)((double)ConstantsWP.BOARD_X * 0.5);
+			ConstantsWP.BOARD_Y = (int)((double)ConstantsWP.BOARD_Y * 0.5);
+			ConstantsWP.BOARD_Y_BUTTERFLY = (int)((double)ConstantsWP.BOARD_Y_BUTTERFLY * 0.5);
+			ConstantsWP.BFLY_SCORE_DISPLAY_X = (int)((double)ConstantsWP.BFLY_SCORE_DISPLAY_X * 0.5);
+			ConstantsWP.BFLY_SCORE_DISPLAY_Y = (int)((double)ConstantsWP.BFLY_SCORE_DISPLAY_Y * 0.5);
+			ConstantsWP.NUM_BUTTERFLY_DISPLAY_X = (int)((double)ConstantsWP.NUM_BUTTERFLY_DISPLAY_X * 0.5);
+			ConstantsWP.NUM_BUTTERFLY_DISPLAY_Y = (int)((double)ConstantsWP.NUM_BUTTERFLY_DISPLAY_Y * 0.5);
+			ConstantsWP.BOARD_FRAME_OVERLAP_Y = (int)((double)ConstantsWP.BOARD_FRAME_OVERLAP_Y * 0.5);
+			ConstantsWP.BOARD_SLIDING_HUD_SPEED = (float)((double)ConstantsWP.BOARD_SLIDING_HUD_SPEED * 0.5);
+			ConstantsWP.BOARD_LEVEL_SCORE_SCALE = (float)((double)ConstantsWP.BOARD_LEVEL_SCORE_SCALE * 0.5);
+			ConstantsWP.BOARD_UI_HINT_BTN_WIDTH = (int)((double)ConstantsWP.BOARD_UI_HINT_BTN_WIDTH * 0.5);
+			ConstantsWP.BOARD_UI_HINT_BTN_X = (int)((double)ConstantsWP.BOARD_UI_HINT_BTN_X * 0.5);
+			ConstantsWP.BOARD_UI_HINT_BTN_Y = (int)((double)ConstantsWP.BOARD_UI_HINT_BTN_Y * 0.5);
+			ConstantsWP.DIGBOARD_UI_HINT_BTN_Y = (int)((double)ConstantsWP.DIGBOARD_UI_HINT_BTN_Y * 0.5);
+			ConstantsWP.ICESTORM_BOARD_UI_HINT_BTN_X = (int)((double)ConstantsWP.ICESTORM_BOARD_UI_HINT_BTN_X * 0.5);
+			ConstantsWP.ICESTORM_BOARD_UI_HINT_BTN_Y = (int)((double)ConstantsWP.ICESTORM_BOARD_UI_HINT_BTN_Y * 0.5);
+			ConstantsWP.ZENBOARD_UI_ZEN_BTN_WIDTH = (int)((double)ConstantsWP.ZENBOARD_UI_ZEN_BTN_WIDTH * 0.5);
+			ConstantsWP.ZENBOARD_UI_ZEN_BTN_X = (int)((double)ConstantsWP.ZENBOARD_UI_ZEN_BTN_X * 0.5);
+			ConstantsWP.ZENBOARD_UI_ZEN_BTN_Y = (int)((double)ConstantsWP.ZENBOARD_UI_ZEN_BTN_Y * 0.5);
+			ConstantsWP.BOARD_UI_SCORE_CENTER_X = (int)((double)ConstantsWP.BOARD_UI_SCORE_CENTER_X * 0.5);
+			ConstantsWP.BOARD_UI_SCORE_CENTER_Y = (int)((double)ConstantsWP.BOARD_UI_SCORE_CENTER_Y * 0.5);
+			ConstantsWP.BOARD_UI_ZEN_SCORE_CENTER_Y = (int)((double)ConstantsWP.BOARD_UI_ZEN_SCORE_CENTER_Y * 0.5);
+			ConstantsWP.BOARD_UI_LEVEL_CENTER_X = (int)((double)ConstantsWP.BOARD_UI_LEVEL_CENTER_X * 0.5);
+			ConstantsWP.BOARD_UI_LEVEL_CENTER_Y = (int)((double)ConstantsWP.BOARD_UI_LEVEL_CENTER_Y * 0.5);
+			ConstantsWP.BOARD_UI_ZEN_LEVEL_CENTER_X = (int)((double)ConstantsWP.BOARD_UI_ZEN_LEVEL_CENTER_X * 0.5);
+			ConstantsWP.BOARD_UI_ZEN_LEVEL_CENTER_Y = (int)((double)ConstantsWP.BOARD_UI_ZEN_LEVEL_CENTER_Y * 0.5);
+			ConstantsWP.BOARD_ZEN_MANTRA_Y = (int)((double)ConstantsWP.BOARD_ZEN_MANTRA_Y * 0.5);
+			ConstantsWP.BOARD_UI_ZEN_TOOLTIP_X = (int)((double)ConstantsWP.BOARD_UI_ZEN_TOOLTIP_X * 0.5);
+			ConstantsWP.BOARD_UI_ZEN_TOOLTIP_Y = (int)((double)ConstantsWP.BOARD_UI_ZEN_TOOLTIP_Y * 0.5);
+			ConstantsWP.BOARD_UI_ZEN_TOOLTIP_WIDTH = (int)((double)ConstantsWP.BOARD_UI_ZEN_TOOLTIP_WIDTH * 0.5);
+			ConstantsWP.BOARD_UI_ZEN_TOOLTIP_TIME = (int)((double)ConstantsWP.BOARD_UI_ZEN_TOOLTIP_TIME * 0.5);
+			ConstantsWP.BOARD_IRIS_SCALE = (float)((double)ConstantsWP.BOARD_IRIS_SCALE * 0.5);
+			ConstantsWP.BOARD_IRIS_ALPHA = (float)((double)ConstantsWP.BOARD_IRIS_ALPHA * 0.5);
+			ConstantsWP.BOARD_BADGE_AWARD_SCALE = (float)((double)ConstantsWP.BOARD_BADGE_AWARD_SCALE * 0.5);
+			ConstantsWP.BOARD_MULTIPLIER_X = (int)((double)ConstantsWP.BOARD_MULTIPLIER_X * 0.5);
+			ConstantsWP.BOARD_MULTIPLIER_Y = (int)((double)ConstantsWP.BOARD_MULTIPLIER_Y * 0.5);
+			ConstantsWP.BOARD_MULTIPLIER_LARGE_Y = (int)((double)ConstantsWP.BOARD_MULTIPLIER_LARGE_Y * 0.5);
+			ConstantsWP.BOARD_MULTIPLIER_LARGE_Y_OFFSET = (int)((double)ConstantsWP.BOARD_MULTIPLIER_LARGE_Y_OFFSET * 0.5);
+			ConstantsWP.BOARD_MULTIPLIER_LARGE_Y_SCALE_OFFSET = (float)((double)ConstantsWP.BOARD_MULTIPLIER_LARGE_Y_SCALE_OFFSET * 0.5);
+			ConstantsWP.DIG_BOARD_DIFFICULTY_START_OFFSET = (int)((double)ConstantsWP.DIG_BOARD_DIFFICULTY_START_OFFSET * 0.5);
+			ConstantsWP.DIG_BOARD_DIFFICULTY_CURVE_INC = (float)((double)ConstantsWP.DIG_BOARD_DIFFICULTY_CURVE_INC * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_X = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_X * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_Y = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_Y * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_INC_W = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_INC_W * 0.5);
+			ConstantsWP.DIG_BOARD_CLEARED_TEXT_RECT_X = (float)((double)ConstantsWP.DIG_BOARD_CLEARED_TEXT_RECT_X * 0.5);
+			ConstantsWP.DIG_BOARD_CLEARED_TEXT_Y = (float)((double)ConstantsWP.DIG_BOARD_CLEARED_TEXT_Y * 0.5);
+			ConstantsWP.DIG_BOARD_CLEARED_TEXT_EXTRA_Y = (int)((double)ConstantsWP.DIG_BOARD_CLEARED_TEXT_EXTRA_Y * 0.5);
+			ConstantsWP.DIG_BOARD_ALL_CLEAR_TEXT_EXTRA_Y = (int)((double)ConstantsWP.DIG_BOARD_ALL_CLEAR_TEXT_EXTRA_Y * 0.5);
+			ConstantsWP.DIG_BOARD_TIME_BONUS_TEXT_Y = (int)((double)ConstantsWP.DIG_BOARD_TIME_BONUS_TEXT_Y * 0.5);
+			ConstantsWP.DIG_BOARD_SCORE_CENTER_X = (int)((double)ConstantsWP.DIG_BOARD_SCORE_CENTER_X * 0.5);
+			ConstantsWP.DIG_BOARD_SCORE_BTM_Y = (int)((double)ConstantsWP.DIG_BOARD_SCORE_BTM_Y * 0.5);
+			ConstantsWP.DIG_BOARD_TIMER_OFFSET_Y = (int)((double)ConstantsWP.DIG_BOARD_TIMER_OFFSET_Y * 0.5);
+			ConstantsWP.ROTATING_COUNTER_OFFSET_Y = (int)((double)ConstantsWP.ROTATING_COUNTER_OFFSET_Y * 0.5);
+			ConstantsWP.DIG_BOARD_FLOATING_SCORE_SCALE = (float)((double)ConstantsWP.DIG_BOARD_FLOATING_SCORE_SCALE * 0.5);
+			ConstantsWP.DIG_BOARD_ITEM_DEST_X = (int)((double)ConstantsWP.DIG_BOARD_ITEM_DEST_X * 0.5);
+			ConstantsWP.DIG_BOARD_ITEM_DEST_Y = (int)((double)ConstantsWP.DIG_BOARD_ITEM_DEST_Y * 0.5);
+			ConstantsWP.DIG_BOARD_ITEM_DESC_OFFSET_Y = (int)((double)ConstantsWP.DIG_BOARD_ITEM_DESC_OFFSET_Y * 0.5);
+			ConstantsWP.DIG_BOARD_COG_ANIM_FAST = (int)((double)ConstantsWP.DIG_BOARD_COG_ANIM_FAST * 0.5);
+			ConstantsWP.DIG_BOARD_COG_ANIM_SLOW = (int)((double)ConstantsWP.DIG_BOARD_COG_ANIM_SLOW * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_X = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_X * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_Y = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_Y * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_W = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_W * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_H = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_METER_CLIP_H * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_METER_SYMBOL_X = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_METER_SYMBOL_X * 0.5);
+			ConstantsWP.DIG_BOARD_DEPTH_METER_SYMBOL_Y = (int)((double)ConstantsWP.DIG_BOARD_DEPTH_METER_SYMBOL_Y * 0.5);
+			ConstantsWP.DIG_BOARD_ARTIFACT_SCALE = (float)((double)ConstantsWP.DIG_BOARD_ARTIFACT_SCALE * 0.5);
+			ConstantsWP.DIG_BOARD_DRILL_RIGHT_POS_X = (int)((double)ConstantsWP.DIG_BOARD_DRILL_RIGHT_POS_X * 0.5);
+			ConstantsWP.DIG_BOARD_COGS_CLIP_RECT_X = (int)((double)ConstantsWP.DIG_BOARD_COGS_CLIP_RECT_X * 0.5);
+			ConstantsWP.DIG_BOARD_COGS_CLIP_RECT_Y = (int)((double)ConstantsWP.DIG_BOARD_COGS_CLIP_RECT_Y * 0.5);
+			ConstantsWP.DIG_BOARD_BROWN_ROCK_BASE_COUNT = (int)((double)ConstantsWP.DIG_BOARD_BROWN_ROCK_BASE_COUNT * 0.5);
+			ConstantsWP.DIG_BOARD_BROWN_ROCK_RAND_COUNT = (int)((double)ConstantsWP.DIG_BOARD_BROWN_ROCK_RAND_COUNT * 0.5);
+			ConstantsWP.DIG_BOARD_SMALL_ROCK_BASE_COUNT = (int)((double)ConstantsWP.DIG_BOARD_SMALL_ROCK_BASE_COUNT * 0.5);
+			ConstantsWP.DIG_BOARD_SMALL_ROCK_RAND_COUNT = (int)((double)ConstantsWP.DIG_BOARD_SMALL_ROCK_RAND_COUNT * 0.5);
+			ConstantsWP.DIG_BOARD_MEDIUM_ROCK_BASE_COUNT = (int)((double)ConstantsWP.DIG_BOARD_MEDIUM_ROCK_BASE_COUNT * 0.5);
+			ConstantsWP.DIG_BOARD_MEDIUM_ROCK_RAND_COUNT = (int)((double)ConstantsWP.DIG_BOARD_MEDIUM_ROCK_RAND_COUNT * 0.5);
+			ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_INTERMEDIATE_X = (int)((double)ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_INTERMEDIATE_X * 0.5);
+			ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_INTERMEDIATE_Y = (int)((double)ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_INTERMEDIATE_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_DEST_X = (int)((double)ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_DEST_X * 0.5);
+			ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_DEST_Y = (int)((double)ConstantsWP.SPEEDBOARD_COLLECT_EFFECT_DEST_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_GEMNUMS_OFFSET = (int)((double)ConstantsWP.SPEEDBOARD_GEMNUMS_OFFSET * 0.5);
+			ConstantsWP.SPEEDBOARD_TIMEDRAW_X_OFFSET = (int)((double)ConstantsWP.SPEEDBOARD_TIMEDRAW_X_OFFSET * 0.5);
+			ConstantsWP.SPEEDBOARD_TIMEDRAW_Y_OFFSET = (int)((double)ConstantsWP.SPEEDBOARD_TIMEDRAW_Y_OFFSET * 0.5);
+			ConstantsWP.SPEEDBOARD_EXTRATIME_X_OFFSET = (int)((double)ConstantsWP.SPEEDBOARD_EXTRATIME_X_OFFSET * 0.5);
+			ConstantsWP.SPEEDBOARD_EXTRATIME_Y_OFFSET = (int)((double)ConstantsWP.SPEEDBOARD_EXTRATIME_Y_OFFSET * 0.5);
+			ConstantsWP.SPEEDBOARD_LEVELBAR_SIZE_BIAS = (int)((double)ConstantsWP.SPEEDBOARD_LEVELBAR_SIZE_BIAS * 0.5);
+			ConstantsWP.SPEEDBOARD_BOARD_Y = (int)((double)ConstantsWP.SPEEDBOARD_BOARD_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_HINT_BTN_Y = (int)((double)ConstantsWP.SPEEDBOARD_HINT_BTN_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_LEVELBAR_X = (int)((double)ConstantsWP.SPEEDBOARD_LEVELBAR_X * 0.5);
+			ConstantsWP.SPEEDBOARD_LEVELBAR_W = (int)((double)ConstantsWP.SPEEDBOARD_LEVELBAR_W * 0.5);
+			ConstantsWP.SPEEDBOARD_LEVELBAR_Y = (int)((double)ConstantsWP.SPEEDBOARD_LEVELBAR_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_LEVELBAR_H = (int)((double)ConstantsWP.SPEEDBOARD_LEVELBAR_H * 0.5);
+			ConstantsWP.SPEEDBOARD_LAST_HURRAH_Y = (int)((double)ConstantsWP.SPEEDBOARD_LAST_HURRAH_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_LAST_HURRAH_SCALE_Y = (int)((double)ConstantsWP.SPEEDBOARD_LAST_HURRAH_SCALE_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_START_X = (int)((double)ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_START_X * 0.5);
+			ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_START_Y = (int)((double)ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_START_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_END_X = (int)((double)ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_END_X * 0.5);
+			ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_END_Y = (int)((double)ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_END_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_END_X_FULL = (int)((double)ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_END_X_FULL * 0.5);
+			ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_WIDTH = (int)((double)ConstantsWP.SPEEDBOARD_TIME_LIGHTNING_WIDTH * 0.5);
+			ConstantsWP.SPEEDBOARD_SPEED_BONUS_X = (int)((double)ConstantsWP.SPEEDBOARD_SPEED_BONUS_X * 0.5);
+			ConstantsWP.SPEEDBOARD_SPEED_BONUS_Y = (int)((double)ConstantsWP.SPEEDBOARD_SPEED_BONUS_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_SPEED_BONUS_X_2 = (int)((double)ConstantsWP.SPEEDBOARD_SPEED_BONUS_X_2 * 0.5);
+			ConstantsWP.SPEEDBOARD_SPEED_BONUS_Y_2 = (int)((double)ConstantsWP.SPEEDBOARD_SPEED_BONUS_Y_2 * 0.5);
+			ConstantsWP.SPEEDBOARD_SPEED_BONUS_SCALE_X = (int)((double)ConstantsWP.SPEEDBOARD_SPEED_BONUS_SCALE_X * 0.5);
+			ConstantsWP.SPEEDBOARD_SPEED_BONUS_SCALE_Y = (int)((double)ConstantsWP.SPEEDBOARD_SPEED_BONUS_SCALE_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_1_X = (int)((double)ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_1_X * 0.5);
+			ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_1_Y = (int)((double)ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_1_Y * 0.5);
+			ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_2_X = (int)((double)ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_2_X * 0.5);
+			ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_2_Y = (int)((double)ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_2_Y * 0.5);
+			ConstantsWP.BUTTERFLYBOARD_HINT_BTN_Y = (int)((double)ConstantsWP.BUTTERFLYBOARD_HINT_BTN_Y * 0.5);
+			ConstantsWP.BUTTERFLY_DRAW_OFFSET_1 = (int)((double)ConstantsWP.BUTTERFLY_DRAW_OFFSET_1 * 0.5);
+			ConstantsWP.BUTTERFLY_DRAW_OFFSET_2 = (int)((double)ConstantsWP.BUTTERFLY_DRAW_OFFSET_2 * 0.5);
+			ConstantsWP.BUTTERFLY_DRAW_OFFSET_3 = (int)((double)ConstantsWP.BUTTERFLY_DRAW_OFFSET_3 * 0.5);
+			ConstantsWP.BUTTERFLY_DRAW_OFFSET_4 = (int)((double)ConstantsWP.BUTTERFLY_DRAW_OFFSET_4 * 0.5);
+			ConstantsWP.BUTTERFLY_SPIDER_X_OFFSET = (int)((double)ConstantsWP.BUTTERFLY_SPIDER_X_OFFSET * 0.5);
+			ConstantsWP.BUTTERFLY_SPIDER_Y_OFFSET = (int)((double)ConstantsWP.BUTTERFLY_SPIDER_Y_OFFSET * 0.5);
+			ConstantsWP.BUTTERFLY_BIGSPIDER_X_OFFSET = (int)((double)ConstantsWP.BUTTERFLY_BIGSPIDER_X_OFFSET * 0.5);
+			ConstantsWP.BUTTERFLY_BIGSPIDER_Y_OFFSET = (int)((double)ConstantsWP.BUTTERFLY_BIGSPIDER_Y_OFFSET * 0.5);
+			ConstantsWP.INFERNOBOARD_METER_X = (int)((double)ConstantsWP.INFERNOBOARD_METER_X * 0.5);
+			ConstantsWP.INFERNOBOARD_METER_WIDTH = (int)((double)ConstantsWP.INFERNOBOARD_METER_WIDTH * 0.5);
+			ConstantsWP.INFERNOBOARD_MIN_Y_ONE_COLUMN = (int)((double)ConstantsWP.INFERNOBOARD_MIN_Y_ONE_COLUMN * 0.5);
+			ConstantsWP.INFERNOBOARD_MIN_Y_TWO_COLUMN = (int)((double)ConstantsWP.INFERNOBOARD_MIN_Y_TWO_COLUMN * 0.5);
+			ConstantsWP.INFERNOBOARD_BOARD_Y = (int)((double)ConstantsWP.INFERNOBOARD_BOARD_Y * 0.5);
+			ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_Y_0 = (int)((double)ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_Y_0 * 0.5);
+			ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_X_1 = (int)((double)ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_X_1 * 0.5);
+			ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_Y_1 = (int)((double)ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_Y_1 * 0.5);
+			ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_X_2 = (int)((double)ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_X_2 * 0.5);
+			ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_Y_2 = (int)((double)ConstantsWP.INFERNOBOARD_TOPSKULL_OFFSET_Y_2 * 0.5);
+			ConstantsWP.INFERNOBOARD_TOPSKULL_RISE_OFFSET_1 = (int)((double)ConstantsWP.INFERNOBOARD_TOPSKULL_RISE_OFFSET_1 * 0.5);
+			ConstantsWP.INFERNOBOARD_ICEANIM_OFFSET_X_1 = (int)((double)ConstantsWP.INFERNOBOARD_ICEANIM_OFFSET_X_1 * 0.5);
+			ConstantsWP.INFERNOBOARD_ICEANIM_OFFSET_X_2 = (int)((double)ConstantsWP.INFERNOBOARD_ICEANIM_OFFSET_X_2 * 0.5);
+			ConstantsWP.INFERNOBOARD_SHAKE_DIST = (float)((double)ConstantsWP.INFERNOBOARD_SHAKE_DIST * 0.5);
+			ConstantsWP.GEMOUTLINES_OFFSET_1 = (int)((double)ConstantsWP.GEMOUTLINES_OFFSET_1 * 0.5);
+			ConstantsWP.GEMOUTLINES_OFFSET_2 = (int)((double)ConstantsWP.GEMOUTLINES_OFFSET_2 * 0.5);
+			ConstantsWP.UI_CENTER_DEFAULT = (int)((double)ConstantsWP.UI_CENTER_DEFAULT * 0.5);
+			ConstantsWP.LIGHTNING_THICKNESS = (float)((double)ConstantsWP.LIGHTNING_THICKNESS * 0.5);
+			ConstantsWP.HYPERSPACE_TUNNEL_TIME = (int)((double)ConstantsWP.HYPERSPACE_TUNNEL_TIME * 0.5);
+			ConstantsWP.WHIRLPOOL_TO_HYPERSPACE_FADE_TIME = (int)((double)ConstantsWP.WHIRLPOOL_TO_HYPERSPACE_FADE_TIME * 0.5);
+			ConstantsWP.WHIRLPOOL_BKG_WARP_DELAY = (int)((double)ConstantsWP.WHIRLPOOL_BKG_WARP_DELAY * 0.5);
+			ConstantsWP.WHIRLPOOL_BKG_WARP_SPEED = (float)((double)ConstantsWP.WHIRLPOOL_BKG_WARP_SPEED * 0.5);
+			ConstantsWP.WHIRLPOOL_UI_WARP_DELAY = (int)((double)ConstantsWP.WHIRLPOOL_UI_WARP_DELAY * 0.5);
+			ConstantsWP.HYPERSPACE_TUNNEL_WIDTH_SCALE = (float)((double)ConstantsWP.HYPERSPACE_TUNNEL_WIDTH_SCALE * 0.5);
+			ConstantsWP.WHIRLPOOL_IMG_SCALE = (float)((double)ConstantsWP.WHIRLPOOL_IMG_SCALE * 0.5);
+			ConstantsWP.BADGE_AWARDED_MENU_X = (int)((double)ConstantsWP.BADGE_AWARDED_MENU_X * 0.5);
+			ConstantsWP.BADGE_AWARDED_MENU_Y = (int)((double)ConstantsWP.BADGE_AWARDED_MENU_Y * 0.5);
+			ConstantsWP.BADGE_AWARDED_MENU_W = (int)((double)ConstantsWP.BADGE_AWARDED_MENU_W * 0.5);
+			ConstantsWP.BADGE_AWARDED_MENU_H = (int)((double)ConstantsWP.BADGE_AWARDED_MENU_H * 0.5);
+			ConstantsWP.BADGE_WIDGET_X = (int)((double)ConstantsWP.BADGE_WIDGET_X * 0.5);
+			ConstantsWP.BADGE_WIDGET_Y = (int)((double)ConstantsWP.BADGE_WIDGET_Y * 0.5);
+			ConstantsWP.BADGE_WIDGET_W = (int)((double)ConstantsWP.BADGE_WIDGET_W * 0.5);
+			ConstantsWP.BADGE_WIDGET_H = (int)((double)ConstantsWP.BADGE_WIDGET_H * 0.5);
+			ConstantsWP.MAIN_MENU_TAB_WIDTH = (int)((double)ConstantsWP.MAIN_MENU_TAB_WIDTH * 0.5);
+			ConstantsWP.MAIN_MENU_WIDTH = (int)((double)ConstantsWP.MAIN_MENU_WIDTH * 0.5);
+			ConstantsWP.MAIN_MENU_CLOUD_EXTRA_WIDTH = (int)((double)ConstantsWP.MAIN_MENU_CLOUD_EXTRA_WIDTH * 0.5);
+			ConstantsWP.MAIN_MENU_CLOUD_Y = (int)((double)ConstantsWP.MAIN_MENU_CLOUD_Y * 0.5);
+			ConstantsWP.MAIN_MENU_CLOUD_SPEED = (float)((double)ConstantsWP.MAIN_MENU_CLOUD_SPEED * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_ZEN_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_ZEN_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_ZEN_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_ZEN_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_DIAMONDMINE_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_DIAMONDMINE_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_DIAMONDMINE_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_DIAMONDMINE_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_DIAMONDMINE_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_DIAMONDMINE_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_BUTTERFLIES_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_BUTTERFLIES_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_BUTTERFLIES_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_BUTTERFLIES_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_BUTTERFLIES_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_BUTTERFLIES_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_BLITZ_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_BLITZ_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_BLITZ_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_BLITZ_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_BLITZ_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_BLITZ_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_1_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_1_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_1_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_1_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_1_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_1_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_2_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_2_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_2_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_2_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_2_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_2_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_POKER_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_POKER_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_POKER_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_POKER_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_POKER_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_POKER_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_3_X = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_3_X * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_3_Y = (int)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_3_Y * 0.5);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_3_SCALE = (float)((double)ConstantsWP.MAIN_MENU_BUTTON_MORE_3_SCALE * 0.5);
+			ConstantsWP.MAIN_MENU_FOREGROUND_RIGHT_OFFSET_X = (float)((double)ConstantsWP.MAIN_MENU_FOREGROUND_RIGHT_OFFSET_X * 0.5);
+			ConstantsWP.MAIN_MENU_FOREGROUND_RIGHT_OFFSET_Y = (float)((double)ConstantsWP.MAIN_MENU_FOREGROUND_RIGHT_OFFSET_Y * 0.5);
+			ConstantsWP.MAIN_MENU_L1_OFFSET_X = (float)((double)ConstantsWP.MAIN_MENU_L1_OFFSET_X * 0.5);
+			ConstantsWP.MAIN_MENU_L1_OFFSET_Y = (float)((double)ConstantsWP.MAIN_MENU_L1_OFFSET_Y * 0.5);
+			ConstantsWP.MAIN_MENU_DOOR_OVERLAY_OFFSET_X = (float)((double)ConstantsWP.MAIN_MENU_DOOR_OVERLAY_OFFSET_X * 0.5);
+			ConstantsWP.MAIN_MENU_DOOR_OVERLAY_OFFSET_Y = (float)((double)ConstantsWP.MAIN_MENU_DOOR_OVERLAY_OFFSET_Y * 0.5);
+			ConstantsWP.CRYSTALBALL_FONT_SCALE = (float)((double)ConstantsWP.CRYSTALBALL_FONT_SCALE * 0.5);
+			ConstantsWP.CRYSTALBALL_TEXT_1_1_Y = (int)((double)ConstantsWP.CRYSTALBALL_TEXT_1_1_Y * 0.5);
+			ConstantsWP.CRYSTALBALL_TEXT_2_1_Y = (int)((double)ConstantsWP.CRYSTALBALL_TEXT_2_1_Y * 0.5);
+			ConstantsWP.CRYSTALBALL_TEXT_2_2_Y = (int)((double)ConstantsWP.CRYSTALBALL_TEXT_2_2_Y * 0.5);
+			ConstantsWP.CRYSTALBALL_TEXT_3_1_Y = (int)((double)ConstantsWP.CRYSTALBALL_TEXT_3_1_Y * 0.5);
+			ConstantsWP.CRYSTALBALL_TEXT_3_2_Y = (int)((double)ConstantsWP.CRYSTALBALL_TEXT_3_2_Y * 0.5);
+			ConstantsWP.CRYSTALBALL_TEXT_3_3_Y = (int)((double)ConstantsWP.CRYSTALBALL_TEXT_3_3_Y * 0.5);
+			ConstantsWP.CRYSTALBALL_STOP_DRAW_OFFSET = (int)((double)ConstantsWP.CRYSTALBALL_STOP_DRAW_OFFSET * 0.5);
+			ConstantsWP.CRYSTALBALL_BASE_SCALE = (float)((double)ConstantsWP.CRYSTALBALL_BASE_SCALE * 0.5);
+			ConstantsWP.CRYSTALBALL_HIGHLIGHT_SCALE_1 = (float)((double)ConstantsWP.CRYSTALBALL_HIGHLIGHT_SCALE_1 * 0.5);
+			ConstantsWP.CRYSTALBALL_HIGHLIGHT_SCALE_2 = (float)((double)ConstantsWP.CRYSTALBALL_HIGHLIGHT_SCALE_2 * 0.5);
+			ConstantsWP.TOP_BUTTON_ANIMATION_SPEED = (float)((double)ConstantsWP.TOP_BUTTON_ANIMATION_SPEED * 0.5);
+			ConstantsWP.DASHBOARD_SLIDER_SPEED = (float)((double)ConstantsWP.DASHBOARD_SLIDER_SPEED * 0.5);
+			ConstantsWP.DASHBOARD_SLIDER_SPEED_SCALAR = (float)((double)ConstantsWP.DASHBOARD_SLIDER_SPEED_SCALAR * 0.5);
+			ConstantsWP.DASHBOARD_SLIDER_HIDE_BUTTON_POS = (int)((double)ConstantsWP.DASHBOARD_SLIDER_HIDE_BUTTON_POS * 0.5);
+			ConstantsWP.DASHBOARD_SLIDER_START_DRAW_X = (int)((double)ConstantsWP.DASHBOARD_SLIDER_START_DRAW_X * 0.5);
+			ConstantsWP.DASHBOARD_PROFILE_BUTTON_OFFSET = (float)((double)ConstantsWP.DASHBOARD_PROFILE_BUTTON_OFFSET * 0.5);
+			ConstantsWP.DASHBOARD_NEWS_BUTTON_OFFSET = (float)((double)ConstantsWP.DASHBOARD_NEWS_BUTTON_OFFSET * 0.5);
+			ConstantsWP.DASHBOARD_OPTIONS_BUTTON_OFFSET = (float)((double)ConstantsWP.DASHBOARD_OPTIONS_BUTTON_OFFSET * 0.5);
+			ConstantsWP.DASHBOARD_SHELF_OFFSCREEN_WIDTH = (int)((double)ConstantsWP.DASHBOARD_SHELF_OFFSCREEN_WIDTH * 0.5);
+			ConstantsWP.DASHBOARD_SHELF_HIDE_WIDTH = (int)((double)ConstantsWP.DASHBOARD_SHELF_HIDE_WIDTH * 0.5);
+			ConstantsWP.REPLAY_SLIDER_OPEN_X = (int)((double)ConstantsWP.REPLAY_SLIDER_OPEN_X * 0.5);
+			ConstantsWP.REPLAY_OFFSET_Y = (int)((double)ConstantsWP.REPLAY_OFFSET_Y * 0.5);
+			ConstantsWP.INTRO_DIALOG_TEXT_X = (int)((double)ConstantsWP.INTRO_DIALOG_TEXT_X * 0.5);
+			ConstantsWP.INTRO_DIALOG_TEXT_WIDTH = (int)((double)ConstantsWP.INTRO_DIALOG_TEXT_WIDTH * 0.5);
+			ConstantsWP.INTRO_DIALOG_TEXT_1_Y = (int)((double)ConstantsWP.INTRO_DIALOG_TEXT_1_Y * 0.5);
+			ConstantsWP.INTRO_DIALOG_TEXT_2_Y = (int)((double)ConstantsWP.INTRO_DIALOG_TEXT_2_Y * 0.5);
+			ConstantsWP.INTRO_DIALOG_TEXT_3_Y = (int)((double)ConstantsWP.INTRO_DIALOG_TEXT_3_Y * 0.5);
+			ConstantsWP.INTRO_DIALOG_TEXT_4_Y = (int)((double)ConstantsWP.INTRO_DIALOG_TEXT_4_Y * 0.5);
+			ConstantsWP.INTRO_DIALOG_HEIGHT = (int)((double)ConstantsWP.INTRO_DIALOG_HEIGHT * 0.5);
+			ConstantsWP.BADGES_FOR_PAGE = (int)((double)ConstantsWP.BADGES_FOR_PAGE * 0.5);
+			ConstantsWP.BADGE_MENU_WIDTH = (int)((double)ConstantsWP.BADGE_MENU_WIDTH * 0.5);
+			ConstantsWP.BADGE_MENU_HEIGHT = (int)((double)ConstantsWP.BADGE_MENU_HEIGHT * 0.5);
+			ConstantsWP.BADGE_MENU_HEADING_X = (int)((double)ConstantsWP.BADGE_MENU_HEADING_X * 0.5);
+			ConstantsWP.BADGE_MENU_BADGES_POS_1 = (int)((double)ConstantsWP.BADGE_MENU_BADGES_POS_1 * 0.5);
+			ConstantsWP.BADGE_MENU_BADGES_POS_2 = (int)((double)ConstantsWP.BADGE_MENU_BADGES_POS_2 * 0.5);
+			ConstantsWP.BADGE_MENU_ELITE_BADGE_PADDING = (int)((double)ConstantsWP.BADGE_MENU_ELITE_BADGE_PADDING * 0.5);
+			ConstantsWP.BADGE_MENU_BADGES_PADDING_X = (int)((double)ConstantsWP.BADGE_MENU_BADGES_PADDING_X * 0.5);
+			ConstantsWP.BADGE_MENU_BADGES_PER_ROW = (int)((double)ConstantsWP.BADGE_MENU_BADGES_PER_ROW * 0.5);
+			ConstantsWP.BADGE_MENU_BADGES_POS_Y = (int)((double)ConstantsWP.BADGE_MENU_BADGES_POS_Y * 0.5);
+			ConstantsWP.BADGE_MENU_BADGES_POS_Y_DELTA = (int)((double)ConstantsWP.BADGE_MENU_BADGES_POS_Y_DELTA * 0.5);
+			ConstantsWP.BADGE_MENU_ELITE_BADGES_POS_Y = (int)((double)ConstantsWP.BADGE_MENU_ELITE_BADGES_POS_Y * 0.5);
+			ConstantsWP.BADGE_MENU_ELITE_HEADING_Y = (int)((double)ConstantsWP.BADGE_MENU_ELITE_HEADING_Y * 0.5);
+			ConstantsWP.BADGE_MENU_DIVIDER_2_Y = (int)((double)ConstantsWP.BADGE_MENU_DIVIDER_2_Y * 0.5);
+			ConstantsWP.BADGEMENU_GAMECENTER_X = (int)((double)ConstantsWP.BADGEMENU_GAMECENTER_X * 0.5);
+			ConstantsWP.BADGEMENU_GAMECENTER_Y = (int)((double)ConstantsWP.BADGEMENU_GAMECENTER_Y * 0.5);
+			ConstantsWP.BADGE_MENU_TOOLTIP_TOLERANCE = (int)((double)ConstantsWP.BADGE_MENU_TOOLTIP_TOLERANCE * 0.5);
+			ConstantsWP.BADGE_MENU_TOOLTIP_WIDTH = (int)((double)ConstantsWP.BADGE_MENU_TOOLTIP_WIDTH * 0.5);
+			ConstantsWP.BADGE_MENU_TOOLTIP_WIDTH_WIDE = (int)((double)ConstantsWP.BADGE_MENU_TOOLTIP_WIDTH_WIDE * 0.5);
+			ConstantsWP.BADGE_MENU_TOOLTIP_OFFSET = (int)((double)ConstantsWP.BADGE_MENU_TOOLTIP_OFFSET * 0.5);
+			ConstantsWP.BADGEMENU_AWARDED_TOP_TEXT_Y = (int)((double)ConstantsWP.BADGEMENU_AWARDED_TOP_TEXT_Y * 0.5);
+			ConstantsWP.BADGEMENU_AWARDED_BTM_TEXT_Y = (int)((double)ConstantsWP.BADGEMENU_AWARDED_BTM_TEXT_Y * 0.5);
+			ConstantsWP.BADGEMENU_AWARDED_DESC_PAD_X = (int)((double)ConstantsWP.BADGEMENU_AWARDED_DESC_PAD_X * 0.5);
+			ConstantsWP.BADGEMENU_AWARDED_ALPHA = (int)((double)ConstantsWP.BADGEMENU_AWARDED_ALPHA * 0.5);
+			ConstantsWP.BADGEMENU_SLIDE_BUTTON_OFFSET_X = (int)((double)ConstantsWP.BADGEMENU_SLIDE_BUTTON_OFFSET_X * 0.5);
+			ConstantsWP.BADGEMENU_SLIDE_BUTTON_Y = (int)((double)ConstantsWP.BADGEMENU_SLIDE_BUTTON_Y * 0.5);
+			ConstantsWP.BADGEMENU_CONTAINER_PADDING_X = (int)((double)ConstantsWP.BADGEMENU_CONTAINER_PADDING_X * 0.5);
+			ConstantsWP.BADGEMENU_CONTAINER_TOP = (int)((double)ConstantsWP.BADGEMENU_CONTAINER_TOP * 0.5);
+			ConstantsWP.BADGEMENU_CONTAINER_BOTTOM = (int)((double)ConstantsWP.BADGEMENU_CONTAINER_BOTTOM * 0.5);
+			ConstantsWP.BADGEMENU_CONTAINER_PAGE_WIDTH = (int)((double)ConstantsWP.BADGEMENU_CONTAINER_PAGE_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_BADGE_SINGLE_SECTION_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_BADGE_SINGLE_SECTION_WIDTH * 0.5);
+			ConstantsWP.BADGEMENU_CONTAINER_HEIGHT = (int)((double)ConstantsWP.BADGEMENU_CONTAINER_HEIGHT * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HEADING_X = (int)((double)ConstantsWP.GAMEDETAILMENU_HEADING_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_BACKBUTTON_X = (int)((double)ConstantsWP.GAMEDETAILMENU_BACKBUTTON_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_PLAYBUTTON_X = (int)((double)ConstantsWP.GAMEDETAILMENU_PLAYBUTTON_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_PLAYBUTTON_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_PLAYBUTTON_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_HEIGHT = (int)((double)ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_HEIGHT * 0.5);
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_X = (int)((double)ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_X = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_HEIGHT = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_HEIGHT * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_X = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_HEIGHT = (int)((double)ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_HEIGHT * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_TAB_PADDING = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_TAB_PADDING * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_TAB_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_TAB_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_HEIGHT = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_HEIGHT * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SCORE_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_SCORE_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SCORE_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_SCORE_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SWIPE_MSG_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_SWIPE_MSG_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SWIPE_MSG_Y_1 = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_SWIPE_MSG_Y_1 * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_OFFSET_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_OFFSET_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_DATA_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_DATA_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_START_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_START_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_STEP_Y_BIG = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_STEP_Y_BIG * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_STEP_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_STEP_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_WIDTH = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_WIDTH * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEIGHT = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEIGHT * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_1 = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_1 * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_2 = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_2 * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_3 = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_3 * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_1_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_1_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_FLAME_GEM_POS_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_FLAME_GEM_POS_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_2_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_2_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_STAR_GEM_POS_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_STAR_GEM_POS_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_3_X = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_3_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_HYPERCUBE_POS_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_HYPERCUBE_POS_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_DIAMOND_MINE_POS_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_DIAMOND_MINE_POS_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SCROLLWIDGET_CORRECTION = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_SCROLLWIDGET_CORRECTION * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_DIVIDER_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_DIVIDER_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_GAMECENTER_X = (int)((double)ConstantsWP.GAMEDETAILMENU_GAMECENTER_X * 0.5);
+			ConstantsWP.GAMEDETAILMENU_GAMECENTER_Y = (int)((double)ConstantsWP.GAMEDETAILMENU_GAMECENTER_Y * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH_INCL_GC = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH_INCL_GC * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X_INCL_GC = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X_INCL_GC * 0.5);
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X_INCL_GC = (int)((double)ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X_INCL_GC * 0.5);
+			ConstantsWP.ZENOPTIONS_SLIDER_WIDTH = (int)((double)ConstantsWP.ZENOPTIONS_SLIDER_WIDTH * 0.5);
+			ConstantsWP.ZENOPTIONS_MENU_SELECT_Y = (int)((double)ConstantsWP.ZENOPTIONS_MENU_SELECT_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_BUTTON_STEP_Y = (int)((double)ConstantsWP.ZENOPTIONS_BUTTON_STEP_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_DESC_WIDTH = (int)((double)ConstantsWP.ZENOPTIONS_DESC_WIDTH * 0.5);
+			ConstantsWP.ZENOPTIONS_DESC_HEIGHT = (int)((double)ConstantsWP.ZENOPTIONS_DESC_HEIGHT * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_START_DELAY_FRAMES = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_START_DELAY_FRAMES * 0.5);
+			ConstantsWP.ZENOPTIONS_DESC_Y = (int)((double)ConstantsWP.ZENOPTIONS_DESC_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_HEIGHT = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_HEIGHT * 0.5);
+			ConstantsWP.ZENOPTIONS_MANTRAS_DESC_HEIGHT = (int)((double)ConstantsWP.ZENOPTIONS_MANTRAS_DESC_HEIGHT * 0.5);
+			ConstantsWP.ZENOPTIONS_BREATH_MOD_DESC_HEIGHT = (int)((double)ConstantsWP.ZENOPTIONS_BREATH_MOD_DESC_HEIGHT * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SLIDE_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SLIDE_OFFSET_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_MANTRAS_SLIDE_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_MANTRAS_SLIDE_OFFSET_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_BREATH_MOD_ENABLE_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_BREATH_MOD_ENABLE_OFFSET_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_Y = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_MANTRAS_DESC_Y = (int)((double)ConstantsWP.ZENOPTIONS_MANTRAS_DESC_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_BREATH_MOD_DESC_Y = (int)((double)ConstantsWP.ZENOPTIONS_BREATH_MOD_DESC_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENCE_ITEM_SIZE = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENCE_ITEM_SIZE * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENCE_WIDTH = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENCE_WIDTH * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SELECTOR_WIDTH = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SELECTOR_WIDTH * 0.5);
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SELECTOR_HEIGHT = (int)((double)ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SELECTOR_HEIGHT * 0.5);
+			ConstantsWP.ZENOPTIONS_MANTRA_ITEM_SIZE = (int)((double)ConstantsWP.ZENOPTIONS_MANTRA_ITEM_SIZE * 0.5);
+			ConstantsWP.ZENOPTIONS_MANTRA_WIDTH = (int)((double)ConstantsWP.ZENOPTIONS_MANTRA_WIDTH * 0.5);
+			ConstantsWP.ZENOPTIONS_MANTRA_SELECTOR_WIDTH = (int)((double)ConstantsWP.ZENOPTIONS_MANTRA_SELECTOR_WIDTH * 0.5);
+			ConstantsWP.ZENOPTIONS_MANTRA_SELECTOR_HEIGHT = (int)((double)ConstantsWP.ZENOPTIONS_MANTRA_SELECTOR_HEIGHT * 0.5);
+			ConstantsWP.ZENOPTIONS_SWIPE_AMBIENT_Y = (int)((double)ConstantsWP.ZENOPTIONS_SWIPE_AMBIENT_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_SWIPE_AMBIENT_H = (int)((double)ConstantsWP.ZENOPTIONS_SWIPE_AMBIENT_H * 0.5);
+			ConstantsWP.ZENOPTIONS_SWIPE_MANTRA_Y = (int)((double)ConstantsWP.ZENOPTIONS_SWIPE_MANTRA_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_SWIPE_MANTRA_H = (int)((double)ConstantsWP.ZENOPTIONS_SWIPE_MANTRA_H * 0.5);
+			ConstantsWP.ZENOPTIONS_SCROLL_HEIGHT = (int)((double)ConstantsWP.ZENOPTIONS_SCROLL_HEIGHT * 0.5);
+			ConstantsWP.ZENOPTIONS_CENTER_X = (int)((double)ConstantsWP.ZENOPTIONS_CENTER_X * 0.5);
+			ConstantsWP.ZENOPTIONS_MUSIC_SLIDER_Y = (int)((double)ConstantsWP.ZENOPTIONS_MUSIC_SLIDER_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_RESUME_BTN_Y = (int)((double)ConstantsWP.ZENOPTIONS_RESUME_BTN_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_BACK_BTN_Y = (int)((double)ConstantsWP.ZENOPTIONS_BACK_BTN_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_ENABLE_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_ENABLE_OFFSET_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_SLIDE_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_SLIDE_OFFSET_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_SLIDE_ITEM_LABEL_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_SLIDE_ITEM_LABEL_OFFSET_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_SLIDER_HOR_THRESHOLD = (int)((double)ConstantsWP.ZENOPTIONS_SLIDER_HOR_THRESHOLD * 0.5);
+			ConstantsWP.ZENOPTIONS_INLAY_PAD_Y = (int)((double)ConstantsWP.ZENOPTIONS_INLAY_PAD_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_ITEM_LEFT_OFFSET = (int)((double)ConstantsWP.ZENOPTIONS_ITEM_LEFT_OFFSET * 0.5);
+			ConstantsWP.ZENOPTIONS_ITEM_RIGHT_OFFSET = (int)((double)ConstantsWP.ZENOPTIONS_ITEM_RIGHT_OFFSET * 0.5);
+			ConstantsWP.ZENOPTIONS_BTN_LEFT_OFFSET = (int)((double)ConstantsWP.ZENOPTIONS_BTN_LEFT_OFFSET * 0.5);
+			ConstantsWP.ZENOPTIONS_BTN_RIGHT_OFFSET = (int)((double)ConstantsWP.ZENOPTIONS_BTN_RIGHT_OFFSET * 0.5);
+			ConstantsWP.ZENOPTIONS_ENABLE_CHECK_OFFSET_X = (int)((double)ConstantsWP.ZENOPTIONS_ENABLE_CHECK_OFFSET_X * 0.5);
+			ConstantsWP.ZENOPTIONS_CONTAINER_Y = (int)((double)ConstantsWP.ZENOPTIONS_CONTAINER_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_DESC_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_DESC_OFFSET_Y * 0.5);
+			ConstantsWP.AMBIENT_VOL_OFFSET_Y = (int)((double)ConstantsWP.AMBIENT_VOL_OFFSET_Y * 0.5);
+			ConstantsWP.MANTRA_SUBLIMINAL_CHECK_OFFSET_Y = (int)((double)ConstantsWP.MANTRA_SUBLIMINAL_CHECK_OFFSET_Y * 0.5);
+			ConstantsWP.MANTRA_SPEED_VIS_SLIDER_OFFSET_Y = (int)((double)ConstantsWP.MANTRA_SPEED_VIS_SLIDER_OFFSET_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_MENU_BREATH_MOD_Y = (int)((double)ConstantsWP.ZENOPTIONS_MENU_BREATH_MOD_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_MENU_BREATH_MOD_BACK_BTN_Y = (int)((double)ConstantsWP.ZENOPTIONS_MENU_BREATH_MOD_BACK_BTN_Y * 0.5);
+			ConstantsWP.ZENOPTIONS_BREATHMOD_VIS_CHECK_OFFSET_Y = (int)((double)ConstantsWP.ZENOPTIONS_BREATHMOD_VIS_CHECK_OFFSET_Y * 0.5);
+			ConstantsWP.BREATHMOD_SPEED_SLIDER_OFFSET_Y = (int)((double)ConstantsWP.BREATHMOD_SPEED_SLIDER_OFFSET_Y * 0.5);
+			ConstantsWP.BREATHMOD_VOL_SLIDER_OFFSET_Y = (int)((double)ConstantsWP.BREATHMOD_VOL_SLIDER_OFFSET_Y * 0.5);
+			ConstantsWP.ZENINFODIALOG_WIDTH = (int)((double)ConstantsWP.ZENINFODIALOG_WIDTH * 0.5);
+			ConstantsWP.ZENINFODIALOG_MSG_LEFT_X = (int)((double)ConstantsWP.ZENINFODIALOG_MSG_LEFT_X * 0.5);
+			ConstantsWP.ZENINFODIALOG_MSG_START_Y = (int)((double)ConstantsWP.ZENINFODIALOG_MSG_START_Y * 0.5);
+			ConstantsWP.ZENINFODIALOG_MSG_HEIGHT = (int)((double)ConstantsWP.ZENINFODIALOG_MSG_HEIGHT * 0.5);
+			ConstantsWP.ZENINFODIALOG_GEM_BULLET_WIDTH = (int)((double)ConstantsWP.ZENINFODIALOG_GEM_BULLET_WIDTH * 0.5);
+			ConstantsWP.ZENINFODIALOG_GEM_BULLET_Y_OFFSET = (int)((double)ConstantsWP.ZENINFODIALOG_GEM_BULLET_Y_OFFSET * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_WIDTH = (int)((double)ConstantsWP.HIGHSCORES_MENU_WIDTH * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_HEADING_X = (int)((double)ConstantsWP.HIGHSCORES_MENU_HEADING_X * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_SCROLLWIDGET_CORRECTION = (int)((double)ConstantsWP.HIGHSCORES_MENU_SCROLLWIDGET_CORRECTION * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_HEIGHT = (int)((double)ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_HEIGHT * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_X = (int)((double)ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_X * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_Y = (int)((double)ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_Y * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_PADDING_X = (int)((double)ConstantsWP.HIGHSCORES_MENU_CONTAINER_PADDING_X * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_TOP = (int)((double)ConstantsWP.HIGHSCORES_MENU_CONTAINER_TOP * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_BOTTOM = (int)((double)ConstantsWP.HIGHSCORES_MENU_CONTAINER_BOTTOM * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_HEIGHT = (int)((double)ConstantsWP.HIGHSCORES_MENU_CONTAINER_HEIGHT * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_TOP = (int)((double)ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_TOP * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_BOTTOM = (int)((double)ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_BOTTOM * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_X = (int)((double)ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_X * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_MODEWIDTH = (int)((double)ConstantsWP.HIGHSCORES_MENU_MODEWIDTH * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_WIDTH = (int)((double)ConstantsWP.HIGHSCORES_MENU_CONTAINER_WIDTH * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_SLIDE_BUTTON_OFFSET_X = (int)((double)ConstantsWP.HIGHSCORES_MENU_SLIDE_BUTTON_OFFSET_X * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_SLIDE_BUTTON_Y = (int)((double)ConstantsWP.HIGHSCORES_MENU_SLIDE_BUTTON_Y * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_MODE_BTN_BACK_X = (int)((double)ConstantsWP.HIGHSCORES_MENU_MODE_BTN_BACK_X * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_MODE_BTN_BACK_Y = (int)((double)ConstantsWP.HIGHSCORES_MENU_MODE_BTN_BACK_Y * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_GAMECENTER_X = (int)((double)ConstantsWP.HIGHSCORES_MENU_GAMECENTER_X * 0.5);
+			ConstantsWP.HIGHSCORES_MENU_GAMECENTER_Y = (int)((double)ConstantsWP.HIGHSCORES_MENU_GAMECENTER_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_HEADING_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_HEADING_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_BOX_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_BOX_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_TOPSCORES_HEADING_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_TOPSCORES_HEADING_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_X = (int)((double)ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_X * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_NAME_X = (int)((double)ConstantsWP.HIGHSCORESWIDGET_NAME_X * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_NAME_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_NAME_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_NAME_WIDTH = (int)((double)ConstantsWP.HIGHSCORESWIDGET_NAME_WIDTH * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_POINTS_X = (int)((double)ConstantsWP.HIGHSCORESWIDGET_POINTS_X * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_POINTS_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_POINTS_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_PICTURE_X = (int)((double)ConstantsWP.HIGHSCORESWIDGET_PICTURE_X * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_PICTURE_Y_OFFSET = (int)((double)ConstantsWP.HIGHSCORESWIDGET_PICTURE_Y_OFFSET * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_ITEM_HEIGHT = (int)((double)ConstantsWP.HIGHSCORESWIDGET_ITEM_HEIGHT * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_ITEM_LINE_OFFSET_ODD = (int)((double)ConstantsWP.HIGHSCORESWIDGET_ITEM_LINE_OFFSET_ODD * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_ITEM_TEXT_OFFSET = (int)((double)ConstantsWP.HIGHSCORESWIDGET_ITEM_TEXT_OFFSET * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_CONTAINER_OFFSET_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_CONTAINER_OFFSET_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_SCROLL_TO_OFFSET = (int)((double)ConstantsWP.HIGHSCORESWIDGET_SCROLL_TO_OFFSET * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_WIDTH = (int)((double)ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_WIDTH * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_OFFSET = (int)((double)ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_OFFSET * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_Y = (int)((double)ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_Y * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_SCALE = (float)((double)ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_SCALE * 0.5);
+			ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_OFFSET = (int)((double)ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_OFFSET * 0.5);
+			ConstantsWP.PROFILEMENU_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_HEADING_LABEL_X = (int)((double)ConstantsWP.PROFILEMENU_HEADING_LABEL_X * 0.5);
+			ConstantsWP.PROFILEMENU_NAME_LABEL_X = (int)((double)ConstantsWP.PROFILEMENU_NAME_LABEL_X * 0.5);
+			ConstantsWP.PROFILEMENU_NAME_LABEL_Y = (int)((double)ConstantsWP.PROFILEMENU_NAME_LABEL_Y * 0.5);
+			ConstantsWP.PROFILEMENU_NAME_LABEL_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_NAME_LABEL_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_DIVIDER_NAME = (int)((double)ConstantsWP.PROFILEMENU_DIVIDER_NAME * 0.5);
+			ConstantsWP.PROFILEMENU_DIVIDER_1_Y = (int)((double)ConstantsWP.PROFILEMENU_DIVIDER_1_Y * 0.5);
+			ConstantsWP.PROFILEMENU_DIVIDER_2_Y = (int)((double)ConstantsWP.PROFILEMENU_DIVIDER_2_Y * 0.5);
+			ConstantsWP.PROFILEMENU_DIVIDER_3_Y = (int)((double)ConstantsWP.PROFILEMENU_DIVIDER_3_Y * 0.5);
+			ConstantsWP.PROFILEMENU_PLAYER_IMAGE_X = (int)((double)ConstantsWP.PROFILEMENU_PLAYER_IMAGE_X * 0.5);
+			ConstantsWP.PROFILEMENU_PLAYER_IMAGE_Y = (int)((double)ConstantsWP.PROFILEMENU_PLAYER_IMAGE_Y * 0.5);
+			ConstantsWP.PROFILEMENU_DIVIDER_RANK = (int)((double)ConstantsWP.PROFILEMENU_DIVIDER_RANK * 0.5);
+			ConstantsWP.PROFILEMENU_RANKBAR_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_RANKBAR_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_RANKBAR_X = (int)((double)ConstantsWP.PROFILEMENU_RANKBAR_X * 0.5);
+			ConstantsWP.PROFILEMENU_RANKBAR_Y = (int)((double)ConstantsWP.PROFILEMENU_RANKBAR_Y * 0.5);
+			ConstantsWP.PROFILEMENU_RANK_LABEL_X = (int)((double)ConstantsWP.PROFILEMENU_RANK_LABEL_X * 0.5);
+			ConstantsWP.PROFILEMENU_RANK_LABEL_Y = (int)((double)ConstantsWP.PROFILEMENU_RANK_LABEL_Y * 0.5);
+			ConstantsWP.PROFILEMENU_LABEL_OFFSET = (int)((double)ConstantsWP.PROFILEMENU_LABEL_OFFSET * 0.5);
+			ConstantsWP.PROFILEMENU_PADDING_X = (int)((double)ConstantsWP.PROFILEMENU_PADDING_X * 0.5);
+			ConstantsWP.PROFILEMENU_PADDING_TOP = (int)((double)ConstantsWP.PROFILEMENU_PADDING_TOP * 0.5);
+			ConstantsWP.PROFILEMENU_PADDING_BOTTOM = (int)((double)ConstantsWP.PROFILEMENU_PADDING_BOTTOM * 0.5);
+			ConstantsWP.PROFILEMENU_CONTAINER_HEIGHT = (int)((double)ConstantsWP.PROFILEMENU_CONTAINER_HEIGHT * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_HEIGHT = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_HEIGHT * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_PADDING_X = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_PADDING_X * 0.5);
+			ConstantsWP.PROFILEMENU_GOTO_BUTTON_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_GOTO_BUTTON_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_STATS_Y = (int)((double)ConstantsWP.PROFILEMENU_STATS_Y * 0.5);
+			ConstantsWP.PROFILEMENU_HIGHSCORES_Y = (int)((double)ConstantsWP.PROFILEMENU_HIGHSCORES_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BADGES_Y = (int)((double)ConstantsWP.PROFILEMENU_BADGES_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_BACK_X = (int)((double)ConstantsWP.PROFILEMENU_BACK_X * 0.5);
+			ConstantsWP.PROFILEMENU_EDIT_X = (int)((double)ConstantsWP.PROFILEMENU_EDIT_X * 0.5);
+			ConstantsWP.PROFILEMENU_BOTTOM_BUTTON_Y = (int)((double)ConstantsWP.PROFILEMENU_BOTTOM_BUTTON_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_HEADING_Y = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_HEADING_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_X_1 = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_X_1 * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_X_2 = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_X_2 * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_Y_1 = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_Y_1 * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_Y_2 = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_Y_2 * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_X = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_X * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_Y = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_MINI_BUTTON_X = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_MINI_BUTTON_X * 0.5);
+			ConstantsWP.PROFILEMENU_BUTTON_MINI_BUTTON_Y = (int)((double)ConstantsWP.PROFILEMENU_BUTTON_MINI_BUTTON_Y * 0.5);
+			ConstantsWP.PROFILEMENU_STATS_BTN_OFFSET_Y = (int)((double)ConstantsWP.PROFILEMENU_STATS_BTN_OFFSET_Y * 0.5);
+			ConstantsWP.PROFILEMENU_SCORES_BTN_OFFSET_Y = (int)((double)ConstantsWP.PROFILEMENU_SCORES_BTN_OFFSET_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BADGES_BTN_OFFSET_Y = (int)((double)ConstantsWP.PROFILEMENU_BADGES_BTN_OFFSET_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BADGE_X = (int)((double)ConstantsWP.PROFILEMENU_BADGE_X * 0.5);
+			ConstantsWP.PROFILEMENU_BADGE_Y = (int)((double)ConstantsWP.PROFILEMENU_BADGE_Y * 0.5);
+			ConstantsWP.PROFILEMENU_BADGE_WIDTH = (int)((double)ConstantsWP.PROFILEMENU_BADGE_WIDTH * 0.5);
+			ConstantsWP.PROFILEMENU_BADGE_SCALE = (float)((double)ConstantsWP.PROFILEMENU_BADGE_SCALE * 0.5);
+			ConstantsWP.PROFILEMENU_GAMECENTER_X = (int)((double)ConstantsWP.PROFILEMENU_GAMECENTER_X * 0.5);
+			ConstantsWP.PROFILEMENU_GAMECENTER_Y = (int)((double)ConstantsWP.PROFILEMENU_GAMECENTER_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_WIDTH = (int)((double)ConstantsWP.EDITPROFILEMENU_WIDTH * 0.5);
+			ConstantsWP.EDITPROFILEMENU_HEADING_X = (int)((double)ConstantsWP.EDITPROFILEMENU_HEADING_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_HEADING_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_HEADING_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X = (int)((double)ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_WIDTH = (int)((double)ConstantsWP.EDITPROFILEMENU_NAME_LABEL_WIDTH * 0.5);
+			ConstantsWP.EDITPROFILEMENU_DIVIDER_1_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_DIVIDER_1_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_X = (int)((double)ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X_FIRST_TIME = (int)((double)ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X_FIRST_TIME * 0.5);
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y_FIRST_TIME = (int)((double)ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y_FIRST_TIME * 0.5);
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_X_FIRSTTIME = (int)((double)ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_X_FIRSTTIME * 0.5);
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_Y_FIRSTTIME = (int)((double)ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_Y_FIRSTTIME * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_X = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ROWS = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ROWS * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_COLUMNS = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_COLUMNS * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_WIDTH = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_WIDTH * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_X = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_HEIGHT = (int)((double)ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_HEIGHT * 0.5);
+			ConstantsWP.EDITPROFILEMENU_GET_PIC_X = (int)((double)ConstantsWP.EDITPROFILEMENU_GET_PIC_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_GET_PIC_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_GET_PIC_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_BUTTON_WIDTH = (int)((double)ConstantsWP.EDITPROFILEMENU_BUTTON_WIDTH * 0.5);
+			ConstantsWP.EDITPROFILEMENU_EDIT_NAME_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_EDIT_NAME_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_EDIT_NAME_X = (int)((double)ConstantsWP.EDITPROFILEMENU_EDIT_NAME_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_PIC_LIB_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_PIC_LIB_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_PIC_CAM_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_PIC_CAM_Y * 0.5);
+			ConstantsWP.EDITPROFILEMENU_SAVE_X = (int)((double)ConstantsWP.EDITPROFILEMENU_SAVE_X * 0.5);
+			ConstantsWP.EDITPROFILEMENU_SAVE_Y = (int)((double)ConstantsWP.EDITPROFILEMENU_SAVE_Y * 0.5);
+			ConstantsWP.NEWUSERDIALOG_HEIGHT = (int)((double)ConstantsWP.NEWUSERDIALOG_HEIGHT * 0.5);
+			ConstantsWP.NEWUSERDIALOG_Y = (int)((double)ConstantsWP.NEWUSERDIALOG_Y * 0.5);
+			ConstantsWP.NEWUSERDIALOG_WIDTH = (int)((double)ConstantsWP.NEWUSERDIALOG_WIDTH * 0.5);
+			ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_Y = (int)((double)ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_Y * 0.5);
+			ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_PADDING = (int)((double)ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_PADDING * 0.5);
+			ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_HEIGHT = (int)((double)ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_HEIGHT * 0.5);
+			ConstantsWP.NEWUSERDIALOG_TEXTBOX_WIDTH = (int)((double)ConstantsWP.NEWUSERDIALOG_TEXTBOX_WIDTH * 0.5);
+			ConstantsWP.NEWUSERDIALOG_TEXTBOX_Y_OFFSET = (int)((double)ConstantsWP.NEWUSERDIALOG_TEXTBOX_Y_OFFSET * 0.5);
+			ConstantsWP.NEWUSERDIALOG_HEADING_Y = (int)((double)ConstantsWP.NEWUSERDIALOG_HEADING_Y * 0.5);
+			ConstantsWP.NEWUSERDIALOG_DIVIDER_Y = (int)((double)ConstantsWP.NEWUSERDIALOG_DIVIDER_Y * 0.5);
+			ConstantsWP.WELCOME_DIALOG_TEXTBOX_Y_OFFSET = (int)((double)ConstantsWP.WELCOME_DIALOG_TEXTBOX_Y_OFFSET * 0.5);
+			ConstantsWP.WELCOME_DIALOG_MESSAGE_Y = (int)((double)ConstantsWP.WELCOME_DIALOG_MESSAGE_Y * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_CURRENT_IMAGE_X = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_CURRENT_IMAGE_X * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_CURRENT_IMAGE_Y = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_CURRENT_IMAGE_Y * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_BUTTON_OFFSET = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_BUTTON_OFFSET * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_BUTTON_SIZE = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_BUTTON_SIZE * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_X = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_X * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_Y = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_Y * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_WIDTH = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_WIDTH * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_X_OFFSET = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_X_OFFSET * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_Y_OFFSET = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_Y_OFFSET * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_WIDTH = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_WIDTH * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_WIDTH = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_WIDTH * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_X = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_X * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_X = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_X * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_Y = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_Y * 0.5);
+			ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_Y = (int)((double)ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_Y * 0.5);
+			ConstantsWP.STATS_MENU_HEADING_X = (int)((double)ConstantsWP.STATS_MENU_HEADING_X * 0.5);
+			ConstantsWP.STATS_MENU_HEADINGS_STEP_Y = (int)((double)ConstantsWP.STATS_MENU_HEADINGS_STEP_Y * 0.5);
+			ConstantsWP.STATS_MENU_TOP_ALPHA = (int)((double)ConstantsWP.STATS_MENU_TOP_ALPHA * 0.5);
+			ConstantsWP.STATS_MENU_BOTTOM_ALPHA = (int)((double)ConstantsWP.STATS_MENU_BOTTOM_ALPHA * 0.5);
+			ConstantsWP.STATS_MENU_ALPHA_PADDING = (int)((double)ConstantsWP.STATS_MENU_ALPHA_PADDING * 0.5);
+			ConstantsWP.STATS_MENU_DIVIDER_2_Y = (int)((double)ConstantsWP.STATS_MENU_DIVIDER_2_Y * 0.5);
+			ConstantsWP.STATS_MENU_DIVIDER_3_Y = (int)((double)ConstantsWP.STATS_MENU_DIVIDER_3_Y * 0.5);
+			ConstantsWP.STATS_MENU_HEADINGS_START_Y_1 = (int)((double)ConstantsWP.STATS_MENU_HEADINGS_START_Y_1 * 0.5);
+			ConstantsWP.STATS_MENU_HEADINGS_START_Y_2 = (int)((double)ConstantsWP.STATS_MENU_HEADINGS_START_Y_2 * 0.5);
+			ConstantsWP.STATS_MENU_HEADINGS_START_Y_3 = (int)((double)ConstantsWP.STATS_MENU_HEADINGS_START_Y_3 * 0.5);
+			ConstantsWP.STATS_MENU_DATA_Y_OFFSET = (int)((double)ConstantsWP.STATS_MENU_DATA_Y_OFFSET * 0.5);
+			ConstantsWP.STATS_MENU_CONTAINER_PADDING_X = (int)((double)ConstantsWP.STATS_MENU_CONTAINER_PADDING_X * 0.5);
+			ConstantsWP.STATS_MENU_CONTAINER_PADDING_TOP = (int)((double)ConstantsWP.STATS_MENU_CONTAINER_PADDING_TOP * 0.5);
+			ConstantsWP.STATS_MENU_CONTAINER_PADDING_BOTTOM = (int)((double)ConstantsWP.STATS_MENU_CONTAINER_PADDING_BOTTOM * 0.5);
+			ConstantsWP.STATS_MENU_CONTAINER_HEIGHT = (int)((double)ConstantsWP.STATS_MENU_CONTAINER_HEIGHT * 0.5);
+			ConstantsWP.STATS_MENU_HEADINGS_X = (int)((double)ConstantsWP.STATS_MENU_HEADINGS_X * 0.5);
+			ConstantsWP.STATS_MENU_STATS_X = (int)((double)ConstantsWP.STATS_MENU_STATS_X * 0.5);
+			ConstantsWP.STATS_MENU_BACK_X = (int)((double)ConstantsWP.STATS_MENU_BACK_X * 0.5);
+			ConstantsWP.STATS_MENU_BACK_Y = (int)((double)ConstantsWP.STATS_MENU_BACK_Y * 0.5);
+			ConstantsWP.CREDITSMENU_WIDTH = (int)((double)ConstantsWP.CREDITSMENU_WIDTH * 0.5);
+			ConstantsWP.CREDITSMENU_HEADING_LABEL_X = (int)((double)ConstantsWP.CREDITSMENU_HEADING_LABEL_X * 0.5);
+			ConstantsWP.CREDITSMENU_PADDING_X = (int)((double)ConstantsWP.CREDITSMENU_PADDING_X * 0.5);
+			ConstantsWP.CREDITSMENU_PADDING_TOP = (int)((double)ConstantsWP.CREDITSMENU_PADDING_TOP * 0.5);
+			ConstantsWP.CREDITSMENU_PADDING_BOTTOM = (int)((double)ConstantsWP.CREDITSMENU_PADDING_BOTTOM * 0.5);
+			ConstantsWP.CREDITSMENU_SCROLL_START = (int)((double)ConstantsWP.CREDITSMENU_SCROLL_START * 0.5);
+			ConstantsWP.CREDITSMENU_HEIGHT = (int)((double)ConstantsWP.CREDITSMENU_HEIGHT * 0.5);
+			ConstantsWP.CREDITSMENU_SPEED = (float)((double)ConstantsWP.CREDITSMENU_SPEED * 0.5);
+			ConstantsWP.CREDITSMENU_SPEED_CHANGE = (float)((double)ConstantsWP.CREDITSMENU_SPEED_CHANGE * 0.5);
+			ConstantsWP.CREDITSMENU_START = (int)((double)ConstantsWP.CREDITSMENU_START * 0.5);
+			ConstantsWP.CREDITSMENU_LOGO_Y = (int)((double)ConstantsWP.CREDITSMENU_LOGO_Y * 0.5);
+			ConstantsWP.CREDITSMENU_LOGO_FADE_OFFSET_TOP = (int)((double)ConstantsWP.CREDITSMENU_LOGO_FADE_OFFSET_TOP * 0.5);
+			ConstantsWP.CREDITSMENU_LOGO_FADE_OFFSET_BOTTOM = (int)((double)ConstantsWP.CREDITSMENU_LOGO_FADE_OFFSET_BOTTOM * 0.5);
+			ConstantsWP.CREDITSMENU_ROLE_DIST = (int)((double)ConstantsWP.CREDITSMENU_ROLE_DIST * 0.5);
+			ConstantsWP.CREDITSMENU_NAME_HEIGHT = (int)((double)ConstantsWP.CREDITSMENU_NAME_HEIGHT * 0.5);
+			ConstantsWP.CREDITSMENU_SUB_HEADING_DIST = (int)((double)ConstantsWP.CREDITSMENU_SUB_HEADING_DIST * 0.5);
+			ConstantsWP.CREDITSMENU_EXTRA_MESSAGE_HEIGHT = (int)((double)ConstantsWP.CREDITSMENU_EXTRA_MESSAGE_HEIGHT * 0.5);
+			ConstantsWP.CREDITSMENU_EXTRA_MESSAGE_OFFSET = (int)((double)ConstantsWP.CREDITSMENU_EXTRA_MESSAGE_OFFSET * 0.5);
+			ConstantsWP.CREDITSMENU_TOP_ALPHA = (int)((double)ConstantsWP.CREDITSMENU_TOP_ALPHA * 0.5);
+			ConstantsWP.CREDITSMENU_BOTTOM_ALPHA = (int)((double)ConstantsWP.CREDITSMENU_BOTTOM_ALPHA * 0.5);
+			ConstantsWP.CREDITSMENU_ALPHA_PADDING = (int)((double)ConstantsWP.CREDITSMENU_ALPHA_PADDING * 0.5);
+			ConstantsWP.CREDITSMENU_BUTTON_Y = (int)((double)ConstantsWP.CREDITSMENU_BUTTON_Y * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_BUTTON_WIDTH = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_BUTTON_WIDTH * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_EXPANDED_POS = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_EXPANDED_POS * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_X = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_X * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_Y = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_Y * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_OPTIONS_X = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_OPTIONS_X * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_OPTIONS_Y = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_OPTIONS_Y * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_X = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_X * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_Y = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_Y * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_HELP_X = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_HELP_X * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_HELP_Y = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_HELP_Y * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_BACK_Y = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_BACK_Y * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_X = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_X * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_Y = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_Y * 0.5);
+			ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_W = (int)((double)ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_W * 0.5);
+			ConstantsWP.OPTIONSMENU_CONTAINER_Y = (int)((double)ConstantsWP.OPTIONSMENU_CONTAINER_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_CONTAINER_W = (int)((double)ConstantsWP.OPTIONSMENU_CONTAINER_W * 0.5);
+			ConstantsWP.OPTIONSMENU_DIVIDER_1 = (int)((double)ConstantsWP.OPTIONSMENU_DIVIDER_1 * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_1_X = (int)((double)ConstantsWP.OPTIONSMENU_BOX_1_X * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_1_Y = (int)((double)ConstantsWP.OPTIONSMENU_BOX_1_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_1_W = (int)((double)ConstantsWP.OPTIONSMENU_BOX_1_W * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_1_H = (int)((double)ConstantsWP.OPTIONSMENU_BOX_1_H * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_2_X = (int)((double)ConstantsWP.OPTIONSMENU_BOX_2_X * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_2_Y = (int)((double)ConstantsWP.OPTIONSMENU_BOX_2_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_2_W = (int)((double)ConstantsWP.OPTIONSMENU_BOX_2_W * 0.5);
+			ConstantsWP.OPTIONSMENU_BOX_2_H = (int)((double)ConstantsWP.OPTIONSMENU_BOX_2_H * 0.5);
+			ConstantsWP.OPTIONSMENU_CONTAINER_H = (int)((double)ConstantsWP.OPTIONSMENU_CONTAINER_H * 0.5);
+			ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_X = (int)((double)ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_X * 0.5);
+			ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_Y = (int)((double)ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_MUTE_LABEL_X = (int)((double)ConstantsWP.OPTIONSMENU_MUTE_LABEL_X * 0.5);
+			ConstantsWP.OPTIONSMENU_MUTE_LABEL_Y = (int)((double)ConstantsWP.OPTIONSMENU_MUTE_LABEL_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_X = (int)((double)ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_X * 0.5);
+			ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_Y = (int)((double)ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_AUTOHINT_LABEL_X = (int)((double)ConstantsWP.OPTIONSMENU_AUTOHINT_LABEL_X * 0.5);
+			ConstantsWP.OPTIONSMENU_AUTOHINT_LABEL_Y = (int)((double)ConstantsWP.OPTIONSMENU_AUTOHINT_LABEL_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_X = (int)((double)ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_X * 0.5);
+			ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_Y = (int)((double)ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_TUTORIAL_LABEL_X = (int)((double)ConstantsWP.OPTIONSMENU_TUTORIAL_LABEL_X * 0.5);
+			ConstantsWP.OPTIONSMENU_TUTORIAL_LABEL_Y = (int)((double)ConstantsWP.OPTIONSMENU_TUTORIAL_LABEL_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_SLIDER_WIDTH = (int)((double)ConstantsWP.OPTIONSMENU_SLIDER_WIDTH * 0.5);
+			ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_Y = (int)((double)ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_VOICE_SLIDER_Y = (int)((double)ConstantsWP.OPTIONSMENU_VOICE_SLIDER_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_FX_SLIDER_Y = (int)((double)ConstantsWP.OPTIONSMENU_FX_SLIDER_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_X = (int)((double)ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_X * 0.5);
+			ConstantsWP.OPTIONSMENU_FX_SLIDER_X = (int)((double)ConstantsWP.OPTIONSMENU_FX_SLIDER_X * 0.5);
+			ConstantsWP.OPTIONSMENU_VOICE_SLIDER_X = (int)((double)ConstantsWP.OPTIONSMENU_VOICE_SLIDER_X * 0.5);
+			ConstantsWP.OPTIONSMENU_MUSIC_LABEL_X = (int)((double)ConstantsWP.OPTIONSMENU_MUSIC_LABEL_X * 0.5);
+			ConstantsWP.OPTIONSMENU_FX_LABEL_X = (int)((double)ConstantsWP.OPTIONSMENU_FX_LABEL_X * 0.5);
+			ConstantsWP.OPTIONSMENU_VOICE_LABEL_X = (int)((double)ConstantsWP.OPTIONSMENU_VOICE_LABEL_X * 0.5);
+			ConstantsWP.OPTIONSMENU_MUSIC_LABEL_Y = (int)((double)ConstantsWP.OPTIONSMENU_MUSIC_LABEL_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_FX_LABEL_Y = (int)((double)ConstantsWP.OPTIONSMENU_FX_LABEL_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_VOICE_LABEL_Y = (int)((double)ConstantsWP.OPTIONSMENU_VOICE_LABEL_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_BUTTON_WIDTH = (int)((double)ConstantsWP.OPTIONSMENU_BUTTON_WIDTH * 0.5);
+			ConstantsWP.OPTIONSMENU_BUTTON_WIDTH_LONG = (int)((double)ConstantsWP.OPTIONSMENU_BUTTON_WIDTH_LONG * 0.5);
+			ConstantsWP.OPTIONSMENU_CREDITS_X = (int)((double)ConstantsWP.OPTIONSMENU_CREDITS_X * 0.5);
+			ConstantsWP.OPTIONSMENU_CREDITS_Y = (int)((double)ConstantsWP.OPTIONSMENU_CREDITS_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_BACK_X = (int)((double)ConstantsWP.OPTIONSMENU_BACK_X * 0.5);
+			ConstantsWP.OPTIONSMENU_BACK_Y = (int)((double)ConstantsWP.OPTIONSMENU_BACK_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_ABOUT_X = (int)((double)ConstantsWP.OPTIONSMENU_ABOUT_X * 0.5);
+			ConstantsWP.OPTIONSMENU_ABOUT_Y = (int)((double)ConstantsWP.OPTIONSMENU_ABOUT_Y * 0.5);
+			ConstantsWP.OPTIONSMENU_ABOUT_Y_2 = (int)((double)ConstantsWP.OPTIONSMENU_ABOUT_Y_2 * 0.5);
+			ConstantsWP.OPTIONSMENU_LEGAL_X = (int)((double)ConstantsWP.OPTIONSMENU_LEGAL_X * 0.5);
+			ConstantsWP.OPTIONSMENU_LEGAL_Y = (int)((double)ConstantsWP.OPTIONSMENU_LEGAL_Y * 0.5);
+			ConstantsWP.PAUSEMENU_WIDTH = (int)((double)ConstantsWP.PAUSEMENU_WIDTH * 0.5);
+			ConstantsWP.PAUSEMENU_HEIGHT = (int)((double)ConstantsWP.PAUSEMENU_HEIGHT * 0.5);
+			ConstantsWP.PAUSEMENU_HEIGHT_ZEN = (int)((double)ConstantsWP.PAUSEMENU_HEIGHT_ZEN * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OVERLAY_HEIGHT = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OVERLAY_HEIGHT * 0.5);
+			ConstantsWP.PAUSEMENU_X = (int)((double)ConstantsWP.PAUSEMENU_X * 0.5);
+			ConstantsWP.PAUSEMENU_Y = (int)((double)ConstantsWP.PAUSEMENU_Y * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_X = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_HELP_X * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_Y = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_HELP_Y * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_ZEN_X = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_HELP_ZEN_X * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_ZEN_Y = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_HELP_ZEN_Y * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_RESTART_X = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_RESTART_X * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_RESTART_Y = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_RESTART_Y * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_MAINMENU_X = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_MAINMENU_X * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_MAINMENU_Y = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_MAINMENU_Y * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_RESUME_X = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_RESUME_X * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_RESUME_Y = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_RESUME_Y * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_WIDTH = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_WIDTH * 0.5);
+			ConstantsWP.PAUSEMENU_FULL_BUTTON_WIDTH = (int)((double)ConstantsWP.PAUSEMENU_FULL_BUTTON_WIDTH * 0.5);
+			ConstantsWP.PAUSEMENU_BUTTON_WIDTH_ZEN = (int)((double)ConstantsWP.PAUSEMENU_BUTTON_WIDTH_ZEN * 0.5);
+			ConstantsWP.PAUSEMENU_EXPANDER_DISTANCE = (int)((double)ConstantsWP.PAUSEMENU_EXPANDER_DISTANCE * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_BREATH_Y = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_BREATH_Y * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_BREATH_Y_2 = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_BREATH_Y_2 * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_2 = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_2 * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_3 = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_3 * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_4 = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_4 * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_2 = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_2 * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_3 = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_3 * 0.5);
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_4 = (int)((double)ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_4 * 0.5);
+			ConstantsWP.PAUSEMENU_HINT_LABEL_WIDTH = (int)((double)ConstantsWP.PAUSEMENU_HINT_LABEL_WIDTH * 0.5);
+			ConstantsWP.PAUSEMENU_HINT_LABEL_HEIGHT = (int)((double)ConstantsWP.PAUSEMENU_HINT_LABEL_HEIGHT * 0.5);
+			ConstantsWP.PAUSEMENU_HINT_LABEL_X = (int)((double)ConstantsWP.PAUSEMENU_HINT_LABEL_X * 0.5);
+			ConstantsWP.PAUSEMENU_HINT_LABEL_Y = (int)((double)ConstantsWP.PAUSEMENU_HINT_LABEL_Y * 0.5);
+			ConstantsWP.LEGALMENU_HEADING_LABEL_X = (int)((double)ConstantsWP.LEGALMENU_HEADING_LABEL_X * 0.5);
+			ConstantsWP.LEGALMENU_BOX_1_W = (int)((double)ConstantsWP.LEGALMENU_BOX_1_W * 0.5);
+			ConstantsWP.LEGALMENU_BOX_1_X = (int)((double)ConstantsWP.LEGALMENU_BOX_1_X * 0.5);
+			ConstantsWP.LEGALMENU_BOX_1_Y = (int)((double)ConstantsWP.LEGALMENU_BOX_1_Y * 0.5);
+			ConstantsWP.LEGALMENU_BOX_1_H = (int)((double)ConstantsWP.LEGALMENU_BOX_1_H * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_WIDTH = (int)((double)ConstantsWP.LEGALMENU_BUTTON_WIDTH * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_BACK_X = (int)((double)ConstantsWP.LEGALMENU_BUTTON_BACK_X * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_BACK_Y = (int)((double)ConstantsWP.LEGALMENU_BUTTON_BACK_Y * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_EULA_X = (int)((double)ConstantsWP.LEGALMENU_BUTTON_EULA_X * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_EULA_Y = (int)((double)ConstantsWP.LEGALMENU_BUTTON_EULA_Y * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_PRIVACY_X = (int)((double)ConstantsWP.LEGALMENU_BUTTON_PRIVACY_X * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_PRIVACY_Y = (int)((double)ConstantsWP.LEGALMENU_BUTTON_PRIVACY_Y * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_TERMS_X = (int)((double)ConstantsWP.LEGALMENU_BUTTON_TERMS_X * 0.5);
+			ConstantsWP.LEGALMENU_BUTTON_TERMS_Y = (int)((double)ConstantsWP.LEGALMENU_BUTTON_TERMS_Y * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_CHECKBOX_X = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_CHECKBOX_X * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_CHECKBOX_Y = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_CHECKBOX_Y * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_X = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_X * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_Y = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_Y * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_LINESPACING_OFFSET = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_LINESPACING_OFFSET * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_X = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_X * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_Y = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_Y * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEIGHT = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEIGHT * 0.5);
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_WIDTH = (int)((double)ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_WIDTH * 0.5);
+			ConstantsWP.ABOUTMENU_OFFSET_Y = (int)((double)ConstantsWP.ABOUTMENU_OFFSET_Y * 0.5);
+			ConstantsWP.ABOUTMENU_HEADING_LABEL_X = (int)((double)ConstantsWP.ABOUTMENU_HEADING_LABEL_X * 0.5);
+			ConstantsWP.ABOUTMENU_HEADING_LABEL_Y = (int)((double)ConstantsWP.ABOUTMENU_HEADING_LABEL_Y * 0.5);
+			ConstantsWP.ABOUTMENU_DIVIDER_1 = (int)((double)ConstantsWP.ABOUTMENU_DIVIDER_1 * 0.5);
+			ConstantsWP.ABOUTMENU_DIVIDER_2 = (int)((double)ConstantsWP.ABOUTMENU_DIVIDER_2 * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_1_W = (int)((double)ConstantsWP.ABOUTMENU_BOX_1_W * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_1_H = (int)((double)ConstantsWP.ABOUTMENU_BOX_1_H * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_1_X = (int)((double)ConstantsWP.ABOUTMENU_BOX_1_X * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_1_Y = (int)((double)ConstantsWP.ABOUTMENU_BOX_1_Y * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_2_W = (int)((double)ConstantsWP.ABOUTMENU_BOX_2_W * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_2_H = (int)((double)ConstantsWP.ABOUTMENU_BOX_2_H * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_2_X = (int)((double)ConstantsWP.ABOUTMENU_BOX_2_X * 0.5);
+			ConstantsWP.ABOUTMENU_BOX_2_Y = (int)((double)ConstantsWP.ABOUTMENU_BOX_2_Y * 0.5);
+			ConstantsWP.ABOUTMENU_BACK_BUTTON_X = (int)((double)ConstantsWP.ABOUTMENU_BACK_BUTTON_X * 0.5);
+			ConstantsWP.ABOUTMENU_BACK_BUTTON_Y = (int)((double)ConstantsWP.ABOUTMENU_BACK_BUTTON_Y * 0.5);
+			ConstantsWP.ABOUTMENU_BACK_BUTTON_WIDTH = (int)((double)ConstantsWP.ABOUTMENU_BACK_BUTTON_WIDTH * 0.5);
+			ConstantsWP.ABOUTMENU_LINK_X = (int)((double)ConstantsWP.ABOUTMENU_LINK_X * 0.5);
+			ConstantsWP.ABOUTMENU_MESSAGE_2_TEXT_OFFSET = (int)((double)ConstantsWP.ABOUTMENU_MESSAGE_2_TEXT_OFFSET * 0.5);
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_WIDTH = (int)((double)ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_WIDTH * 0.5);
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_HEIGHT = (int)((double)ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_HEIGHT * 0.5);
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_HEIGHT_2 = (int)((double)ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_HEIGHT_2 * 0.5);
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LINK_HEIGHT = (int)((double)ConstantsWP.ABOUTMENU_MESSAGE_2_LINK_HEIGHT * 0.5);
+			ConstantsWP.ABOUTMENU_POST_LINK_OFFSET_Y = (int)((double)ConstantsWP.ABOUTMENU_POST_LINK_OFFSET_Y * 0.5);
+			ConstantsWP.ABOUTMENU_SUPPORT_Y = (int)((double)ConstantsWP.ABOUTMENU_SUPPORT_Y * 0.5);
+			ConstantsWP.ABOUTMENU_VERSION_Y_OFFSET = (int)((double)ConstantsWP.ABOUTMENU_VERSION_Y_OFFSET * 0.5);
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_X = (int)((double)ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_X * 0.5);
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_Y = (int)((double)ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_Y * 0.5);
+			ConstantsWP.ABOUTMENU_CLOSE_BUTTON_X = (int)((double)ConstantsWP.ABOUTMENU_CLOSE_BUTTON_X * 0.5);
+			ConstantsWP.ABOUTMENU_CLOSE_BUTTON_Y = (int)((double)ConstantsWP.ABOUTMENU_CLOSE_BUTTON_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_WIDTH = (int)((double)ConstantsWP.RANKUPDIALOG_WIDTH * 0.5);
+			ConstantsWP.RANKUPDIALOG_HEIGHT = (int)((double)ConstantsWP.RANKUPDIALOG_HEIGHT * 0.5);
+			ConstantsWP.RANKUPDIALOG_BUTTON_OK_WIDTH = (int)((double)ConstantsWP.RANKUPDIALOG_BUTTON_OK_WIDTH * 0.5);
+			ConstantsWP.RANKUPDIALOG_BUTTON_OK_X = (int)((double)ConstantsWP.RANKUPDIALOG_BUTTON_OK_X * 0.5);
+			ConstantsWP.RANKUPDIALOG_BUTTON_OK_Y = (int)((double)ConstantsWP.RANKUPDIALOG_BUTTON_OK_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_RANKBAR_Y = (int)((double)ConstantsWP.RANKUPDIALOG_RANKBAR_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_RANKBAR_WIDTH = (int)((double)ConstantsWP.RANKUPDIALOG_RANKBAR_WIDTH * 0.5);
+			ConstantsWP.RANKUPDIALOG_MSG_1_WIDTH = (int)((double)ConstantsWP.RANKUPDIALOG_MSG_1_WIDTH * 0.5);
+			ConstantsWP.RANKUPDIALOG_MSG_1_HEIGHT = (int)((double)ConstantsWP.RANKUPDIALOG_MSG_1_HEIGHT * 0.5);
+			ConstantsWP.RANKUPDIALOG_MSG_1_Y = (int)((double)ConstantsWP.RANKUPDIALOG_MSG_1_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_MSG_2_Y = (int)((double)ConstantsWP.RANKUPDIALOG_MSG_2_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_MSG_3_Y = (int)((double)ConstantsWP.RANKUPDIALOG_MSG_3_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_MSG_4_Y = (int)((double)ConstantsWP.RANKUPDIALOG_MSG_4_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_MSG_5_Y = (int)((double)ConstantsWP.RANKUPDIALOG_MSG_5_Y * 0.5);
+			ConstantsWP.RANKUPDIALOG_FONT_SCALE_OFFSET = (int)((double)ConstantsWP.RANKUPDIALOG_FONT_SCALE_OFFSET * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_1_Y_1_BUTTON = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_1_Y_1_BUTTON * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_WIDTH_1_BUTTON = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_WIDTH_1_BUTTON * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_1_X_2_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_1_X_2_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_1_Y_2_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_1_Y_2_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_2_X_2_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_2_X_2_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_2_Y_2_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_2_Y_2_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_WIDTH_2_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_WIDTH_2_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_1_X_3_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_1_X_3_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_2_X_3_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_2_X_3_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_1_Y_3_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_1_Y_3_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_2_Y_3_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_2_Y_3_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_3_Y_3_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_3_Y_3_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_WIDTH_3_BUTTONS = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_WIDTH_3_BUTTONS * 0.5);
+			ConstantsWP.DIALOGBOX_MESSAGE_PADDING_X = (int)((double)ConstantsWP.DIALOGBOX_MESSAGE_PADDING_X * 0.5);
+			ConstantsWP.DIALOGBOX_MESSAGE_PADDING_TOP = (int)((double)ConstantsWP.DIALOGBOX_MESSAGE_PADDING_TOP * 0.5);
+			ConstantsWP.DIALOGBOX_MIN_WIDTH = (int)((double)ConstantsWP.DIALOGBOX_MIN_WIDTH * 0.5);
+			ConstantsWP.DIALOGBOX_MIN_HEIGHT = (int)((double)ConstantsWP.DIALOGBOX_MIN_HEIGHT * 0.5);
+			ConstantsWP.DIALOGBOX_MAX_HEIGHT = (int)((double)ConstantsWP.DIALOGBOX_MAX_HEIGHT * 0.5);
+			ConstantsWP.DIALOGBOX_BUTTON_MEASURE_HEIGHT = (int)((double)ConstantsWP.DIALOGBOX_BUTTON_MEASURE_HEIGHT * 0.5);
+			ConstantsWP.DIALOGBOX_EXTRA_HEIGHT = (int)((double)ConstantsWP.DIALOGBOX_EXTRA_HEIGHT * 0.5);
+			ConstantsWP.MENU_BACKGROUND_FADE_IN_SPEED = (float)((double)ConstantsWP.MENU_BACKGROUND_FADE_IN_SPEED * 0.5);
+			ConstantsWP.MENU_BACKGROUND_FADE_OUT_SPEED = (float)((double)ConstantsWP.MENU_BACKGROUND_FADE_OUT_SPEED * 0.5);
+			ConstantsWP.EDITWIDGET_BOX_PADDING_X = (int)((double)ConstantsWP.EDITWIDGET_BOX_PADDING_X * 0.5);
+			ConstantsWP.EDITWIDGET_CURSOR_OFFSET = (int)((double)ConstantsWP.EDITWIDGET_CURSOR_OFFSET * 0.5);
+			ConstantsWP.EDITWIDGET_HEIGHT = (int)((double)ConstantsWP.EDITWIDGET_HEIGHT * 0.5);
+			ConstantsWP.EDITWIDGET_BACKGROUND_OFFSET = (int)((double)ConstantsWP.EDITWIDGET_BACKGROUND_OFFSET * 0.5);
+			ConstantsWP.DIALOG_RESTART_GAME_WIDTH = (int)((double)ConstantsWP.DIALOG_RESTART_GAME_WIDTH * 0.5);
+			ConstantsWP.DIALOGBOX_HEADING_LABEL_Y = (int)((double)ConstantsWP.DIALOGBOX_HEADING_LABEL_Y * 0.5);
+			ConstantsWP.DIALOGBOX_HEADING_LABEL_SPLIT_Y = (int)((double)ConstantsWP.DIALOGBOX_HEADING_LABEL_SPLIT_Y * 0.5);
+			ConstantsWP.DIALOGBOX_HEADING_LABEL_MAX_WIDTH_OFFSET = (int)((double)ConstantsWP.DIALOGBOX_HEADING_LABEL_MAX_WIDTH_OFFSET * 0.5);
+			ConstantsWP.DIALOG_HEADING_LABEL_SPLIT_Y = (int)((double)ConstantsWP.DIALOG_HEADING_LABEL_SPLIT_Y * 0.5);
+			ConstantsWP.LISTBOX_HEADING_OFFSET = (int)((double)ConstantsWP.LISTBOX_HEADING_OFFSET * 0.5);
+			ConstantsWP.LISTBOX_FOOTER_OFFSET = (int)((double)ConstantsWP.LISTBOX_FOOTER_OFFSET * 0.5);
+			ConstantsWP.LISTBOX_BG_OFFSET_TOP = (int)((double)ConstantsWP.LISTBOX_BG_OFFSET_TOP * 0.5);
+			ConstantsWP.LISTBOX_BG_OFFSET_BOTTOM = (int)((double)ConstantsWP.LISTBOX_BG_OFFSET_BOTTOM * 0.5);
+			ConstantsWP.LISTBOX_DIVIDER_OFFSET_1 = (int)((double)ConstantsWP.LISTBOX_DIVIDER_OFFSET_1 * 0.5);
+			ConstantsWP.LISTBOX_DIVIDER_OFFSET_2 = (int)((double)ConstantsWP.LISTBOX_DIVIDER_OFFSET_2 * 0.5);
+			ConstantsWP.LISTBOX_LINE_HEIGHT = (int)((double)ConstantsWP.LISTBOX_LINE_HEIGHT * 0.5);
+			ConstantsWP.LISTBOX_LINE_HEIGHT_2 = (int)((double)ConstantsWP.LISTBOX_LINE_HEIGHT_2 * 0.5);
+			ConstantsWP.LISTBOX_LINE_OFFSET_1 = (int)((double)ConstantsWP.LISTBOX_LINE_OFFSET_1 * 0.5);
+			ConstantsWP.LISTBOX_SHADOW_X = (int)((double)ConstantsWP.LISTBOX_SHADOW_X * 0.5);
+			ConstantsWP.LISTBOX_SHADOW_Y = (int)((double)ConstantsWP.LISTBOX_SHADOW_Y * 0.5);
+			ConstantsWP.LISTBOX_SHADOW_Y_BOTTOM = (int)((double)ConstantsWP.LISTBOX_SHADOW_Y_BOTTOM * 0.5);
+			ConstantsWP.BEJ3BUTTON_ROTATION_SPEED = (float)((double)ConstantsWP.BEJ3BUTTON_ROTATION_SPEED * 0.5);
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_SIZE = (float)((double)ConstantsWP.BEJ3BUTTON_DROPDOWN_SIZE * 0.5);
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_ROT_CENTER_X = (float)((double)ConstantsWP.BEJ3BUTTON_DROPDOWN_ROT_CENTER_X * 0.5);
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_ROT_CENTER_Y = (float)((double)ConstantsWP.BEJ3BUTTON_DROPDOWN_ROT_CENTER_Y * 0.5);
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_X = (int)((double)ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_X * 0.5);
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_Y = (int)((double)ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_Y * 0.5);
+			ConstantsWP.BEJ3BUTTON_HINT_OK_OFFSET_X = (int)((double)ConstantsWP.BEJ3BUTTON_HINT_OK_OFFSET_X * 0.5);
+			ConstantsWP.BEJ3BUTTON_HINT_OK_OFFSET_Y = (int)((double)ConstantsWP.BEJ3BUTTON_HINT_OK_OFFSET_Y * 0.5);
+			ConstantsWP.BEJ3BUTTON_SLIDE_ARROW_DIST = (int)((double)ConstantsWP.BEJ3BUTTON_SLIDE_ARROW_DIST * 0.5);
+			ConstantsWP.BEJ3BUTTON_LONG_DEFAULT_WIDTH = (int)((double)ConstantsWP.BEJ3BUTTON_LONG_DEFAULT_WIDTH * 0.5);
+			ConstantsWP.BEJ3BUTTON_AUTOSCALE_DEFAULT_WIDTH = (int)((double)ConstantsWP.BEJ3BUTTON_AUTOSCALE_DEFAULT_WIDTH * 0.5);
+			ConstantsWP.BEJ3BUTTON_AUTOSCALE_MIN_WIDTH = (int)((double)ConstantsWP.BEJ3BUTTON_AUTOSCALE_MIN_WIDTH * 0.5);
+			ConstantsWP.BEJ3BUTTON_AUTOSCALE_TEXT_WIDTH_OFFSET = (int)((double)ConstantsWP.BEJ3BUTTON_AUTOSCALE_TEXT_WIDTH_OFFSET * 0.5);
+			ConstantsWP.BEJ3BUTTON_INSIDE_RECT_OFFSET = (int)((double)ConstantsWP.BEJ3BUTTON_INSIDE_RECT_OFFSET * 0.5);
+			ConstantsWP.BEJ3BUTTON_ICESTORM_TEXT_OFFSET_Y = (int)((double)ConstantsWP.BEJ3BUTTON_ICESTORM_TEXT_OFFSET_Y * 0.5);
+			ConstantsWP.BEJ3BUTTON_TEXT_OFFSET_Y = (int)((double)ConstantsWP.BEJ3BUTTON_TEXT_OFFSET_Y * 0.5);
+			ConstantsWP.BEJ3SLIDER_WIDTH_OFFSET = (int)((double)ConstantsWP.BEJ3SLIDER_WIDTH_OFFSET * 0.5);
+			ConstantsWP.BEJ3SLIDER_HEIGHT = (int)((double)ConstantsWP.BEJ3SLIDER_HEIGHT * 0.5);
+			ConstantsWP.BEJ3SLIDER_X_OFFSET = (int)((double)ConstantsWP.BEJ3SLIDER_X_OFFSET * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_ITEM_MULT = (float)((double)ConstantsWP.BEJ3SLIDESELECTOR_ITEM_MULT * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_LEFT_X = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_LEFT_X * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_LEFT_X_SMALL = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_LEFT_X_SMALL * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_Y = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_Y * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_Y_SMALL = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_Y_SMALL * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET_SMALL = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET_SMALL * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X * 0.5);
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X_SMALL = (int)((double)ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X_SMALL * 0.5);
+			ConstantsWP.BEJ3CHECKBOX_SIZE = (int)((double)ConstantsWP.BEJ3CHECKBOX_SIZE * 0.5);
+			ConstantsWP.TOOLTIP_ARROW_SIZE = (int)((double)ConstantsWP.TOOLTIP_ARROW_SIZE * 0.5);
+			ConstantsWP.TOOLTIP_ARROW_DISTANCE = (int)((double)ConstantsWP.TOOLTIP_ARROW_DISTANCE * 0.5);
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_DOWN = (int)((double)ConstantsWP.TOOLTIP_ARROW_OFFSET_DOWN * 0.5);
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_LEFT = (int)((double)ConstantsWP.TOOLTIP_ARROW_OFFSET_LEFT * 0.5);
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_RIGHT = (int)((double)ConstantsWP.TOOLTIP_ARROW_OFFSET_RIGHT * 0.5);
+			ConstantsWP.TOOLTIP_HEIGHT_OFFSET = (int)((double)ConstantsWP.TOOLTIP_HEIGHT_OFFSET * 0.5);
+			ConstantsWP.TOOLTIP_BOX_OFFSET_Y = (int)((double)ConstantsWP.TOOLTIP_BOX_OFFSET_Y * 0.5);
+			ConstantsWP.HELPDIALOG_HEADING_X = (int)((double)ConstantsWP.HELPDIALOG_HEADING_X * 0.5);
+			ConstantsWP.HELPDIALOG_HOWTOPLAY_LABEL_Y = (int)((double)ConstantsWP.HELPDIALOG_HOWTOPLAY_LABEL_Y * 0.5);
+			ConstantsWP.HELPDIALOG_SWIPE_MSG_LABEL_X = (int)((double)ConstantsWP.HELPDIALOG_SWIPE_MSG_LABEL_X * 0.5);
+			ConstantsWP.HELPDIALOG_SWIPE_MSG_LABEL_Y = (int)((double)ConstantsWP.HELPDIALOG_SWIPE_MSG_LABEL_Y * 0.5);
+			ConstantsWP.HELPDIALOG_DIVIDER_1_Y = (int)((double)ConstantsWP.HELPDIALOG_DIVIDER_1_Y * 0.5);
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_X = (int)((double)ConstantsWP.HELPDIALOG_DISABLE_HINT_X * 0.5);
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_Y = (int)((double)ConstantsWP.HELPDIALOG_DISABLE_HINT_Y * 0.5);
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_LABEL_X = (int)((double)ConstantsWP.HELPDIALOG_DISABLE_HINT_LABEL_X * 0.5);
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_LABEL_Y = (int)((double)ConstantsWP.HELPDIALOG_DISABLE_HINT_LABEL_Y * 0.5);
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_X = (int)((double)ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_X * 0.5);
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_Y = (int)((double)ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_Y * 0.5);
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_W = (int)((double)ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_W * 0.5);
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_H = (int)((double)ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_H * 0.5);
+			ConstantsWP.HELPDIALOG_CONTAINER_X = (int)((double)ConstantsWP.HELPDIALOG_CONTAINER_X * 0.5);
+			ConstantsWP.HELPDIALOG_CONTAINER_TAB_PADDING_SIDE = (int)((double)ConstantsWP.HELPDIALOG_CONTAINER_TAB_PADDING_SIDE * 0.5);
+			ConstantsWP.HELPDIALOG_CONTAINER_TAB_PADDING = (int)((double)ConstantsWP.HELPDIALOG_CONTAINER_TAB_PADDING * 0.5);
+			ConstantsWP.HELPDIALOG_CONTAINER_TAB_WIDTH = (int)((double)ConstantsWP.HELPDIALOG_CONTAINER_TAB_WIDTH * 0.5);
+			ConstantsWP.HELPDIALOG_CONTAINER_WIDTH = (int)((double)ConstantsWP.HELPDIALOG_CONTAINER_WIDTH * 0.5);
+			ConstantsWP.HELPDIALOG_CONTAINER_HEIGHT = (int)((double)ConstantsWP.HELPDIALOG_CONTAINER_HEIGHT * 0.5);
+			ConstantsWP.HELPDIALOG_CONTAINER_Y = (int)((double)ConstantsWP.HELPDIALOG_CONTAINER_Y * 0.5);
+			ConstantsWP.HELPDIALOG_WINDOW_CLIP_OFFSET_TOP = (int)((double)ConstantsWP.HELPDIALOG_WINDOW_CLIP_OFFSET_TOP * 0.5);
+			ConstantsWP.HELPDIALOG_WINDOW_HEIGHT = (int)((double)ConstantsWP.HELPDIALOG_WINDOW_HEIGHT * 0.5);
+			ConstantsWP.HELPDIALOG_WINDOW_Y = (int)((double)ConstantsWP.HELPDIALOG_WINDOW_Y * 0.5);
+			ConstantsWP.HELPDIALOG_WINDOW_ANIMATION_Y_OFFSET = (int)((double)ConstantsWP.HELPDIALOG_WINDOW_ANIMATION_Y_OFFSET * 0.5);
+			ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_OFFSET = (int)((double)ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_OFFSET * 0.5);
+			ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_EXTRA_SIZE = (int)((double)ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_EXTRA_SIZE * 0.5);
+			ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_SCALE = (float)((double)ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_SCALE * 0.5);
+			ConstantsWP.HELPDIALOG_SLIDE_BUTTON_OFFSET_X = (int)((double)ConstantsWP.HELPDIALOG_SLIDE_BUTTON_OFFSET_X * 0.5);
+			ConstantsWP.HELPDIALOG_SLIDE_BUTTON_Y = (int)((double)ConstantsWP.HELPDIALOG_SLIDE_BUTTON_Y * 0.5);
+			ConstantsWP.HELPDIALOG_POPANIM_SCALE = (float)((double)ConstantsWP.HELPDIALOG_POPANIM_SCALE * 0.5);
+			ConstantsWP.HELPDIALOG_POPANIM_CLIP_SCALE = (float)((double)ConstantsWP.HELPDIALOG_POPANIM_CLIP_SCALE * 0.5);
+			ConstantsWP.HELPDIALOG_TEXT_X = (int)((double)ConstantsWP.HELPDIALOG_TEXT_X * 0.5);
+			ConstantsWP.HELPDIALOG_TEXT_Y = (int)((double)ConstantsWP.HELPDIALOG_TEXT_Y * 0.5);
+			ConstantsWP.HELPDIALOG_TEXT_WIDTH = (int)((double)ConstantsWP.HELPDIALOG_TEXT_WIDTH * 0.5);
+			ConstantsWP.HELPDIALOG_TEXT_HEIGHT = (int)((double)ConstantsWP.HELPDIALOG_TEXT_HEIGHT * 0.5);
+			ConstantsWP.HELPDIALOG_CLOSE_Y = (int)((double)ConstantsWP.HELPDIALOG_CLOSE_Y * 0.5);
+			ConstantsWP.HELPDIALOG_OFFSET_BASICS_1 = (int)((double)ConstantsWP.HELPDIALOG_OFFSET_BASICS_1 * 0.5);
+			ConstantsWP.HELPDIALOG_OFFSET_BASICS_2 = (int)((double)ConstantsWP.HELPDIALOG_OFFSET_BASICS_2 * 0.5);
+			ConstantsWP.HELPDIALOG_OFFSET_BASICS_3 = (int)((double)ConstantsWP.HELPDIALOG_OFFSET_BASICS_3 * 0.5);
+			ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_1 = (int)((double)ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_1 * 0.5);
+			ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_2 = (int)((double)ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_2 * 0.5);
+			ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_3 = (int)((double)ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_3 * 0.5);
+			ConstantsWP.DIALOG_HEADER_OFFSET = (int)((double)ConstantsWP.DIALOG_HEADER_OFFSET * 0.5);
+			ConstantsWP.HINTDIALOG_PAD = (int)((double)ConstantsWP.HINTDIALOG_PAD * 0.5);
+			ConstantsWP.HINTDIALOG_X = (int)((double)ConstantsWP.HINTDIALOG_X * 0.5);
+			ConstantsWP.HINTDIALOG_Y = (int)((double)ConstantsWP.HINTDIALOG_Y * 0.5);
+			ConstantsWP.HINTDIALOG_WIDTH = (int)((double)ConstantsWP.HINTDIALOG_WIDTH * 0.5);
+			ConstantsWP.HINTDIALOG_HEIGHT = (int)((double)ConstantsWP.HINTDIALOG_HEIGHT * 0.5);
+			ConstantsWP.HINTDIALOG_TEXT_LINE_SPACING_ADJUST = (int)((double)ConstantsWP.HINTDIALOG_TEXT_LINE_SPACING_ADJUST * 0.5);
+			ConstantsWP.HINTDIALOG_TEXT_X = (int)((double)ConstantsWP.HINTDIALOG_TEXT_X * 0.5);
+			ConstantsWP.HINTDIALOG_TEXTCONTAINER_Y = (int)((double)ConstantsWP.HINTDIALOG_TEXTCONTAINER_Y * 0.5);
+			ConstantsWP.HINTDIALOG_TEXT_Y = (int)((double)ConstantsWP.HINTDIALOG_TEXT_Y * 0.5);
+			ConstantsWP.HINTDIALOG_TEXT_WIDTH_REPLAY = (int)((double)ConstantsWP.HINTDIALOG_TEXT_WIDTH_REPLAY * 0.5);
+			ConstantsWP.HINTDIALOG_TEXT_WIDTH_NO_REPLAY = (int)((double)ConstantsWP.HINTDIALOG_TEXT_WIDTH_NO_REPLAY * 0.5);
+			ConstantsWP.HINTDIALOG_TEXT_HEIGHT = (int)((double)ConstantsWP.HINTDIALOG_TEXT_HEIGHT * 0.5);
+			ConstantsWP.HINTDIALOG_TEXT_NO_SCROLL_HEIGHT = (int)((double)ConstantsWP.HINTDIALOG_TEXT_NO_SCROLL_HEIGHT * 0.5);
+			ConstantsWP.HINTDIALOG_HEIGHT_OFFSET = (int)((double)ConstantsWP.HINTDIALOG_HEIGHT_OFFSET * 0.5);
+			ConstantsWP.HINTDIALOG_BUTTON_X = (int)((double)ConstantsWP.HINTDIALOG_BUTTON_X * 0.5);
+			ConstantsWP.HINTDIALOG_BUTTON_Y = (int)((double)ConstantsWP.HINTDIALOG_BUTTON_Y * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_MSG_TOP = (int)((double)ConstantsWP.RATEGAME_DIALOG_MSG_TOP * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_HEIGHT = (int)((double)ConstantsWP.RATEGAME_DIALOG_HEIGHT * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_RATE_WIDTH = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_RATE_WIDTH * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_RATE_X = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_RATE_X * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_RATE_Y = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_RATE_Y * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_NO_WIDTH = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_NO_WIDTH * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_NO_X = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_NO_X * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_NO_Y = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_NO_Y * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_LATER_WIDTH = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_LATER_WIDTH * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_LATER_X = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_LATER_X * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_BTN_LATER_Y = (int)((double)ConstantsWP.RATEGAME_DIALOG_BTN_LATER_Y * 0.5);
+			ConstantsWP.RATEGAME_DIALOG_DECO_Y_1 = (int)((double)ConstantsWP.RATEGAME_DIALOG_DECO_Y_1 * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_MSG_TOP = (int)((double)ConstantsWP.GIFTGAME_DIALOG_MSG_TOP * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_HEIGHT = (int)((double)ConstantsWP.GIFTGAME_DIALOG_HEIGHT * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_BTN_YES_WIDTH = (int)((double)ConstantsWP.GIFTGAME_DIALOG_BTN_YES_WIDTH * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_BTN_YES_X = (int)((double)ConstantsWP.GIFTGAME_DIALOG_BTN_YES_X * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_BTN_YES_Y = (int)((double)ConstantsWP.GIFTGAME_DIALOG_BTN_YES_Y * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_BTN_NO_WIDTH = (int)((double)ConstantsWP.GIFTGAME_DIALOG_BTN_NO_WIDTH * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_BTN_NO_X = (int)((double)ConstantsWP.GIFTGAME_DIALOG_BTN_NO_X * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_BTN_NO_Y = (int)((double)ConstantsWP.GIFTGAME_DIALOG_BTN_NO_Y * 0.5);
+			ConstantsWP.GIFTGAME_DIALOG_DECO_Y_1 = (int)((double)ConstantsWP.GIFTGAME_DIALOG_DECO_Y_1 * 0.5);
+			ConstantsWP.GIFTGAME_LINE_SPACING_OFFSET = (int)((double)ConstantsWP.GIFTGAME_LINE_SPACING_OFFSET * 0.5);
+			ConstantsWP.RESUME_DIALOG_WIDTH = (int)((double)ConstantsWP.RESUME_DIALOG_WIDTH * 0.5);
+			ConstantsWP.MOREGAMES_WIDGET_WIDTH = (int)((double)ConstantsWP.MOREGAMES_WIDGET_WIDTH * 0.5);
+			ConstantsWP.MOREGAMES_WIDGET_HEIGHT = (int)((double)ConstantsWP.MOREGAMES_WIDGET_HEIGHT * 0.5);
+			ConstantsWP.MOREGAMES_WIDGET_X = (int)((double)ConstantsWP.MOREGAMES_WIDGET_X * 0.5);
+			ConstantsWP.MOREGAMES_WIDGET_Y = (int)((double)ConstantsWP.MOREGAMES_WIDGET_Y * 0.5);
+			ConstantsWP.MOREGAMES_WIDGET_BG_OFFSET = (int)((double)ConstantsWP.MOREGAMES_WIDGET_BG_OFFSET * 0.5);
+			ConstantsWP.MOREGAMES_BACK_WIDTH = (int)((double)ConstantsWP.MOREGAMES_BACK_WIDTH * 0.5);
+			ConstantsWP.MOREGAMES_BACK_HEIGHT = (int)((double)ConstantsWP.MOREGAMES_BACK_HEIGHT * 0.5);
+			ConstantsWP.MOREGAMES_BACK_X = (int)((double)ConstantsWP.MOREGAMES_BACK_X * 0.5);
+			ConstantsWP.MOREGAMES_BACK_Y = (int)((double)ConstantsWP.MOREGAMES_BACK_Y * 0.5);
+			ConstantsWP.MOREGAMES_HEADER_TEXT_X = (int)((double)ConstantsWP.MOREGAMES_HEADER_TEXT_X * 0.5);
+			ConstantsWP.MOREGAMES_HEADER_TEXT_Y = (int)((double)ConstantsWP.MOREGAMES_HEADER_TEXT_Y * 0.5);
+			ConstantsWP.MOREGAMES_LOADING_BALL_X = (int)((double)ConstantsWP.MOREGAMES_LOADING_BALL_X * 0.5);
+			ConstantsWP.MOREGAMES_LOADING_BALL_Y = (int)((double)ConstantsWP.MOREGAMES_LOADING_BALL_Y * 0.5);
+			ConstantsWP.MOREGAMES_LOADING_TEXT_Y_OFFSET = (int)((double)ConstantsWP.MOREGAMES_LOADING_TEXT_Y_OFFSET * 0.5);
+			ConstantsWP.MOREGAMES_LOADINGBALL_X = (int)((double)ConstantsWP.MOREGAMES_LOADINGBALL_X * 0.5);
+			ConstantsWP.MOREGAMES_LOADINGBALL_Y = (int)((double)ConstantsWP.MOREGAMES_LOADINGBALL_Y * 0.5);
+			ConstantsWP.BEJ3WIDGET_IMAGEBOX_OFFSET_SMALL = (int)((double)ConstantsWP.BEJ3WIDGET_IMAGEBOX_OFFSET_SMALL * 0.5);
+			ConstantsWP.BEJ3WIDGET_IMAGEBOX_OFFSET = (int)((double)ConstantsWP.BEJ3WIDGET_IMAGEBOX_OFFSET * 0.5);
+		}
+
+		public static void switchToFixedConstants()
+		{
+			ConstantsWP.DASHBOARD_PROFILE_BUTTON_OFFSET = 0f;
+			ConstantsWP.DASHBOARD_NEWS_BUTTON_OFFSET = 1f;
+			ConstantsWP.DASHBOARD_OPTIONS_BUTTON_OFFSET = 0f;
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_X = 6;
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_Y = 6;
+			ConstantsWP.BEJ3BUTTON_INSIDE_RECT_OFFSET = 1;
+			ConstantsWP.ZENINFODIALOG_MSG_START_Y = 140;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_Y = 170;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_HEIGHT = 250;
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_Y = 143;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_Y = 5;
+			ConstantsWP.TOOLTIP_ARROW_DISTANCE = 21;
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_DOWN = -8;
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_LEFT = -6;
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_RIGHT = -1;
+			ConstantsWP.TOOLTIP_ARROW_SIZE = 28;
+			ConstantsWP.BOARD_UI_HINT_BTN_WIDTH = 132;
+			ConstantsWP.BOARD_UI_HINT_BTN_X = 187;
+			ConstantsWP.ZENBOARD_UI_ZEN_BTN_X = 1;
+			ConstantsWP.ZENBOARD_UI_ZEN_BTN_WIDTH = ConstantsWP.BOARD_UI_HINT_BTN_WIDTH;
+			ConstantsWP.REPLAY_OFFSET_Y = -1;
+			ConstantsWP.SPEEDBOARD_TIMEDRAW_Y_OFFSET = 4;
+			ConstantsWP.MENU_INLAY_OFFSET_MAGIC_BOTTOM = 0;
+			ConstantsWP.BUTTERFLY_SPIDER_X_OFFSET = -100;
+		}
+
+		// Note: this type is marked as 'beforefieldinit'.
+		static ConstantsWP()
+		{
+			float num = ConstantsWP.DEVICE_WIDTH_F / 2f + 200f;
+			int main_MENU_TAB_WIDTH = ConstantsWP.MAIN_MENU_TAB_WIDTH;
+			ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_X = (int)(num + (float)0);
+			ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_Y = ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_Y;
+			ConstantsWP.MAIN_MENU_BUTTON_LIGHTNING_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_2_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + (float)ConstantsWP.MAIN_MENU_TAB_WIDTH);
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_2_Y = 690;
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_2_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+			ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - 150f + (float)(ConstantsWP.MAIN_MENU_TAB_WIDTH * 2));
+			ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_Y = 490;
+			ConstantsWP.MAIN_MENU_BUTTON_ICESTORM_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+			ConstantsWP.MAIN_MENU_BUTTON_POKER_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + 150f + (float)(ConstantsWP.MAIN_MENU_TAB_WIDTH * 2));
+			ConstantsWP.MAIN_MENU_BUTTON_POKER_Y = 490;
+			ConstantsWP.MAIN_MENU_BUTTON_POKER_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_3_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + (float)(ConstantsWP.MAIN_MENU_TAB_WIDTH * 2));
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_3_Y = 690;
+			ConstantsWP.MAIN_MENU_BUTTON_MORE_3_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+			ConstantsWP.MAIN_MENU_FOREGROUND_RIGHT_OFFSET_X = 1f;
+			ConstantsWP.MAIN_MENU_FOREGROUND_RIGHT_OFFSET_Y = 0f;
+			ConstantsWP.MAIN_MENU_L1_OFFSET_X = 0f;
+			ConstantsWP.MAIN_MENU_L1_OFFSET_Y = 0f;
+			ConstantsWP.MAIN_MENU_DOOR_OVERLAY_OFFSET_X = 1f;
+			ConstantsWP.MAIN_MENU_DOOR_OVERLAY_OFFSET_Y = 1f;
+			ConstantsWP.CRYSTALBALL_FONT_SCALE = 0.7f;
+			ConstantsWP.CRYSTALBALL_TEXT_1_1_Y = 25;
+			ConstantsWP.CRYSTALBALL_TEXT_2_1_Y = -5;
+			ConstantsWP.CRYSTALBALL_TEXT_2_2_Y = 60;
+			ConstantsWP.CRYSTALBALL_TEXT_3_1_Y = -25;
+			ConstantsWP.CRYSTALBALL_TEXT_3_2_Y = ConstantsWP.CRYSTALBALL_TEXT_3_1_Y + 60;
+			ConstantsWP.CRYSTALBALL_TEXT_3_3_Y = ConstantsWP.CRYSTALBALL_TEXT_3_2_Y + 60;
+			ConstantsWP.CRYSTALBALL_STOP_DRAW_OFFSET = 100;
+			ConstantsWP.CRYSTALBALL_BASE_SCALE = 0.17f;
+			ConstantsWP.CRYSTALBALL_HIGHLIGHT_SCALE_1 = 0.01f;
+			ConstantsWP.CRYSTALBALL_HIGHLIGHT_SCALE_2 = 0.1f;
+			ConstantsWP.TOP_BUTTON_ANIMATION_SPEED = 0f;
+			ConstantsWP.DASHBOARD_SLIDER_SPEED = 5f;
+			ConstantsWP.DASHBOARD_SLIDER_SPEED_SCALAR = 0.045f;
+			ConstantsWP.DASHBOARD_SLIDER_HIDE_BUTTON_POS = 600;
+			ConstantsWP.DASHBOARD_SLIDER_START_DRAW_X = 520;
+			ConstantsWP.DASHBOARD_PROFILE_BUTTON_OFFSET = -1f;
+			ConstantsWP.DASHBOARD_NEWS_BUTTON_OFFSET = 1f;
+			ConstantsWP.DASHBOARD_OPTIONS_BUTTON_OFFSET = 1f;
+			ConstantsWP.DASHBOARD_SHELF_OFFSCREEN_WIDTH = 90;
+			ConstantsWP.DASHBOARD_SHELF_HIDE_WIDTH = 20;
+			ConstantsWP.REPLAY_SLIDER_OPEN_X = 233;
+			ConstantsWP.REPLAY_OFFSET_Y = 0;
+			ConstantsWP.INTRO_DIALOG_TEXT_X = 50;
+			ConstantsWP.INTRO_DIALOG_TEXT_WIDTH = 640 - ConstantsWP.INTRO_DIALOG_TEXT_X * 2;
+			ConstantsWP.INTRO_DIALOG_TEXT_1_Y = 250;
+			ConstantsWP.INTRO_DIALOG_TEXT_2_Y = ConstantsWP.INTRO_DIALOG_TEXT_1_Y + 50;
+			ConstantsWP.INTRO_DIALOG_TEXT_3_Y = ConstantsWP.INTRO_DIALOG_TEXT_2_Y + 80;
+			ConstantsWP.INTRO_DIALOG_TEXT_4_Y = ConstantsWP.INTRO_DIALOG_TEXT_3_Y + 50;
+			ConstantsWP.INTRO_DIALOG_HEIGHT = 700;
+			ConstantsWP.BADGES_FOR_PAGE = 9;
+			ConstantsWP.BADGE_MENU_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.BADGE_MENU_HEIGHT = 970;
+			ConstantsWP.BADGE_MENU_HEADING_X = ConstantsWP.BADGE_MENU_WIDTH / 2;
+			ConstantsWP.BADGE_MENU_BADGES_POS_1 = 180;
+			ConstantsWP.BADGE_MENU_BADGES_POS_2 = 180;
+			ConstantsWP.BADGE_MENU_ELITE_BADGE_PADDING = 30;
+			ConstantsWP.BADGE_MENU_BADGES_PADDING_X = 20;
+			ConstantsWP.BADGE_MENU_BADGES_PER_ROW = 3;
+			ConstantsWP.BADGE_MENU_BADGES_POS_Y = 140;
+			ConstantsWP.BADGE_MENU_BADGES_POS_Y_DELTA = 170;
+			ConstantsWP.BADGE_MENU_ELITE_BADGES_POS_Y = 515;
+			ConstantsWP.BADGE_MENU_ELITE_HEADING_Y = 620;
+			ConstantsWP.BADGE_MENU_DIVIDER_2_Y = 660;
+			ConstantsWP.BADGEMENU_GAMECENTER_X = 567;
+			ConstantsWP.BADGEMENU_GAMECENTER_Y = 904;
+			ConstantsWP.BADGE_MENU_TOOLTIP_TOLERANCE = 60;
+			ConstantsWP.BADGE_MENU_TOOLTIP_WIDTH = 280;
+			ConstantsWP.BADGE_MENU_TOOLTIP_WIDTH_WIDE = 350;
+			ConstantsWP.BADGE_MENU_TOOLTIP_OFFSET = 35;
+			ConstantsWP.BADGEMENU_AWARDED_TOP_TEXT_Y = 80;
+			ConstantsWP.BADGEMENU_AWARDED_BTM_TEXT_Y = 800;
+			ConstantsWP.BADGEMENU_AWARDED_DESC_PAD_X = 40;
+			ConstantsWP.BADGEMENU_AWARDED_ALPHA = 210;
+			ConstantsWP.BADGEMENU_SLIDE_BUTTON_OFFSET_X = 0;
+			ConstantsWP.BADGEMENU_SLIDE_BUTTON_Y = 715;
+			ConstantsWP.BADGEMENU_CONTAINER_PADDING_X = 0;
+			ConstantsWP.BADGEMENU_CONTAINER_TOP = 200;
+			ConstantsWP.BADGEMENU_CONTAINER_BOTTOM = 200;
+			ConstantsWP.BADGEMENU_CONTAINER_PAGE_WIDTH = (int)(ConstantsWP.DEVICE_WIDTH_F - (float)(ConstantsWP.BADGEMENU_CONTAINER_PADDING_X * 2));
+			ConstantsWP.PROFILEMENU_BADGE_SINGLE_SECTION_WIDTH = ConstantsWP.BADGEMENU_CONTAINER_PAGE_WIDTH;
+			ConstantsWP.BADGEMENU_CONTAINER_HEIGHT = (int)(ConstantsWP.DEVICE_HEIGHT_F - (float)ConstantsWP.BADGEMENU_CONTAINER_TOP - (float)ConstantsWP.BADGEMENU_CONTAINER_BOTTOM - 10f);
+			ConstantsWP.GAMEDETAILMENU_HEADING_X = 320;
+			ConstantsWP.GAMEDETAILMENU_BACKBUTTON_X = 165;
+			ConstantsWP.GAMEDETAILMENU_PLAYBUTTON_X = 475;
+			ConstantsWP.GAMEDETAILMENU_PLAYBUTTON_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_WIDTH = 600;
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_HEIGHT = 0;
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_X = (int)((ConstantsWP.DEVICE_WIDTH_F - (float)ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_WIDTH) / 2f);
+			ConstantsWP.GAMEDETAILMENU_MODE_DESCRIPTION_Y = 265;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_X = 37;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_Y = 310;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_WIDTH = 640 - ConstantsWP.GAMEDETAILMENU_HIGHSCORES_X * 2;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_HEIGHT = 530;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_X = 30;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_Y = 150;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_WIDTH = 640 - ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_X * 2;
+			ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_HEIGHT = 390;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_TAB_PADDING = 60;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_TAB_WIDTH = 640;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_X = 0;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_WIDTH = 640 - ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_X * 2;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_HEIGHT = 560;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_CONTAINER_Y = 210;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SCORE_X = 320;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SCORE_Y = 10;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SWIPE_MSG_X = 320 - ConstantsWP.SLIDE_BUTTON_MESSAGE_WIDTH / 2;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SWIPE_MSG_Y_1 = 790;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_OFFSET_X = 10;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_Y = ConstantsWP.GAMEDETAILMENU_POST_GAME_SWIPE_MSG_Y_1 - ConstantsWP.SLIDE_BUTTON_TO_TEXT_SINGLE_OFFSET;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH = 640 - ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_X * 2;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X = 320 - ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH / 2;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_Y = 20;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X = ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X + ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH / 2;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_Y = ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_Y + 110;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_WIDTH = ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_X = ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_2_Y = 40;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_X = 70;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_DATA_X = 570;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_START_Y = 20;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_STEP_Y_BIG = 100;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_STATS_STEP_Y = 50;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_WIDTH = ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_WIDTH;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEIGHT = 220;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_X = ConstantsWP.GAMEDETAILMENU_HIGHSCORES_POST_GAME_X;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y = 320;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_X = ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_X + ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_WIDTH / 2;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_Y = ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y + 15;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_1 = 45;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_2 = 55;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_3 = 45;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_Y = 8;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_1_X = 100;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_FLAME_GEM_POS_Y = ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y + 115;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_2_X = 290;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_STAR_GEM_POS_Y = ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y + 105;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_3_X = 480;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_HYPERCUBE_POS_Y = ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y + 110;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_DIAMOND_MINE_POS_Y = ConstantsWP.GAMEDETAILMENU_POST_GAME_INLAY_1_Y + 110;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_SCROLLWIDGET_CORRECTION = 200;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_DIVIDER_Y = 75;
+			ConstantsWP.GAMEDETAILMENU_GAMECENTER_X = 570;
+			ConstantsWP.GAMEDETAILMENU_GAMECENTER_Y = 72;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH_INCL_GC = 490;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X_INCL_GC = 30;
+			ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X_INCL_GC = ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_X + ConstantsWP.GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH / 2 - 90;
+			ConstantsWP.ZENOPTIONS_SLIDER_WIDTH = 340;
+			ConstantsWP.ZENOPTIONS_MENU_SELECT_Y = 210;
+			ConstantsWP.ZENOPTIONS_BUTTON_STEP_Y = 100;
+			ConstantsWP.ZENOPTIONS_DESC_WIDTH = 600;
+			ConstantsWP.ZENOPTIONS_DESC_HEIGHT = 170;
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_START_DELAY_FRAMES = 100;
+			ConstantsWP.ZENOPTIONS_DESC_Y = 30;
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_HEIGHT = ConstantsWP.ZENOPTIONS_DESC_HEIGHT;
+			ConstantsWP.ZENOPTIONS_MANTRAS_DESC_HEIGHT = ConstantsWP.ZENOPTIONS_DESC_HEIGHT;
+			ConstantsWP.ZENOPTIONS_BREATH_MOD_DESC_HEIGHT = ConstantsWP.ZENOPTIONS_DESC_HEIGHT;
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SLIDE_OFFSET_Y = ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_HEIGHT + 30;
+			ConstantsWP.ZENOPTIONS_MANTRAS_SLIDE_OFFSET_Y = ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_HEIGHT + 50;
+			ConstantsWP.ZENOPTIONS_BREATH_MOD_ENABLE_OFFSET_Y = ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_HEIGHT + 50;
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_DESC_Y = 20;
+			ConstantsWP.ZENOPTIONS_MANTRAS_DESC_Y = 0;
+			ConstantsWP.ZENOPTIONS_BREATH_MOD_DESC_Y = 20;
+			ConstantsWP.ZENOPTIONS_AMBIENCE_ITEM_SIZE = 140;
+			ConstantsWP.ZENOPTIONS_AMBIENCE_WIDTH = ConstantsWP.ZENOPTIONS_AMBIENCE_ITEM_SIZE * 12;
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SELECTOR_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SELECTOR_HEIGHT = 140;
+			ConstantsWP.ZENOPTIONS_MANTRA_ITEM_SIZE = ConstantsWP.ZENOPTIONS_AMBIENCE_ITEM_SIZE;
+			ConstantsWP.ZENOPTIONS_MANTRA_WIDTH = ConstantsWP.ZENOPTIONS_MANTRA_ITEM_SIZE * 11;
+			ConstantsWP.ZENOPTIONS_MANTRA_SELECTOR_WIDTH = ConstantsWP.ZENOPTIONS_AMBIENT_SOUND_SELECTOR_WIDTH;
+			ConstantsWP.ZENOPTIONS_MANTRA_SELECTOR_HEIGHT = 140;
+			ConstantsWP.ZENOPTIONS_SWIPE_AMBIENT_Y = 400;
+			ConstantsWP.ZENOPTIONS_SWIPE_AMBIENT_H = 160;
+			ConstantsWP.ZENOPTIONS_SWIPE_MANTRA_Y = 490;
+			ConstantsWP.ZENOPTIONS_SWIPE_MANTRA_H = ConstantsWP.ZENOPTIONS_SWIPE_AMBIENT_H;
+			ConstantsWP.ZENOPTIONS_SCROLL_HEIGHT = 550;
+			ConstantsWP.ZENOPTIONS_CENTER_X = 320;
+			ConstantsWP.ZENOPTIONS_MUSIC_SLIDER_Y = 850;
+			ConstantsWP.ZENOPTIONS_RESUME_BTN_Y = 860;
+			ConstantsWP.ZENOPTIONS_BACK_BTN_Y = 860;
+			ConstantsWP.ZENOPTIONS_ENABLE_OFFSET_Y = 85;
+			ConstantsWP.ZENOPTIONS_SLIDE_OFFSET_Y = 70;
+			ConstantsWP.ZENOPTIONS_SLIDE_ITEM_LABEL_OFFSET_Y = 20;
+			ConstantsWP.ZENOPTIONS_SLIDER_HOR_THRESHOLD = 20;
+			ConstantsWP.ZENOPTIONS_INLAY_PAD_Y = 10;
+			ConstantsWP.ZENOPTIONS_ITEM_LEFT_OFFSET = 50;
+			ConstantsWP.ZENOPTIONS_ITEM_RIGHT_OFFSET = 580;
+			ConstantsWP.ZENOPTIONS_BTN_LEFT_OFFSET = 45;
+			ConstantsWP.ZENOPTIONS_BTN_RIGHT_OFFSET = 465;
+			ConstantsWP.ZENOPTIONS_ENABLE_CHECK_OFFSET_X = 40;
+			ConstantsWP.ZENOPTIONS_CONTAINER_Y = 210;
+			ConstantsWP.ZENOPTIONS_DESC_OFFSET_Y = 200;
+			ConstantsWP.AMBIENT_VOL_OFFSET_Y = 175;
+			ConstantsWP.MANTRA_SUBLIMINAL_CHECK_OFFSET_Y = 120;
+			ConstantsWP.MANTRA_SPEED_VIS_SLIDER_OFFSET_Y = 80;
+			ConstantsWP.ZENOPTIONS_MENU_BREATH_MOD_Y = 90;
+			ConstantsWP.ZENOPTIONS_MENU_BREATH_MOD_BACK_BTN_Y = 770;
+			ConstantsWP.ZENOPTIONS_BREATHMOD_VIS_CHECK_OFFSET_Y = 60;
+			ConstantsWP.BREATHMOD_SPEED_SLIDER_OFFSET_Y = ConstantsWP.MANTRA_SPEED_VIS_SLIDER_OFFSET_Y;
+			ConstantsWP.BREATHMOD_VOL_SLIDER_OFFSET_Y = 85;
+			ConstantsWP.ZENINFODIALOG_WIDTH = 640;
+			ConstantsWP.ZENINFODIALOG_MSG_LEFT_X = 65;
+			ConstantsWP.ZENINFODIALOG_MSG_START_Y = 280;
+			ConstantsWP.ZENINFODIALOG_MSG_HEIGHT = 115;
+			ConstantsWP.ZENINFODIALOG_GEM_BULLET_WIDTH = 55;
+			ConstantsWP.ZENINFODIALOG_GEM_BULLET_Y_OFFSET = 10;
+			ConstantsWP.HIGHSCORES_MENU_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.HIGHSCORES_MENU_HEADING_X = ConstantsWP.HIGHSCORES_MENU_WIDTH / 2;
+			ConstantsWP.HIGHSCORES_MENU_SCROLLWIDGET_CORRECTION = 135;
+			ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_HEIGHT = 0;
+			ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_X = ConstantsWP.HIGHSCORES_MENU_WIDTH / 2 - ConstantsWP.SLIDE_BUTTON_MESSAGE_WIDTH / 2;
+			ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_Y = 876;
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_PADDING_X = 0;
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_TOP = ConstantsWP.MENU_DEFAULT_PADDING_TOP;
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_BOTTOM = 205;
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_HEIGHT = 710;
+			ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_TOP = 90;
+			ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_BOTTOM = 0;
+			ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_X = 30;
+			ConstantsWP.HIGHSCORES_MENU_MODEWIDTH = (int)(ConstantsWP.DEVICE_WIDTH_F - (float)(ConstantsWP.HIGHSCORES_MENU_CONTAINER_PADDING_X * 2) - (float)ConstantsWP.HIGHSCORES_MENU_MODE_PADDING_X);
+			ConstantsWP.HIGHSCORES_MENU_CONTAINER_WIDTH = ConstantsWP.HIGHSCORES_MENU_WIDTH;
+			ConstantsWP.HIGHSCORES_MENU_SLIDE_BUTTON_OFFSET_X = 5;
+			ConstantsWP.HIGHSCORES_MENU_SLIDE_BUTTON_Y = ConstantsWP.HIGHSCORES_MENU_BOTTOM_MESSAGE_Y - ConstantsWP.SLIDE_BUTTON_TO_TEXT_OFFSET;
+			ConstantsWP.HIGHSCORES_MENU_MODE_BTN_BACK_X = ConstantsWP.HIGHSCORES_MENU_WIDTH / 2;
+			ConstantsWP.HIGHSCORES_MENU_MODE_BTN_BACK_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.HIGHSCORES_MENU_GAMECENTER_X = 567;
+			ConstantsWP.HIGHSCORES_MENU_GAMECENTER_Y = 904;
+			ConstantsWP.HIGHSCORESWIDGET_HEADING_Y = 30;
+			ConstantsWP.HIGHSCORESWIDGET_BOX_Y = 53;
+			ConstantsWP.HIGHSCORESWIDGET_TOPSCORES_HEADING_Y = 15;
+			ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_X = 60;
+			ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_Y = 20;
+			ConstantsWP.HIGHSCORESWIDGET_NAME_X = 150;
+			ConstantsWP.HIGHSCORESWIDGET_NAME_Y = ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_Y;
+			ConstantsWP.HIGHSCORESWIDGET_NAME_WIDTH = 200;
+			ConstantsWP.HIGHSCORESWIDGET_POINTS_X = 40;
+			ConstantsWP.HIGHSCORESWIDGET_POINTS_Y = ConstantsWP.HIGHSCORESWIDGET_ENTRYNUMBER_Y;
+			ConstantsWP.HIGHSCORESWIDGET_PICTURE_X = 70;
+			ConstantsWP.HIGHSCORESWIDGET_PICTURE_Y_OFFSET = 0;
+			ConstantsWP.HIGHSCORESWIDGET_ITEM_HEIGHT = 77;
+			ConstantsWP.HIGHSCORESWIDGET_ITEM_LINE_OFFSET_ODD = 1;
+			ConstantsWP.HIGHSCORESWIDGET_ITEM_TEXT_OFFSET = 10;
+			ConstantsWP.HIGHSCORESWIDGET_CONTAINER_OFFSET_Y = 2;
+			ConstantsWP.HIGHSCORESWIDGET_SCROLL_TO_OFFSET = 15;
+			ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_Y = 10;
+			ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_WIDTH = 120;
+			ConstantsWP.HIGHSCORESWIDGET_TOP_CURL_OFFSET = 240;
+			ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_Y = 15;
+			ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_SCALE = 0.8f;
+			ConstantsWP.HIGHSCORESWIDGET_BOTTOM_CURL_OFFSET = 230;
+			ConstantsWP.PROFILEMENU_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.PROFILEMENU_HEADING_LABEL_X = 320;
+			ConstantsWP.PROFILEMENU_NAME_LABEL_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.PROFILEMENU_NAME_LABEL_Y = ConstantsWP.DIALOG_HEADING_LABEL_Y + 25;
+			ConstantsWP.PROFILEMENU_NAME_LABEL_WIDTH = (int)(ConstantsWP.DEVICE_WIDTH_F - 50f);
+			ConstantsWP.PROFILEMENU_DIVIDER_NAME = ConstantsWP.PROFILEMENU_NAME_LABEL_Y + 100;
+			ConstantsWP.PROFILEMENU_DIVIDER_1_Y = 20;
+			ConstantsWP.PROFILEMENU_DIVIDER_2_Y = ConstantsWP.PROFILEMENU_DIVIDER_1_Y + 120;
+			ConstantsWP.PROFILEMENU_DIVIDER_3_Y = ConstantsWP.PROFILEMENU_DIVIDER_2_Y + 120;
+			ConstantsWP.PROFILEMENU_PLAYER_IMAGE_X = 30;
+			ConstantsWP.PROFILEMENU_PLAYER_IMAGE_Y = ConstantsWP.PROFILEMENU_DIVIDER_NAME + 45;
+			ConstantsWP.PROFILEMENU_DIVIDER_RANK = ConstantsWP.PROFILEMENU_PLAYER_IMAGE_Y + ConstantsWP.LARGE_PROFILE_PICTURE_SIZE + 45;
+			ConstantsWP.PROFILEMENU_RANKBAR_WIDTH = (int)(ConstantsWP.DEVICE_WIDTH_F - (float)(ConstantsWP.PROFILEMENU_PLAYER_IMAGE_X * 2) - (float)ConstantsWP.LARGE_PROFILE_PICTURE_SIZE - 10f);
+			ConstantsWP.PROFILEMENU_RANKBAR_X = (int)(ConstantsWP.DEVICE_WIDTH_F - (float)ConstantsWP.PROFILEMENU_RANKBAR_WIDTH - 30f);
+			ConstantsWP.PROFILEMENU_RANKBAR_Y = ConstantsWP.PROFILEMENU_PLAYER_IMAGE_Y + 29;
+			ConstantsWP.PROFILEMENU_RANK_LABEL_X = ConstantsWP.PROFILEMENU_RANKBAR_X + ConstantsWP.PROFILEMENU_RANKBAR_WIDTH / 2;
+			ConstantsWP.PROFILEMENU_RANK_LABEL_Y = ConstantsWP.PROFILEMENU_PLAYER_IMAGE_Y - 5;
+			ConstantsWP.PROFILEMENU_LABEL_OFFSET = 200;
+			ConstantsWP.PROFILEMENU_PADDING_X = 0;
+			ConstantsWP.PROFILEMENU_PADDING_TOP = 480;
+			ConstantsWP.PROFILEMENU_PADDING_BOTTOM = 120;
+			ConstantsWP.PROFILEMENU_CONTAINER_HEIGHT = 800;
+			ConstantsWP.PROFILEMENU_BUTTON_HEIGHT = 200;
+			ConstantsWP.PROFILEMENU_BUTTON_PADDING_X = 0;
+			ConstantsWP.PROFILEMENU_GOTO_BUTTON_WIDTH = (int)(ConstantsWP.DEVICE_WIDTH_F - 60f);
+			ConstantsWP.PROFILEMENU_STATS_Y = ConstantsWP.PROFILEMENU_DIVIDER_3_Y;
+			ConstantsWP.PROFILEMENU_HIGHSCORES_Y = ConstantsWP.PROFILEMENU_DIVIDER_1_Y;
+			ConstantsWP.PROFILEMENU_BADGES_Y = ConstantsWP.PROFILEMENU_DIVIDER_2_Y;
+			ConstantsWP.PROFILEMENU_BUTTON_WIDTH = 280;
+			ConstantsWP.PROFILEMENU_BACK_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - 150f);
+			ConstantsWP.PROFILEMENU_EDIT_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + 150f);
+			ConstantsWP.PROFILEMENU_BOTTOM_BUTTON_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.PROFILEMENU_BUTTON_HEADING_Y = 15;
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_X_1 = 40;
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_X_2 = 640 - ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_X_1;
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_Y_1 = 70;
+			ConstantsWP.PROFILEMENU_BUTTON_MESSAGE_Y_2 = 110;
+			ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_WIDTH = 500;
+			ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_X = 320 - ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_WIDTH / 2;
+			ConstantsWP.PROFILEMENU_BUTTON_EXTRA_MESSAGE_Y = 110;
+			ConstantsWP.PROFILEMENU_BUTTON_MINI_BUTTON_X = 540;
+			ConstantsWP.PROFILEMENU_BUTTON_MINI_BUTTON_Y = -10;
+			ConstantsWP.PROFILEMENU_STATS_BTN_OFFSET_Y = 0;
+			ConstantsWP.PROFILEMENU_SCORES_BTN_OFFSET_Y = 0;
+			ConstantsWP.PROFILEMENU_BADGES_BTN_OFFSET_Y = 0;
+			ConstantsWP.PROFILEMENU_BADGE_X = 160;
+			ConstantsWP.PROFILEMENU_BADGE_Y = 130;
+			ConstantsWP.PROFILEMENU_BADGE_WIDTH = 140;
+			ConstantsWP.PROFILEMENU_BADGE_SCALE = 1f;
+			ConstantsWP.PROFILEMENU_GAMECENTER_X = 570;
+			ConstantsWP.PROFILEMENU_GAMECENTER_Y = 352;
+			ConstantsWP.EDITPROFILEMENU_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.EDITPROFILEMENU_HEADING_X = 320;
+			ConstantsWP.EDITPROFILEMENU_HEADING_Y = ConstantsWP.DIALOG_HEADING_LABEL_Y;
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X = 400;
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y = 220;
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_WIDTH = 390;
+			ConstantsWP.EDITPROFILEMENU_DIVIDER_1_Y = 370;
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_X = 87;
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_Y = ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y;
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X_FIRST_TIME = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y_FIRST_TIME = 140;
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_X_FIRSTTIME = ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X_FIRST_TIME - ConstantsWP.LARGE_PROFILE_PICTURE_SIZE / 2;
+			ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_Y_FIRSTTIME = ConstantsWP.EDITPROFILEMENU_NAME_LABEL_Y_FIRST_TIME + 80;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_X = 80;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_Y = 80;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ROWS = 5;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_COLUMNS = 6;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_WIDTH = ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_X * ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_COLUMNS;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_X = 320 - ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_WIDTH / 2;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_Y = ConstantsWP.EDITPROFILEMENU_DIVIDER_1_Y + 75;
+			ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_HEIGHT = ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_Y * ConstantsWP.EDITPROFILEMENU_IMAGE_LIBRARY_ROWS;
+			ConstantsWP.EDITPROFILEMENU_GET_PIC_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.EDITPROFILEMENU_GET_PIC_Y = ConstantsWP.EDITPROFILEMENU_DIVIDER_1_Y + 30;
+			ConstantsWP.EDITPROFILEMENU_BUTTON_WIDTH = 500;
+			ConstantsWP.EDITPROFILEMENU_EDIT_NAME_Y = ConstantsWP.EDITPROFILEMENU_PLAYER_IMAGE_Y + 40;
+			ConstantsWP.EDITPROFILEMENU_EDIT_NAME_X = ConstantsWP.EDITPROFILEMENU_NAME_LABEL_X;
+			ConstantsWP.EDITPROFILEMENU_PIC_LIB_Y = ConstantsWP.EDITPROFILEMENU_GET_PIC_Y + 30;
+			ConstantsWP.EDITPROFILEMENU_PIC_CAM_Y = 700;
+			ConstantsWP.EDITPROFILEMENU_SAVE_X = ConstantsWP.EDITPROFILEMENU_WIDTH / 2;
+			ConstantsWP.EDITPROFILEMENU_SAVE_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.NEWUSERDIALOG_HEIGHT = 900;
+			ConstantsWP.NEWUSERDIALOG_Y = 90;
+			ConstantsWP.NEWUSERDIALOG_WIDTH = 0;
+			ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_Y = 210;
+			ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_PADDING = 50;
+			ConstantsWP.NEWUSERDIALOG_EXTRA_TEXT_HEIGHT = 100;
+			ConstantsWP.NEWUSERDIALOG_TEXTBOX_WIDTH = 400;
+			ConstantsWP.NEWUSERDIALOG_TEXTBOX_Y_OFFSET = 250;
+			ConstantsWP.NEWUSERDIALOG_HEADING_Y = 110;
+			ConstantsWP.NEWUSERDIALOG_DIVIDER_Y = 225;
+			ConstantsWP.WELCOME_DIALOG_TEXTBOX_Y_OFFSET = 560;
+			ConstantsWP.WELCOME_DIALOG_MESSAGE_Y = 260;
+			ConstantsWP.CHANGEPICTUREDIALOG_CURRENT_IMAGE_X = 320;
+			ConstantsWP.CHANGEPICTUREDIALOG_CURRENT_IMAGE_Y = 170;
+			ConstantsWP.CHANGEPICTUREDIALOG_BUTTON_OFFSET = 50;
+			ConstantsWP.CHANGEPICTUREDIALOG_BUTTON_SIZE = 250;
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_X = 50;
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_Y = 650;
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_WIDTH = 640 - ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_SCROLLER_X * 2;
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_X_OFFSET = 15;
+			ConstantsWP.CHANGEPICTUREDIALOG_IMAGE_Y_OFFSET = 15;
+			ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_WIDTH = 500;
+			ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_WIDTH = 500;
+			ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_X = 320 - ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_WIDTH / 2;
+			ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_X = 320 - ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_WIDTH / 2;
+			ConstantsWP.CHANGEPICTUREDIALOG_LIBRARY_BUTTON_Y = 300;
+			ConstantsWP.CHANGEPICTUREDIALOG_CAMERA_BUTTON_Y = 400;
+			ConstantsWP.STATS_MENU_HEADING_X = 320;
+			ConstantsWP.STATS_MENU_HEADINGS_STEP_Y = 50;
+			ConstantsWP.STATS_MENU_TOP_ALPHA = 130;
+			ConstantsWP.STATS_MENU_BOTTOM_ALPHA = 720;
+			ConstantsWP.STATS_MENU_ALPHA_PADDING = 50;
+			ConstantsWP.STATS_MENU_DIVIDER_2_Y = 320;
+			ConstantsWP.STATS_MENU_DIVIDER_3_Y = ConstantsWP.STATS_MENU_DIVIDER_2_Y + 140;
+			ConstantsWP.STATS_MENU_HEADINGS_START_Y_1 = 55;
+			ConstantsWP.STATS_MENU_HEADINGS_START_Y_2 = ConstantsWP.STATS_MENU_DIVIDER_2_Y + 65;
+			ConstantsWP.STATS_MENU_HEADINGS_START_Y_3 = ConstantsWP.STATS_MENU_DIVIDER_3_Y + 65;
+			ConstantsWP.STATS_MENU_DATA_Y_OFFSET = 0;
+			ConstantsWP.STATS_MENU_CONTAINER_PADDING_X = 20;
+			ConstantsWP.STATS_MENU_CONTAINER_PADDING_TOP = ConstantsWP.MENU_DEFAULT_PADDING_TOP;
+			ConstantsWP.STATS_MENU_CONTAINER_PADDING_BOTTOM = ConstantsWP.MENU_DEFAULT_PADDING_BOTTOM;
+			ConstantsWP.STATS_MENU_CONTAINER_HEIGHT = 640;
+			ConstantsWP.STATS_MENU_HEADINGS_X = 40;
+			ConstantsWP.STATS_MENU_STATS_X = 550;
+			ConstantsWP.STATS_MENU_BACK_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.STATS_MENU_BACK_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.CREDITSMENU_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.CREDITSMENU_HEADING_LABEL_X = ConstantsWP.CREDITSMENU_WIDTH / 2;
+			ConstantsWP.CREDITSMENU_PADDING_X = 0;
+			ConstantsWP.CREDITSMENU_PADDING_TOP = ConstantsWP.MENU_DEFAULT_PADDING_TOP;
+			ConstantsWP.CREDITSMENU_PADDING_BOTTOM = ConstantsWP.MENU_DEFAULT_PADDING_BOTTOM + 45;
+			ConstantsWP.CREDITSMENU_SCROLL_START = 580;
+			ConstantsWP.CREDITSMENU_HEIGHT = 12400;
+			ConstantsWP.CREDITSMENU_SPEED = -20f;
+			ConstantsWP.CREDITSMENU_SPEED_CHANGE = 5f;
+			ConstantsWP.CREDITSMENU_START = 200;
+			ConstantsWP.CREDITSMENU_LOGO_Y = 60;
+			ConstantsWP.CREDITSMENU_LOGO_FADE_OFFSET_TOP = 30;
+			ConstantsWP.CREDITSMENU_LOGO_FADE_OFFSET_BOTTOM = 90;
+			ConstantsWP.CREDITSMENU_ROLE_DIST = 100;
+			ConstantsWP.CREDITSMENU_NAME_HEIGHT = 50;
+			ConstantsWP.CREDITSMENU_SUB_HEADING_DIST = 90;
+			ConstantsWP.CREDITSMENU_EXTRA_MESSAGE_HEIGHT = 50;
+			ConstantsWP.CREDITSMENU_EXTRA_MESSAGE_OFFSET = 800;
+			ConstantsWP.CREDITSMENU_TOP_ALPHA = 150;
+			ConstantsWP.CREDITSMENU_BOTTOM_ALPHA = 900;
+			ConstantsWP.CREDITSMENU_ALPHA_PADDING = 50;
+			ConstantsWP.CREDITSMENU_BUTTON_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.MAINMENU_OPTIONSMENU_BUTTON_WIDTH = 280;
+			ConstantsWP.MAINMENU_OPTIONSMENU_EXPANDED_POS = (int)(ConstantsWP.DEVICE_HEIGHT_F - 460f);
+			ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - 150f);
+			ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_Y = 200;
+			ConstantsWP.MAINMENU_OPTIONSMENU_OPTIONS_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + 150f);
+			ConstantsWP.MAINMENU_OPTIONSMENU_OPTIONS_Y = ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_Y;
+			ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_X = ConstantsWP.MAINMENU_OPTIONSMENU_OPTIONS_X;
+			ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_Y = ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_Y + 100;
+			ConstantsWP.MAINMENU_OPTIONSMENU_HELP_X = ConstantsWP.MAINMENU_OPTIONSMENU_PROFILE_X;
+			ConstantsWP.MAINMENU_OPTIONSMENU_HELP_Y = ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_Y;
+			ConstantsWP.MAINMENU_OPTIONSMENU_BACK_Y = ConstantsWP.MAINMENU_OPTIONSMENU_MOREGAMES_1_Y + 100;
+			ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_X = 275;
+			ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_Y = 870;
+			ConstantsWP.MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_W = 275;
+			ConstantsWP.OPTIONSMENU_CONTAINER_Y = 150;
+			ConstantsWP.OPTIONSMENU_CONTAINER_W = 640;
+			ConstantsWP.OPTIONSMENU_DIVIDER_1 = 550;
+			ConstantsWP.OPTIONSMENU_BOX_1_X = 20;
+			ConstantsWP.OPTIONSMENU_BOX_1_Y = 150 - ConstantsWP.OPTIONSMENU_CONTAINER_Y;
+			ConstantsWP.OPTIONSMENU_BOX_1_W = 640 - ConstantsWP.OPTIONSMENU_BOX_1_X * 2;
+			ConstantsWP.OPTIONSMENU_BOX_1_H = 390;
+			ConstantsWP.OPTIONSMENU_BOX_2_X = 20;
+			ConstantsWP.OPTIONSMENU_BOX_2_Y = 570 - ConstantsWP.OPTIONSMENU_CONTAINER_Y;
+			ConstantsWP.OPTIONSMENU_BOX_2_W = 640 - ConstantsWP.OPTIONSMENU_BOX_2_X * 2;
+			ConstantsWP.OPTIONSMENU_BOX_2_H = 100;
+			ConstantsWP.OPTIONSMENU_CONTAINER_H = ConstantsWP.OPTIONSMENU_BOX_2_Y + ConstantsWP.OPTIONSMENU_BOX_2_H;
+			ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_X = 70;
+			ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_Y = ConstantsWP.OPTIONSMENU_BOX_1_Y + 50;
+			ConstantsWP.OPTIONSMENU_MUTE_LABEL_X = ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_X + 50;
+			ConstantsWP.OPTIONSMENU_MUTE_LABEL_Y = ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_Y - ConstantsWP.LABEL_TO_CHECKBOX_OFFSET;
+			ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_X = ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_X;
+			ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_Y = ConstantsWP.OPTIONSMENU_BOX_2_Y + 50;
+			ConstantsWP.OPTIONSMENU_AUTOHINT_LABEL_X = ConstantsWP.OPTIONSMENU_MUTE_LABEL_X;
+			ConstantsWP.OPTIONSMENU_AUTOHINT_LABEL_Y = ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_Y - ConstantsWP.LABEL_TO_CHECKBOX_OFFSET;
+			ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + 50f);
+			ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_Y = ConstantsWP.OPTIONSMENU_AUTOHINT_CHECKBOX_Y;
+			ConstantsWP.OPTIONSMENU_TUTORIAL_LABEL_X = ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_X + 50;
+			ConstantsWP.OPTIONSMENU_TUTORIAL_LABEL_Y = ConstantsWP.OPTIONSMENU_TUTORIAL_CHECKBOX_Y - ConstantsWP.LABEL_TO_CHECKBOX_OFFSET;
+			ConstantsWP.OPTIONSMENU_SLIDER_WIDTH = 430;
+			ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_Y = 300 - ConstantsWP.OPTIONSMENU_CONTAINER_Y;
+			ConstantsWP.OPTIONSMENU_VOICE_SLIDER_Y = ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_Y + 90;
+			ConstantsWP.OPTIONSMENU_FX_SLIDER_Y = ConstantsWP.OPTIONSMENU_VOICE_SLIDER_Y + 90;
+			ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_X = 150;
+			ConstantsWP.OPTIONSMENU_FX_SLIDER_X = ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_X;
+			ConstantsWP.OPTIONSMENU_VOICE_SLIDER_X = ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_X;
+			ConstantsWP.OPTIONSMENU_MUSIC_LABEL_X = ConstantsWP.OPTIONSMENU_MUTE_CHECKBOX_X - 20;
+			ConstantsWP.OPTIONSMENU_FX_LABEL_X = ConstantsWP.OPTIONSMENU_MUSIC_LABEL_X;
+			ConstantsWP.OPTIONSMENU_VOICE_LABEL_X = ConstantsWP.OPTIONSMENU_MUSIC_LABEL_X;
+			ConstantsWP.OPTIONSMENU_MUSIC_LABEL_Y = ConstantsWP.OPTIONSMENU_MUSIC_SLIDER_Y - 35;
+			ConstantsWP.OPTIONSMENU_FX_LABEL_Y = ConstantsWP.OPTIONSMENU_FX_SLIDER_Y - 35;
+			ConstantsWP.OPTIONSMENU_VOICE_LABEL_Y = ConstantsWP.OPTIONSMENU_VOICE_SLIDER_Y - 35;
+			ConstantsWP.OPTIONSMENU_BUTTON_WIDTH = 280;
+			ConstantsWP.OPTIONSMENU_BUTTON_WIDTH_LONG = 590;
+			ConstantsWP.OPTIONSMENU_CREDITS_X = ConstantsWP.MENU_QUAD_BUTTON_RIGHT_X;
+			ConstantsWP.OPTIONSMENU_CREDITS_Y = ConstantsWP.MENU_QUAD_BUTTON_BTM_Y;
+			ConstantsWP.OPTIONSMENU_BACK_X = ConstantsWP.MENU_QUAD_BUTTON_LEFT_X;
+			ConstantsWP.OPTIONSMENU_BACK_Y = ConstantsWP.MENU_QUAD_BUTTON_BTM_Y;
+			ConstantsWP.OPTIONSMENU_ABOUT_X = ConstantsWP.MENU_QUAD_BUTTON_RIGHT_X;
+			ConstantsWP.OPTIONSMENU_ABOUT_Y = ConstantsWP.MENU_QUAD_BUTTON_TOP_Y;
+			ConstantsWP.OPTIONSMENU_ABOUT_Y_2 = ConstantsWP.OPTIONSMENU_BACK_Y;
+			ConstantsWP.OPTIONSMENU_LEGAL_X = ConstantsWP.MENU_QUAD_BUTTON_LEFT_X;
+			ConstantsWP.OPTIONSMENU_LEGAL_Y = ConstantsWP.MENU_QUAD_BUTTON_TOP_Y;
+			ConstantsWP.PAUSEMENU_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.PAUSEMENU_HEIGHT = (int)ConstantsWP.DEVICE_HEIGHT_F;
+			ConstantsWP.PAUSEMENU_HEIGHT_ZEN = ConstantsWP.PAUSEMENU_HEIGHT;
+			ConstantsWP.PAUSEMENU_ZEN_OVERLAY_HEIGHT = 636;
+			ConstantsWP.PAUSEMENU_X = 0;
+			ConstantsWP.PAUSEMENU_Y = 0;
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_X = ConstantsWP.MENU_QUAD_BUTTON_LEFT_X;
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_Y = ConstantsWP.MENU_QUAD_BUTTON_TOP_Y;
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_ZEN_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.PAUSEMENU_BUTTON_HELP_ZEN_Y = ConstantsWP.MENU_QUAD_BUTTON_TOP_Y;
+			ConstantsWP.PAUSEMENU_BUTTON_RESTART_X = ConstantsWP.MENU_QUAD_BUTTON_RIGHT_X;
+			ConstantsWP.PAUSEMENU_BUTTON_RESTART_Y = ConstantsWP.MENU_QUAD_BUTTON_TOP_Y;
+			ConstantsWP.PAUSEMENU_BUTTON_MAINMENU_X = ConstantsWP.MENU_QUAD_BUTTON_LEFT_X;
+			ConstantsWP.PAUSEMENU_BUTTON_MAINMENU_Y = ConstantsWP.MENU_QUAD_BUTTON_BTM_Y;
+			ConstantsWP.PAUSEMENU_BUTTON_RESUME_X = ConstantsWP.MENU_QUAD_BUTTON_RIGHT_X;
+			ConstantsWP.PAUSEMENU_BUTTON_RESUME_Y = ConstantsWP.MENU_QUAD_BUTTON_BTM_Y;
+			ConstantsWP.PAUSEMENU_BUTTON_WIDTH = ConstantsWP.OPTIONSMENU_BUTTON_WIDTH;
+			ConstantsWP.PAUSEMENU_FULL_BUTTON_WIDTH = (int)(ConstantsWP.DEVICE_WIDTH_F - (float)(ConstantsWP.PAUSEMENU_BUTTON_HELP_X * 2) + (float)ConstantsWP.PAUSEMENU_BUTTON_WIDTH);
+			ConstantsWP.PAUSEMENU_BUTTON_WIDTH_ZEN = ConstantsWP.PAUSEMENU_BUTTON_WIDTH;
+			ConstantsWP.PAUSEMENU_EXPANDER_DISTANCE = 0;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_BREATH_Y = 5;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_BREATH_Y_2 = 5;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y = 30;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_2 = 80;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_3 = 70;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_4 = 60;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y = 30;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_2 = 80;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_3 = 80;
+			ConstantsWP.PAUSEMENU_ZEN_OFFSET_MANTRA_Y_4 = 80;
+			ConstantsWP.PAUSEMENU_HINT_LABEL_WIDTH = 500;
+			ConstantsWP.PAUSEMENU_HINT_LABEL_HEIGHT = 200;
+			ConstantsWP.PAUSEMENU_HINT_LABEL_X = ConstantsWP.PAUSEMENU_WIDTH / 2 - ConstantsWP.PAUSEMENU_HINT_LABEL_WIDTH / 2;
+			ConstantsWP.PAUSEMENU_HINT_LABEL_Y = 140;
+			ConstantsWP.LEGALMENU_HEADING_LABEL_X = 320;
+			ConstantsWP.LEGALMENU_BOX_1_W = (int)(ConstantsWP.DEVICE_WIDTH_F - 40f);
+			ConstantsWP.LEGALMENU_BOX_1_X = 320 - ConstantsWP.LEGALMENU_BOX_1_W / 2;
+			ConstantsWP.LEGALMENU_BOX_1_Y = 570;
+			ConstantsWP.LEGALMENU_BOX_1_H = 270;
+			ConstantsWP.LEGALMENU_BUTTON_WIDTH = (int)(ConstantsWP.DEVICE_WIDTH_F - 40f);
+			ConstantsWP.LEGALMENU_BUTTON_BACK_X = 320;
+			ConstantsWP.LEGALMENU_BUTTON_BACK_Y = 705;
+			ConstantsWP.LEGALMENU_BUTTON_EULA_X = 320;
+			ConstantsWP.LEGALMENU_BUTTON_EULA_Y = ConstantsWP.MENU_DIVIDER_Y + 90;
+			ConstantsWP.LEGALMENU_BUTTON_PRIVACY_X = ConstantsWP.LEGALMENU_BUTTON_EULA_X;
+			ConstantsWP.LEGALMENU_BUTTON_PRIVACY_Y = ConstantsWP.LEGALMENU_BUTTON_EULA_Y + 100;
+			ConstantsWP.LEGALMENU_BUTTON_TERMS_X = ConstantsWP.LEGALMENU_BUTTON_EULA_X;
+			ConstantsWP.LEGALMENU_BUTTON_TERMS_Y = ConstantsWP.LEGALMENU_BUTTON_PRIVACY_Y + 100;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_CHECKBOX_X = ConstantsWP.LEGALMENU_BOX_1_X + 40;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_CHECKBOX_Y = ConstantsWP.LEGALMENU_BOX_1_Y + 42;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_X = ConstantsWP.LEGALMENU_BOX_1_X + 80;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_Y = ConstantsWP.LEGALMENU_BOX_1_Y + 30;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_LINESPACING_OFFSET = 6;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_X = ConstantsWP.LEGALMENU_BOX_1_X + 60;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_Y = ConstantsWP.LEGALMENU_BOX_1_Y + ConstantsWP.LEGALMENU_BOX_1_H / 2 + 20;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_HEIGHT = 0;
+			ConstantsWP.LEGALMENU_ANONYMOUS_STATS_LABEL_WIDTH = ConstantsWP.LEGALMENU_BOX_1_W - 60 - 20;
+			ConstantsWP.ABOUTMENU_OFFSET_Y = 401;
+			ConstantsWP.ABOUTMENU_HEADING_LABEL_X = 320;
+			ConstantsWP.ABOUTMENU_HEADING_LABEL_Y = ConstantsWP.DIALOG_HEADING_LABEL_Y;
+			ConstantsWP.ABOUTMENU_DIVIDER_1 = 570;
+			ConstantsWP.ABOUTMENU_DIVIDER_2 = ConstantsWP.ABOUTMENU_DIVIDER_1 + 200;
+			ConstantsWP.ABOUTMENU_BOX_1_W = (int)(ConstantsWP.DEVICE_WIDTH_F - 40f);
+			ConstantsWP.ABOUTMENU_BOX_1_H = 335;
+			ConstantsWP.ABOUTMENU_BOX_1_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - (float)(ConstantsWP.ABOUTMENU_BOX_1_W / 2));
+			ConstantsWP.ABOUTMENU_BOX_1_Y = 210;
+			ConstantsWP.ABOUTMENU_BOX_2_W = ConstantsWP.ABOUTMENU_BOX_1_W;
+			ConstantsWP.ABOUTMENU_BOX_2_H = 200;
+			ConstantsWP.ABOUTMENU_BOX_2_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - (float)(ConstantsWP.ABOUTMENU_BOX_2_W / 2));
+			ConstantsWP.ABOUTMENU_BOX_2_Y = 640;
+			ConstantsWP.ABOUTMENU_BACK_BUTTON_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.ABOUTMENU_BACK_BUTTON_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.ABOUTMENU_BACK_BUTTON_WIDTH = 550;
+			ConstantsWP.ABOUTMENU_LINK_X = 320;
+			ConstantsWP.ABOUTMENU_MESSAGE_2_TEXT_OFFSET = 0;
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_WIDTH = ConstantsWP.ABOUTMENU_BOX_1_W - 40;
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_HEIGHT = 50;
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_HEIGHT_2 = 40;
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LINK_HEIGHT = 10;
+			ConstantsWP.ABOUTMENU_POST_LINK_OFFSET_Y = 25;
+			ConstantsWP.ABOUTMENU_SUPPORT_Y = 640;
+			ConstantsWP.ABOUTMENU_VERSION_Y_OFFSET = 30;
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_X = 320 - ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_WIDTH / 2;
+			ConstantsWP.ABOUTMENU_MESSAGE_2_LABEL_Y = ConstantsWP.ABOUTMENU_BOX_1_Y + 20;
+			ConstantsWP.ABOUTMENU_CLOSE_BUTTON_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.ABOUTMENU_CLOSE_BUTTON_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y - ConstantsWP.ABOUTMENU_OFFSET_Y + 106;
+			ConstantsWP.RANKUPDIALOG_WIDTH = 600;
+			ConstantsWP.RANKUPDIALOG_HEIGHT = 630;
+			ConstantsWP.RANKUPDIALOG_BUTTON_OK_WIDTH = 300;
+			ConstantsWP.RANKUPDIALOG_BUTTON_OK_X = ConstantsWP.RANKUPDIALOG_WIDTH / 2 - ConstantsWP.RANKUPDIALOG_BUTTON_OK_WIDTH / 2;
+			ConstantsWP.RANKUPDIALOG_BUTTON_OK_Y = 510;
+			ConstantsWP.RANKUPDIALOG_RANKBAR_Y = 375;
+			ConstantsWP.RANKUPDIALOG_RANKBAR_WIDTH = 500;
+			ConstantsWP.RANKUPDIALOG_MSG_1_WIDTH = 400;
+			ConstantsWP.RANKUPDIALOG_MSG_1_HEIGHT = 100;
+			ConstantsWP.RANKUPDIALOG_MSG_1_Y = 250;
+			ConstantsWP.RANKUPDIALOG_MSG_2_Y = 260;
+			ConstantsWP.RANKUPDIALOG_MSG_3_Y = 390;
+			ConstantsWP.RANKUPDIALOG_MSG_4_Y = ConstantsWP.RANKUPDIALOG_MSG_3_Y + 80;
+			ConstantsWP.RANKUPDIALOG_MSG_5_Y = ConstantsWP.RANKUPDIALOG_MSG_2_Y + 80;
+			ConstantsWP.RANKUPDIALOG_FONT_SCALE_OFFSET = 8;
+			ConstantsWP.DIALOGBOX_BUTTON_1_Y_1_BUTTON = 30;
+			ConstantsWP.DIALOGBOX_BUTTON_WIDTH_1_BUTTON = 350;
+			ConstantsWP.DIALOGBOX_BUTTON_1_X_2_BUTTONS = 30;
+			ConstantsWP.DIALOGBOX_BUTTON_1_Y_2_BUTTONS = 30;
+			ConstantsWP.DIALOGBOX_BUTTON_2_X_2_BUTTONS = 30;
+			ConstantsWP.DIALOGBOX_BUTTON_2_Y_2_BUTTONS = 140;
+			ConstantsWP.DIALOGBOX_BUTTON_WIDTH_2_BUTTONS = 500;
+			ConstantsWP.DIALOGBOX_BUTTON_1_X_3_BUTTONS = 30;
+			ConstantsWP.DIALOGBOX_BUTTON_2_X_3_BUTTONS = 30;
+			ConstantsWP.DIALOGBOX_BUTTON_1_Y_3_BUTTONS = 30;
+			ConstantsWP.DIALOGBOX_BUTTON_2_Y_3_BUTTONS = 140;
+			ConstantsWP.DIALOGBOX_BUTTON_3_Y_3_BUTTONS = 250;
+			ConstantsWP.DIALOGBOX_BUTTON_WIDTH_3_BUTTONS = 500;
+			ConstantsWP.DIALOGBOX_MESSAGE_PADDING_X = 50;
+			ConstantsWP.DIALOGBOX_MESSAGE_PADDING_TOP = 250;
+			ConstantsWP.DIALOGBOX_MIN_WIDTH = 640;
+			ConstantsWP.DIALOGBOX_MIN_HEIGHT = 300;
+			ConstantsWP.DIALOGBOX_MAX_HEIGHT = (int)ConstantsWP.DEVICE_HEIGHT_F;
+			ConstantsWP.DIALOGBOX_BUTTON_MEASURE_HEIGHT = 110;
+			ConstantsWP.DIALOGBOX_EXTRA_HEIGHT = 40;
+			ConstantsWP.MENU_BACKGROUND_FADE_IN_SPEED = 0.3f;
+			ConstantsWP.MENU_BACKGROUND_FADE_OUT_SPEED = 0.1f;
+			ConstantsWP.EDITWIDGET_BOX_PADDING_X = 20;
+			ConstantsWP.EDITWIDGET_CURSOR_OFFSET = 4;
+			ConstantsWP.EDITWIDGET_HEIGHT = 50;
+			ConstantsWP.EDITWIDGET_BACKGROUND_OFFSET = 20;
+			ConstantsWP.DIALOG_RESTART_GAME_WIDTH = 600;
+			ConstantsWP.DIALOGBOX_HEADING_LABEL_Y = ConstantsWP.DIALOG_HEADING_LABEL_Y + 25;
+			ConstantsWP.DIALOGBOX_HEADING_LABEL_SPLIT_Y = 100;
+			ConstantsWP.DIALOGBOX_HEADING_LABEL_MAX_WIDTH_OFFSET = 50;
+			ConstantsWP.DIALOG_HEADING_LABEL_SPLIT_Y = 80;
+			ConstantsWP.LISTBOX_HEADING_OFFSET = 0;
+			ConstantsWP.LISTBOX_FOOTER_OFFSET = 0;
+			ConstantsWP.LISTBOX_BG_OFFSET_TOP = 50;
+			ConstantsWP.LISTBOX_BG_OFFSET_BOTTOM = 50;
+			ConstantsWP.LISTBOX_DIVIDER_OFFSET_1 = 4;
+			ConstantsWP.LISTBOX_DIVIDER_OFFSET_2 = 4;
+			ConstantsWP.LISTBOX_LINE_HEIGHT = 5;
+			ConstantsWP.LISTBOX_LINE_HEIGHT_2 = 4;
+			ConstantsWP.LISTBOX_LINE_OFFSET_1 = 4;
+			ConstantsWP.LISTBOX_SHADOW_X = 3;
+			ConstantsWP.LISTBOX_SHADOW_Y = 3;
+			ConstantsWP.LISTBOX_SHADOW_Y_BOTTOM = 1;
+			ConstantsWP.BEJ3BUTTON_ROTATION_SPEED = 0.08f;
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_SIZE = 100f;
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_ROT_CENTER_X = 17f;
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_ROT_CENTER_Y = 16f;
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_X = 12;
+			ConstantsWP.BEJ3BUTTON_DROPDOWN_OFFSET_Y = 12;
+			ConstantsWP.BEJ3BUTTON_HINT_OK_OFFSET_X = 11;
+			ConstantsWP.BEJ3BUTTON_HINT_OK_OFFSET_Y = 24;
+			ConstantsWP.BEJ3BUTTON_SLIDE_ARROW_DIST = 10;
+			ConstantsWP.BEJ3BUTTON_LONG_DEFAULT_WIDTH = 550;
+			ConstantsWP.BEJ3BUTTON_AUTOSCALE_DEFAULT_WIDTH = 290;
+			ConstantsWP.BEJ3BUTTON_AUTOSCALE_MIN_WIDTH = 300;
+			ConstantsWP.BEJ3BUTTON_AUTOSCALE_TEXT_WIDTH_OFFSET = 70;
+			ConstantsWP.BEJ3BUTTON_INSIDE_RECT_OFFSET = 0;
+			ConstantsWP.BEJ3BUTTON_ICESTORM_TEXT_OFFSET_Y = -16;
+			ConstantsWP.BEJ3BUTTON_TEXT_OFFSET_Y = 0;
+			ConstantsWP.BEJ3SLIDER_WIDTH_OFFSET = 5;
+			ConstantsWP.BEJ3SLIDER_HEIGHT = 90;
+			ConstantsWP.BEJ3SLIDER_X_OFFSET = 5;
+			ConstantsWP.BEJ3SLIDESELECTOR_ITEM_MULT = 0f;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_LEFT_X = -27;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_LEFT_X_SMALL = -27;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_Y = -130;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_Y_SMALL = -80;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET = 0;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET_SMALL = 40;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X = 23;
+			ConstantsWP.BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X_SMALL = 23;
+			ConstantsWP.BEJ3CHECKBOX_SIZE = 90;
+			ConstantsWP.TOOLTIP_ARROW_SIZE = 49;
+			ConstantsWP.TOOLTIP_ARROW_DISTANCE = 40;
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_DOWN = -12;
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_LEFT = -13;
+			ConstantsWP.TOOLTIP_ARROW_OFFSET_RIGHT = 2;
+			ConstantsWP.TOOLTIP_HEIGHT_OFFSET = 20;
+			ConstantsWP.TOOLTIP_BOX_OFFSET_Y = 4;
+			ConstantsWP.HELPDIALOG_HEADING_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.HELPDIALOG_HOWTOPLAY_LABEL_Y = 170;
+			ConstantsWP.HELPDIALOG_SWIPE_MSG_LABEL_X = 320 - ConstantsWP.SLIDE_BUTTON_MESSAGE_WIDTH / 2;
+			ConstantsWP.HELPDIALOG_SWIPE_MSG_LABEL_Y = 790;
+			ConstantsWP.HELPDIALOG_DIVIDER_1_Y = 770;
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_X = 200;
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_Y = ConstantsWP.HELPDIALOG_DIVIDER_1_Y + 30;
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_LABEL_X = ConstantsWP.HELPDIALOG_DISABLE_HINT_X + 50;
+			ConstantsWP.HELPDIALOG_DISABLE_HINT_LABEL_Y = ConstantsWP.HELPDIALOG_DISABLE_HINT_Y - ConstantsWP.LABEL_TO_CHECKBOX_OFFSET;
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_X = ConstantsWP.HELPDIALOG_DISABLE_HINT_X - 50;
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_Y = ConstantsWP.HELPDIALOG_DISABLE_HINT_Y - 40;
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_W = 130;
+			ConstantsWP.HELPDIALOG_DIVIDER_BOX_1_H = 80;
+			ConstantsWP.HELPDIALOG_CONTAINER_X = 0;
+			ConstantsWP.HELPDIALOG_CONTAINER_TAB_PADDING_SIDE = 0;
+			ConstantsWP.HELPDIALOG_CONTAINER_TAB_PADDING = 40;
+			ConstantsWP.HELPDIALOG_CONTAINER_TAB_WIDTH = 640 - ConstantsWP.HELPDIALOG_CONTAINER_X * 2 - ConstantsWP.HELPDIALOG_CONTAINER_TAB_PADDING * 2;
+			ConstantsWP.HELPDIALOG_CONTAINER_WIDTH = 640 - ConstantsWP.HELPDIALOG_CONTAINER_X * 2;
+			ConstantsWP.HELPDIALOG_CONTAINER_HEIGHT = 550;
+			ConstantsWP.HELPDIALOG_CONTAINER_Y = 220;
+			ConstantsWP.HELPDIALOG_WINDOW_CLIP_OFFSET_TOP = 6;
+			ConstantsWP.HELPDIALOG_WINDOW_HEIGHT = ConstantsWP.HELPDIALOG_CONTAINER_HEIGHT - 80;
+			ConstantsWP.HELPDIALOG_WINDOW_Y = ConstantsWP.HELPDIALOG_CONTAINER_HEIGHT / 2 - ConstantsWP.HELPDIALOG_WINDOW_HEIGHT / 2;
+			ConstantsWP.HELPDIALOG_WINDOW_ANIMATION_Y_OFFSET = -50;
+			ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_OFFSET = 0;
+			ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_EXTRA_SIZE = 15;
+			ConstantsWP.HELPDIALOG_WINDOW_BACKGROUND_SCALE = 200f;
+			ConstantsWP.HELPDIALOG_SLIDE_BUTTON_OFFSET_X = 10;
+			ConstantsWP.HELPDIALOG_SLIDE_BUTTON_Y = ConstantsWP.HELPDIALOG_SWIPE_MSG_LABEL_Y - ConstantsWP.SLIDE_BUTTON_TO_TEXT_OFFSET;
+			ConstantsWP.HELPDIALOG_POPANIM_SCALE = 0.8f;
+			ConstantsWP.HELPDIALOG_POPANIM_CLIP_SCALE = 0.786f;
+			ConstantsWP.HELPDIALOG_TEXT_X = 25;
+			ConstantsWP.HELPDIALOG_TEXT_Y = 380;
+			ConstantsWP.HELPDIALOG_TEXT_WIDTH = 510;
+			ConstantsWP.HELPDIALOG_TEXT_HEIGHT = 375;
+			ConstantsWP.HELPDIALOG_CLOSE_Y = ConstantsWP.MENU_BOTTOM_BUTTON_Y;
+			ConstantsWP.HELPDIALOG_OFFSET_BASICS_1 = 0;
+			ConstantsWP.HELPDIALOG_OFFSET_BASICS_2 = 0;
+			ConstantsWP.HELPDIALOG_OFFSET_BASICS_3 = 0;
+			ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_1 = 1;
+			ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_2 = 1;
+			ConstantsWP.HELPDIALOG_OFFSET_DIAMOND_3 = 1;
+			ConstantsWP.DIALOG_HEADER_OFFSET = 140;
+			ConstantsWP.HINTDIALOG_PAD = 10;
+			ConstantsWP.HINTDIALOG_X = 0;
+			ConstantsWP.HINTDIALOG_Y = 786;
+			ConstantsWP.HINTDIALOG_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.HINTDIALOG_HEIGHT = (int)(ConstantsWP.DEVICE_HEIGHT_F - (float)ConstantsWP.HINTDIALOG_Y);
+			ConstantsWP.HINTDIALOG_TEXT_LINE_SPACING_ADJUST = 10;
+			ConstantsWP.HINTDIALOG_TEXT_X = 12;
+			ConstantsWP.HINTDIALOG_TEXTCONTAINER_Y = 200;
+			ConstantsWP.HINTDIALOG_TEXT_Y = 130;
+			ConstantsWP.HINTDIALOG_TEXT_WIDTH_REPLAY = 455;
+			ConstantsWP.HINTDIALOG_TEXT_WIDTH_NO_REPLAY = (int)(ConstantsWP.DEVICE_WIDTH_F - (float)(ConstantsWP.HINTDIALOG_PAD * 2));
+			ConstantsWP.HINTDIALOG_TEXT_HEIGHT = 135;
+			ConstantsWP.HINTDIALOG_TEXT_NO_SCROLL_HEIGHT = ConstantsWP.HINTDIALOG_HEIGHT;
+			ConstantsWP.HINTDIALOG_HEIGHT_OFFSET = 120;
+			ConstantsWP.HINTDIALOG_BUTTON_X = ConstantsWP.HINTDIALOG_WIDTH - 65;
+			ConstantsWP.HINTDIALOG_BUTTON_Y = ConstantsWP.DIALOG_HEADER_OFFSET + (ConstantsWP.HINTDIALOG_HEIGHT - ConstantsWP.DIALOG_HEADER_OFFSET) / 2;
+			ConstantsWP.RATEGAME_DIALOG_MSG_TOP = 610;
+			ConstantsWP.RATEGAME_DIALOG_HEIGHT = (int)ConstantsWP.DEVICE_HEIGHT_F;
+			ConstantsWP.RATEGAME_DIALOG_BTN_RATE_WIDTH = 580;
+			ConstantsWP.RATEGAME_DIALOG_BTN_RATE_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - (float)(ConstantsWP.RATEGAME_DIALOG_BTN_RATE_WIDTH / 2));
+			ConstantsWP.RATEGAME_DIALOG_BTN_RATE_Y = ConstantsWP.RATEGAME_DIALOG_HEIGHT - 200;
+			ConstantsWP.RATEGAME_DIALOG_BTN_NO_WIDTH = 270;
+			ConstantsWP.RATEGAME_DIALOG_BTN_NO_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - ConstantsWP.DEVICE_WIDTH_F / 4f - (float)(ConstantsWP.RATEGAME_DIALOG_BTN_NO_WIDTH / 2) + 5f);
+			ConstantsWP.RATEGAME_DIALOG_BTN_NO_Y = ConstantsWP.RATEGAME_DIALOG_BTN_RATE_Y + 100;
+			ConstantsWP.RATEGAME_DIALOG_BTN_LATER_WIDTH = ConstantsWP.RATEGAME_DIALOG_BTN_NO_WIDTH;
+			ConstantsWP.RATEGAME_DIALOG_BTN_LATER_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + ConstantsWP.DEVICE_WIDTH_F / 4f - (float)(ConstantsWP.RATEGAME_DIALOG_BTN_NO_WIDTH / 2) - 5f);
+			ConstantsWP.RATEGAME_DIALOG_BTN_LATER_Y = ConstantsWP.RATEGAME_DIALOG_BTN_NO_Y;
+			ConstantsWP.RATEGAME_DIALOG_DECO_Y_1 = 220;
+			ConstantsWP.GIFTGAME_DIALOG_MSG_TOP = 550;
+			ConstantsWP.GIFTGAME_DIALOG_HEIGHT = (int)ConstantsWP.DEVICE_HEIGHT_F;
+			ConstantsWP.GIFTGAME_DIALOG_BTN_YES_WIDTH = 550;
+			ConstantsWP.GIFTGAME_DIALOG_BTN_YES_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - (float)(ConstantsWP.GIFTGAME_DIALOG_BTN_YES_WIDTH / 2));
+			ConstantsWP.GIFTGAME_DIALOG_BTN_YES_Y = ConstantsWP.RATEGAME_DIALOG_HEIGHT - 200;
+			ConstantsWP.GIFTGAME_DIALOG_BTN_NO_WIDTH = ConstantsWP.GIFTGAME_DIALOG_BTN_YES_WIDTH;
+			ConstantsWP.GIFTGAME_DIALOG_BTN_NO_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - (float)(ConstantsWP.GIFTGAME_DIALOG_BTN_NO_WIDTH / 2));
+			ConstantsWP.GIFTGAME_DIALOG_BTN_NO_Y = ConstantsWP.GIFTGAME_DIALOG_BTN_YES_Y + 100;
+			ConstantsWP.GIFTGAME_DIALOG_DECO_Y_1 = 150;
+			ConstantsWP.GIFTGAME_LINE_SPACING_OFFSET = 40;
+			ConstantsWP.RESUME_DIALOG_WIDTH = (int)ConstantsWP.DEVICE_WIDTH_F;
+			ConstantsWP.MOREGAMES_WIDGET_WIDTH = 600;
+			ConstantsWP.MOREGAMES_WIDGET_HEIGHT = 550;
+			ConstantsWP.MOREGAMES_WIDGET_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - (float)(ConstantsWP.MOREGAMES_WIDGET_WIDTH / 2));
+			ConstantsWP.MOREGAMES_WIDGET_Y = 255;
+			ConstantsWP.MOREGAMES_WIDGET_BG_OFFSET = 10;
+			ConstantsWP.MOREGAMES_BACK_WIDTH = 300;
+			ConstantsWP.MOREGAMES_BACK_HEIGHT = 75;
+			ConstantsWP.MOREGAMES_BACK_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - (float)(ConstantsWP.MOREGAMES_BACK_WIDTH / 2));
+			ConstantsWP.MOREGAMES_BACK_Y = (int)(ConstantsWP.DEVICE_HEIGHT_F - (float)ConstantsWP.MOREGAMES_BACK_HEIGHT - 25f);
+			ConstantsWP.MOREGAMES_HEADER_TEXT_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.MOREGAMES_HEADER_TEXT_Y = ConstantsWP.MOREGAMES_WIDGET_Y - 55;
+			ConstantsWP.MOREGAMES_LOADING_BALL_X = 310;
+			ConstantsWP.MOREGAMES_LOADING_BALL_Y = 425;
+			ConstantsWP.MOREGAMES_LOADING_TEXT_Y_OFFSET = 400;
+			ConstantsWP.MOREGAMES_LOADINGBALL_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+			ConstantsWP.MOREGAMES_LOADINGBALL_Y = (int)(ConstantsWP.DEVICE_HEIGHT_F / 2f);
+			ConstantsWP.BEJ3WIDGET_IMAGEBOX_OFFSET_SMALL = 5;
+			ConstantsWP.BEJ3WIDGET_IMAGEBOX_OFFSET = 10;
+		}
+
+		public static string[] PATH_RESOLUTION_PREFIX = new string[] { "480x320/", "1024x768/", "960x640/" };
+
+		public static int[] RESOLUTION_SCALE_FACTOR = new int[] { 1, 2, 2 };
+
+		public static int LARGE_PROFILE_PICTURE_SIZE = 128;
+
+		public static int MENU_QUAD_BUTTON_LEFT_X = 165;
+
+		public static int MENU_QUAD_BUTTON_RIGHT_X = 475;
+
+		public static int MENU_QUAD_BUTTON_TOP_Y = 760;
+
+		public static int MENU_QUAD_BUTTON_BTM_Y = 880;
+
+		public static int DIALOG_INLAY_HEADING_OFFSET_Y = 12;
+
+		public static int DIALOG_INLAY_HEADING_OFFSET_LEFT = 17;
+
+		public static int DIALOG_INLAY_HEADING_OFFSET_RIGHT = 13;
+
+		public static int DIALOG_OFFSET_FULLSCREEN_X = 0;
+
+		public static int DIALOG_OFFSET_FULLSCREEN_TOP = 0;
+
+		public static int DIALOG_OFFSET_FULLSCREEN_BOTTOM = 0;
+
+		public static int DIALOG_OFFSET_NOBOX_FULLSCREEN_X = -25;
+
+		public static int DIALOG_OFFSET_NOBOX_FULLSCREEN_TOP = -25;
+
+		public static int DIALOG_OFFSET_NOBOX_FULLSCREEN_BOTTOM = -25;
+
+		public static int DIALOG_OFFSET_X = -40;
+
+		public static int DIALOG_OFFSET_TOP = -40;
+
+		public static int DIALOG_OFFSET_BOTTOM = -20;
+
+		public static int DIALOG_INLAY_LIGHT_OFFSET = 50;
+
+		public static int DIALOG_BACKGROUND_OFFSET_TOP = 100;
+
+		public static int DIALOG_BACKGROUND_OFFSET_BOTTOM = 100;
+
+		public static int DIALOG_HEADING_Y = 10;
+
+		public static int DIALOG_HEADING_PADDING_X = 0;
+
+		public static int DIALOG_HEADING_LABEL_Y = ConstantsWP.DIALOG_OFFSET_FULLSCREEN_TOP + 130;
+
+		public static int DIALOG_HEADING_LABEL_MAX_WIDTH = 550;
+
+		public static int MENU_DIVIDER_Y = 215;
+
+		public static int MENU_DIVIDER_DIAMOND_OFFSET_LEFT = 2;
+
+		public static int MENU_DIVIDER_DIAMOND_OFFSET_RIGHT = 4;
+
+		public static int MENU_DIVIDER_DIALOG_Y = ConstantsWP.MENU_DIVIDER_Y;
+
+		public static int MENU_OVERLAY_POS_TOP = 137;
+
+		public static int MENU_OVERLAY_POS_BOTTOM = 785;
+
+		public static int MENU_OVERLAY_TOP_OFFSET = 2;
+
+		public static int MENU_BOTTOM_BUTTON_SIZE = 340;
+
+		public static int MENU_BOTTOM_BUTTON_Y = 850;
+
+		public static int MENU_OVERLAY_LEFT_X = 19;
+
+		public static int MENU_OVERLAY_LEFT_Y = 107;
+
+		public static int MENU_OVERLAY_LEFT_HEIGHT = 712;
+
+		public static int MENU_OVERLAY_RIGHT_X = 587;
+
+		public static int MENU_OVERLAY_RIGHT_Y = 107;
+
+		public static int MENU_OVERLAY_RIGHT_HEIGHT = 712;
+
+		public static int MENU_OVERLAY_LEFT_BOX_X = 23;
+
+		public static int MENU_OVERLAY_LEFT_BOX_Y = 105;
+
+		public static int MENU_OVERLAY_LEFT_BOX_HEIGHT = 751;
+
+		public static int MENU_OVERLAY_RIGHT_BOX_X = 590;
+
+		public static int MENU_OVERLAY_RIGHT_BOX_Y = 105;
+
+		public static int MENU_OVERLAY_RIGHT_BOX_HEIGHT = 751;
+
+		public static float DEVICE_WIDTH_F = 640f;
+
+		public static float DEVICE_HEIGHT_F = 1066f;
+
+		public static int MENU_Y_POS_HIDDEN = (int)(ConstantsWP.DEVICE_HEIGHT_F - 130f);
+
+		public static int MENU_DEFAULT_PADDING_TOP = 210;
+
+		public static int MENU_DEFAULT_PADDING_BOTTOM = 216;
+
+		public static int MENU_INLAY_OFFSET_TOP = 66;
+
+		public static int MENU_INLAY_OFFSET_BOTTOM = 137;
+
+		public static int MENU_INLAY_OFFSET_CUTAWAY = 74;
+
+		public static int MENU_INLAY_OFFSET_MAGIC_BOTTOM = 1;
+
+		public static int MENU_INSIDE_CLIPPING_OFFSET_LEFT = 0;
+
+		public static int MENU_INSIDE_CLIPPING_OFFSET_RIGHT = 0;
+
+		public static int HYPERLINK_UNDERLINE_HEIGHT_SUBHEADER = 1;
+
+		public static int SCROLLWIDGET_INSET_X = 4;
+
+		public static int SCROLLWIDGET_INSET_Y = 2;
+
+		public static int SLIDE_BUTTON_TO_TEXT_OFFSET = 35;
+
+		public static int SLIDE_BUTTON_TO_TEXT_SINGLE_OFFSET = ConstantsWP.SLIDE_BUTTON_TO_TEXT_OFFSET;
+
+		public static int SLIDE_BUTTON_MESSAGE_WIDTH = 490;
+
+		public static int RANKBARWIDGET_UPDATE_SPEED = 1;
+
+		public static int RANKBARWIDGET_BG_OFFSET_NO_CROWN = 90;
+
+		public static int RANKBARWIDGET_FILL_OFFSET = 9;
+
+		public static int RANKBARWIDGET_TEXT_POS_Y = 61;
+
+		public static int RANKBARWIDGET_TEXT_SCALING_POS_Y = 55;
+
+		public static int RANKBARWIDGET_TEXT_POS_1_X = 125;
+
+		public static int RANKBARWIDGET_TEXT_POS_2_X = 50;
+
+		public static int RANKBARWIDGET_TEXT_POS_3_X = 50;
+
+		public static int RANKBARWIDGET_TEXT_POS_4_X = 40;
+
+		public static int RANKBARWIDGET_TEXT_POS_4_WIDTH_OFFSET = 280;
+
+		public static int RANKBARWIDGET_TEXT_POS_5_X = 245;
+
+		public static int RANKBARWIDGET_TEXT_POS_6_X = 45;
+
+		public static int RANKBARWIDGET_TOBLERONE = 50;
+
+		public static int RANKBARWIDGET_TOBLERONE_CLIP_TOP = 28;
+
+		public static int RANKBARWIDGET_TOBLERONE_CLIP_BOTTOM = 25;
+
+		public static int SLIDESELECTOR_CONTAINER_HEIGHT_OFFSET = 70;
+
+		public static int BEJ3SCROLLWIDGET_TOLERANCE = 100;
+
+		public static float POINTS_LIMIT = 0f;
+
+		public static float POINTS_LIMIT_TOP = 50f;
+
+		public static int EXPANDER_MIN_HEIGHT = 40;
+
+		public static int EXPANDER_BUTTON_X = 0;
+
+		public static int EXPANDER_BUTTON_Y_OFFSET = -27;
+
+		public static int EXPANDER_INFO_BUTTON_X = 50;
+
+		public static int EXPANDER_LABEL_Y = -25;
+
+		public static int EXPANDER_CHECKBOX_X = 40;
+
+		public static int EXPANDER_CHECKBOX_Y = -25;
+
+		public static int EXPANDER_DIVIDER_DRAW_OFFSET = -10;
+
+		public static int EXPANDER_DIVIDER_OFFSET = 50;
+
+		public static float EXPANDER_SPEED = 0.1f;
+
+		public static int LABEL_TO_SLIDER_OFFSET = 10;
+
+		public static int LABEL_TO_CHECKBOX_OFFSET = 10;
+
+		public static float LOADING_SMOOTH_STEP = 0.01f;
+
+		public static float GEM_PRE_SCALE_FACTOR = 0.78125f;
+
+		public static int MENU_BACK_BUTTON_X = 2;
+
+		public static int MENU_BACK_BUTTON_Y = 958;
+
+		public static int BOARD_MAX_REWIND_TIME = 2000;
+
+		public static int BOARD_X = 0;
+
+		public static int BOARD_Y = 64;
+
+		public static int BOARD_Y_BUTTERFLY = 64;
+
+		public static int BFLY_SCORE_DISPLAY_X = 136;
+
+		public static int BFLY_SCORE_DISPLAY_Y = 812;
+
+		public static int NUM_BUTTERFLY_DISPLAY_X = 320;
+
+		public static int NUM_BUTTERFLY_DISPLAY_Y = 776;
+
+		public static int BOARD_FRAME_OVERLAP_Y = 3;
+
+		public static float BOARD_SLIDING_HUD_SPEED = 0.03f;
+
+		public static float BOARD_LEVEL_SCORE_SCALE = 1.15f;
+
+		public static int BOARD_UI_HINT_BTN_WIDTH = 257;
+
+		public static int BOARD_UI_HINT_BTN_X = 378;
+
+		public static int BOARD_UI_HINT_BTN_Y = 761;
+
+		public static int DIGBOARD_UI_HINT_BTN_Y = 751;
+
+		public static int ICESTORM_BOARD_UI_HINT_BTN_X = 372;
+
+		public static int ICESTORM_BOARD_UI_HINT_BTN_Y = 767;
+
+		public static int ZENBOARD_UI_ZEN_BTN_WIDTH = ConstantsWP.BOARD_UI_HINT_BTN_WIDTH;
+
+		public static int ZENBOARD_UI_ZEN_BTN_X = 5;
+
+		public static int ZENBOARD_UI_ZEN_BTN_Y = ConstantsWP.BOARD_UI_HINT_BTN_Y;
+
+		public static int BOARD_UI_SCORE_CENTER_X = 102;
+
+		public static int BOARD_UI_SCORE_CENTER_Y = 50;
+
+		public static int BOARD_UI_ZEN_SCORE_CENTER_Y = 770;
+
+		public static int BOARD_UI_LEVEL_CENTER_X = 594;
+
+		public static int BOARD_UI_LEVEL_CENTER_Y = 50;
+
+		public static int BOARD_UI_ZEN_LEVEL_CENTER_X = 594;
+
+		public static int BOARD_UI_ZEN_LEVEL_CENTER_Y = 50;
+
+		public static int BOARD_ZEN_MANTRA_Y = 90;
+
+		public static int BOARD_UI_ZEN_TOOLTIP_X = 135;
+
+		public static int BOARD_UI_ZEN_TOOLTIP_Y = 760;
+
+		public static int BOARD_UI_ZEN_TOOLTIP_WIDTH = 280;
+
+		public static int BOARD_UI_ZEN_TOOLTIP_TIME = 500;
+
+		public static float BOARD_IRIS_SCALE = 4f;
+
+		public static float BOARD_IRIS_ALPHA = 0.75f;
+
+		public static float BOARD_BADGE_AWARD_SCALE = 4.2f;
+
+		public static int BOARD_MULTIPLIER_X = 0;
+
+		public static int BOARD_MULTIPLIER_Y = 37;
+
+		public static int BOARD_MULTIPLIER_LARGE_Y = -5;
+
+		public static int BOARD_MULTIPLIER_LARGE_Y_OFFSET = 5;
+
+		public static float BOARD_MULTIPLIER_LARGE_Y_SCALE_OFFSET = 2f;
+
+		public static int DIG_BOARD_DIFFICULTY_START_OFFSET = 2;
+
+		public static float DIG_BOARD_DIFFICULTY_CURVE_INC = 0.1f;
+
+		public static int DIG_BOARD_DEPTH_X = 111;
+
+		public static int DIG_BOARD_DEPTH_Y = 896;
+
+		public static int DIG_BOARD_DEPTH_INC_W = 41;
+
+		public static float DIG_BOARD_CLEARED_TEXT_RECT_X = 31f;
+
+		public static float DIG_BOARD_CLEARED_TEXT_Y = 540f;
+
+		public static int DIG_BOARD_CLEARED_TEXT_EXTRA_Y = 160;
+
+		public static int DIG_BOARD_ALL_CLEAR_TEXT_EXTRA_Y = 240;
+
+		public static int DIG_BOARD_TIME_BONUS_TEXT_Y = 690;
+
+		public static int DIG_BOARD_SCORE_CENTER_X = 100;
+
+		public static int DIG_BOARD_SCORE_BTM_Y = 40;
+
+		public static int DIG_BOARD_TIMER_OFFSET_Y = 9;
+
+		public static int ROTATING_COUNTER_OFFSET_Y = 7;
+
+		public static float DIG_BOARD_FLOATING_SCORE_SCALE = 0.6f;
+
+		public static int DIG_BOARD_ITEM_DEST_X = 100;
+
+		public static int DIG_BOARD_ITEM_DEST_Y = 38;
+
+		public static int DIG_BOARD_ITEM_DESC_OFFSET_Y = 60;
+
+		public static int DIG_BOARD_COG_ANIM_FAST = 4;
+
+		public static int DIG_BOARD_COG_ANIM_SLOW = 7;
+
+		public static int DIG_BOARD_DEPTH_METER_CLIP_X = 55;
+
+		public static int DIG_BOARD_DEPTH_METER_CLIP_Y = 770;
+
+		public static int DIG_BOARD_DEPTH_METER_CLIP_W = 117;
+
+		public static int DIG_BOARD_DEPTH_METER_CLIP_H = 59;
+
+		public static int DIG_BOARD_DEPTH_METER_SYMBOL_X = 195;
+
+		public static int DIG_BOARD_DEPTH_METER_SYMBOL_Y = 809;
+
+		public static float DIG_BOARD_ARTIFACT_SCALE = 0.7f;
+
+		public static int DIG_BOARD_DRILL_RIGHT_POS_X = 955;
+
+		public static int DIG_BOARD_COGS_CLIP_RECT_X = 162;
+
+		public static int DIG_BOARD_COGS_CLIP_RECT_Y = 710;
+
+		public static int DIG_BOARD_BROWN_ROCK_BASE_COUNT = 12;
+
+		public static int DIG_BOARD_BROWN_ROCK_RAND_COUNT = 5;
+
+		public static int DIG_BOARD_SMALL_ROCK_BASE_COUNT = 7;
+
+		public static int DIG_BOARD_SMALL_ROCK_RAND_COUNT = 5;
+
+		public static int DIG_BOARD_MEDIUM_ROCK_BASE_COUNT = 5;
+
+		public static int DIG_BOARD_MEDIUM_ROCK_RAND_COUNT = 3;
+
+		public static int SPEEDBOARD_COLLECT_EFFECT_INTERMEDIATE_X = 400;
+
+		public static int SPEEDBOARD_COLLECT_EFFECT_INTERMEDIATE_Y = 800;
+
+		public static int SPEEDBOARD_COLLECT_EFFECT_DEST_X = 200;
+
+		public static int SPEEDBOARD_COLLECT_EFFECT_DEST_Y = 1000;
+
+		public static int SPEEDBOARD_GEMNUMS_OFFSET = -9;
+
+		public static int SPEEDBOARD_TIMEDRAW_X_OFFSET = 0;
+
+		public static int SPEEDBOARD_TIMEDRAW_Y_OFFSET = 6;
+
+		public static int SPEEDBOARD_EXTRATIME_X_OFFSET = 0;
+
+		public static int SPEEDBOARD_EXTRATIME_Y_OFFSET = 10;
+
+		public static int SPEEDBOARD_LEVELBAR_SIZE_BIAS = 0;
+
+		public static int SPEEDBOARD_BOARD_Y = 67;
+
+		public static int SPEEDBOARD_HINT_BTN_Y = 755;
+
+		public static int SPEEDBOARD_LEVELBAR_X = 10;
+
+		public static int SPEEDBOARD_LEVELBAR_W = 500;
+
+		public static int SPEEDBOARD_LEVELBAR_Y = 750;
+
+		public static int SPEEDBOARD_LEVELBAR_H = 20;
+
+		public static int SPEEDBOARD_LAST_HURRAH_Y = 740;
+
+		public static int SPEEDBOARD_LAST_HURRAH_SCALE_Y = 750;
+
+		public static int SPEEDBOARD_TIME_LIGHTNING_START_X = 200;
+
+		public static int SPEEDBOARD_TIME_LIGHTNING_START_Y = 1000;
+
+		public static int SPEEDBOARD_TIME_LIGHTNING_END_X = 30;
+
+		public static int SPEEDBOARD_TIME_LIGHTNING_END_Y = 900;
+
+		public static int SPEEDBOARD_TIME_LIGHTNING_END_X_FULL = 800;
+
+		public static int SPEEDBOARD_TIME_LIGHTNING_WIDTH = 50;
+
+		public static int SPEEDBOARD_SPEED_BONUS_X = 10;
+
+		public static int SPEEDBOARD_SPEED_BONUS_Y = 27;
+
+		public static int SPEEDBOARD_SPEED_BONUS_X_2 = 10;
+
+		public static int SPEEDBOARD_SPEED_BONUS_Y_2 = 56;
+
+		public static int SPEEDBOARD_SPEED_BONUS_SCALE_X = 10;
+
+		public static int SPEEDBOARD_SPEED_BONUS_SCALE_Y = 30;
+
+		public static int SPEEDBOARD_BLAZING_SPEED_EFFECT_1_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f * 1.25f);
+
+		public static int SPEEDBOARD_BLAZING_SPEED_EFFECT_1_Y = 80;
+
+		public static int SPEEDBOARD_BLAZING_SPEED_EFFECT_2_X = ConstantsWP.SPEEDBOARD_BLAZING_SPEED_EFFECT_1_X;
+
+		public static int SPEEDBOARD_BLAZING_SPEED_EFFECT_2_Y = 875;
+
+		public static int BUTTERFLYBOARD_HINT_BTN_Y = 761;
+
+		public static int BUTTERFLY_DRAW_OFFSET_1 = -33;
+
+		public static int BUTTERFLY_DRAW_OFFSET_2 = 52;
+
+		public static int BUTTERFLY_DRAW_OFFSET_3 = 50;
+
+		public static int BUTTERFLY_DRAW_OFFSET_4 = 54;
+
+		public static int BUTTERFLY_SPIDER_X_OFFSET = -75;
+
+		public static int BUTTERFLY_SPIDER_Y_OFFSET = 0;
+
+		public static int BUTTERFLY_BIGSPIDER_X_OFFSET = 270;
+
+		public static int BUTTERFLY_BIGSPIDER_Y_OFFSET = -315;
+
+		public static int INFERNOBOARD_METER_X = 20;
+
+		public static int INFERNOBOARD_METER_WIDTH = 240;
+
+		public static int INFERNOBOARD_MIN_Y_ONE_COLUMN = -15;
+
+		public static int INFERNOBOARD_MIN_Y_TWO_COLUMN = -20;
+
+		public static int INFERNOBOARD_BOARD_Y = 80;
+
+		public static int INFERNOBOARD_TOPSKULL_OFFSET_Y_0 = 0;
+
+		public static int INFERNOBOARD_TOPSKULL_OFFSET_X_1 = -33;
+
+		public static int INFERNOBOARD_TOPSKULL_OFFSET_Y_1 = -80;
+
+		public static int INFERNOBOARD_TOPSKULL_OFFSET_X_2 = -30;
+
+		public static int INFERNOBOARD_TOPSKULL_OFFSET_Y_2 = 0;
+
+		public static int INFERNOBOARD_TOPSKULL_RISE_OFFSET_1 = 0;
+
+		public static int INFERNOBOARD_ICEANIM_OFFSET_X_1 = 6;
+
+		public static int INFERNOBOARD_ICEANIM_OFFSET_X_2 = 0;
+
+		public static float INFERNOBOARD_SHAKE_DIST = 1f;
+
+		public static int GEMOUTLINES_OFFSET_1 = 2;
+
+		public static int GEMOUTLINES_OFFSET_2 = 0;
+
+		public static int UI_CENTER_DEFAULT = 0;
+
+		public static float LIGHTNING_THICKNESS = 64f;
+
+		public static int HYPERSPACE_TUNNEL_TIME = 80;
+
+		public static int WHIRLPOOL_TO_HYPERSPACE_FADE_TIME = 120;
+
+		public static int WHIRLPOOL_BKG_WARP_DELAY = 1;
+
+		public static float WHIRLPOOL_BKG_WARP_SPEED = 0.05f;
+
+		public static int WHIRLPOOL_UI_WARP_DELAY = 80;
+
+		public static float HYPERSPACE_TUNNEL_WIDTH_SCALE = 0.11f;
+
+		public static float WHIRLPOOL_IMG_SCALE = 2f;
+
+		public static int BADGE_AWARDED_MENU_X = 0;
+
+		public static int BADGE_AWARDED_MENU_Y = 0;
+
+		public static int BADGE_AWARDED_MENU_W = 640;
+
+		public static int BADGE_AWARDED_MENU_H = 960;
+
+		public static int BADGE_WIDGET_X = 0;
+
+		public static int BADGE_WIDGET_Y = 0;
+
+		public static int BADGE_WIDGET_W = 700;
+
+		public static int BADGE_WIDGET_H = 700;
+
+		public static int MAIN_MENU_TAB_WIDTH = 640;
+
+		public static int MAIN_MENU_WIDTH = ConstantsWP.MAIN_MENU_TAB_WIDTH * 3;
+
+		public static int MAIN_MENU_CLOUD_EXTRA_WIDTH = 100;
+
+		public static int MAIN_MENU_CLOUD_Y = 300;
+
+		public static float MAIN_MENU_CLOUD_SPEED = 0.61f;
+
+		public static int MAIN_MENU_BUTTON_CLASSIC_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+
+		public static int MAIN_MENU_BUTTON_CLASSIC_Y = 220;
+
+		public static float MAIN_MENU_BUTTON_CLASSIC_SCALE = 0.9f;
+
+		public static int MAIN_MENU_BUTTON_ZEN_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f);
+
+		public static int MAIN_MENU_BUTTON_ZEN_Y = 250;
+
+		public static float MAIN_MENU_BUTTON_ZEN_SCALE = 0.9f;
+
+		public static int MAIN_MENU_BUTTON_DIAMONDMINE_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + 150f);
+
+		public static int MAIN_MENU_BUTTON_DIAMONDMINE_Y = 380;
+
+		public static float MAIN_MENU_BUTTON_DIAMONDMINE_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+
+		public static int MAIN_MENU_BUTTON_BUTTERFLIES_X = ConstantsWP.MAIN_MENU_BUTTON_CLASSIC_X;
+
+		public static int MAIN_MENU_BUTTON_BUTTERFLIES_Y = 650;
+
+		public static float MAIN_MENU_BUTTON_BUTTERFLIES_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+
+		public static int MAIN_MENU_BUTTON_BLITZ_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f - 150f);
+
+		public static int MAIN_MENU_BUTTON_BLITZ_Y = 380;
+
+		public static float MAIN_MENU_BUTTON_BLITZ_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+
+		public static int MAIN_MENU_BUTTON_MORE_1_X = (int)(ConstantsWP.DEVICE_WIDTH_F / 2f + (float)ConstantsWP.MAIN_MENU_TAB_WIDTH);
+
+		public static int MAIN_MENU_BUTTON_MORE_1_Y = 690;
+
+		public static float MAIN_MENU_BUTTON_MORE_1_SCALE = ConstantsWP.MAIN_MENU_BUTTON_ZEN_SCALE;
+
+		public static int MAIN_MENU_BUTTON_LIGHTNING_X;
+
+		public static int MAIN_MENU_BUTTON_LIGHTNING_Y;
+
+		public static float MAIN_MENU_BUTTON_LIGHTNING_SCALE;
+
+		public static int MAIN_MENU_BUTTON_MORE_2_X;
+
+		public static int MAIN_MENU_BUTTON_MORE_2_Y;
+
+		public static float MAIN_MENU_BUTTON_MORE_2_SCALE;
+
+		public static int MAIN_MENU_BUTTON_ICESTORM_X;
+
+		public static int MAIN_MENU_BUTTON_ICESTORM_Y;
+
+		public static float MAIN_MENU_BUTTON_ICESTORM_SCALE;
+
+		public static int MAIN_MENU_BUTTON_POKER_X;
+
+		public static int MAIN_MENU_BUTTON_POKER_Y;
+
+		public static float MAIN_MENU_BUTTON_POKER_SCALE;
+
+		public static int MAIN_MENU_BUTTON_MORE_3_X;
+
+		public static int MAIN_MENU_BUTTON_MORE_3_Y;
+
+		public static float MAIN_MENU_BUTTON_MORE_3_SCALE;
+
+		public static float MAIN_MENU_FOREGROUND_RIGHT_OFFSET_X;
+
+		public static float MAIN_MENU_FOREGROUND_RIGHT_OFFSET_Y;
+
+		public static float MAIN_MENU_L1_OFFSET_X;
+
+		public static float MAIN_MENU_L1_OFFSET_Y;
+
+		public static float MAIN_MENU_DOOR_OVERLAY_OFFSET_X;
+
+		public static float MAIN_MENU_DOOR_OVERLAY_OFFSET_Y;
+
+		public static float CRYSTALBALL_FONT_SCALE;
+
+		public static int CRYSTALBALL_TEXT_1_1_Y;
+
+		public static int CRYSTALBALL_TEXT_2_1_Y;
+
+		public static int CRYSTALBALL_TEXT_2_2_Y;
+
+		public static int CRYSTALBALL_TEXT_3_1_Y;
+
+		public static int CRYSTALBALL_TEXT_3_2_Y;
+
+		public static int CRYSTALBALL_TEXT_3_3_Y;
+
+		public static int CRYSTALBALL_STOP_DRAW_OFFSET;
+
+		public static float CRYSTALBALL_BASE_SCALE;
+
+		public static float CRYSTALBALL_HIGHLIGHT_SCALE_1;
+
+		public static float CRYSTALBALL_HIGHLIGHT_SCALE_2;
+
+		public static float TOP_BUTTON_ANIMATION_SPEED;
+
+		public static float DASHBOARD_SLIDER_SPEED;
+
+		public static float DASHBOARD_SLIDER_SPEED_SCALAR;
+
+		public static int DASHBOARD_SLIDER_HIDE_BUTTON_POS;
+
+		public static int DASHBOARD_SLIDER_START_DRAW_X;
+
+		public static float DASHBOARD_PROFILE_BUTTON_OFFSET;
+
+		public static float DASHBOARD_NEWS_BUTTON_OFFSET;
+
+		public static float DASHBOARD_OPTIONS_BUTTON_OFFSET;
+
+		public static int DASHBOARD_SHELF_OFFSCREEN_WIDTH;
+
+		public static int DASHBOARD_SHELF_HIDE_WIDTH;
+
+		public static int REPLAY_SLIDER_OPEN_X;
+
+		public static int REPLAY_OFFSET_Y;
+
+		public static int INTRO_DIALOG_TEXT_X;
+
+		public static int INTRO_DIALOG_TEXT_WIDTH;
+
+		public static int INTRO_DIALOG_TEXT_1_Y;
+
+		public static int INTRO_DIALOG_TEXT_2_Y;
+
+		public static int INTRO_DIALOG_TEXT_3_Y;
+
+		public static int INTRO_DIALOG_TEXT_4_Y;
+
+		public static int INTRO_DIALOG_HEIGHT;
+
+		public static int BADGES_FOR_PAGE;
+
+		public static int BADGE_MENU_WIDTH;
+
+		public static int BADGE_MENU_HEIGHT;
+
+		public static int BADGE_MENU_HEADING_X;
+
+		public static int BADGE_MENU_BADGES_POS_1;
+
+		public static int BADGE_MENU_BADGES_POS_2;
+
+		public static int BADGE_MENU_ELITE_BADGE_PADDING;
+
+		public static int BADGE_MENU_BADGES_PADDING_X;
+
+		public static int BADGE_MENU_BADGES_PER_ROW;
+
+		public static int BADGE_MENU_BADGES_POS_Y;
+
+		public static int BADGE_MENU_BADGES_POS_Y_DELTA;
+
+		public static int BADGE_MENU_ELITE_BADGES_POS_Y;
+
+		public static int BADGE_MENU_ELITE_HEADING_Y;
+
+		public static int BADGE_MENU_DIVIDER_2_Y;
+
+		public static int BADGEMENU_GAMECENTER_X;
+
+		public static int BADGEMENU_GAMECENTER_Y;
+
+		public static int BADGE_MENU_TOOLTIP_TOLERANCE;
+
+		public static int BADGE_MENU_TOOLTIP_WIDTH;
+
+		public static int BADGE_MENU_TOOLTIP_WIDTH_WIDE;
+
+		public static int BADGE_MENU_TOOLTIP_OFFSET;
+
+		public static int BADGEMENU_AWARDED_TOP_TEXT_Y;
+
+		public static int BADGEMENU_AWARDED_BTM_TEXT_Y;
+
+		public static int BADGEMENU_AWARDED_DESC_PAD_X;
+
+		public static int BADGEMENU_AWARDED_ALPHA;
+
+		public static int BADGEMENU_SLIDE_BUTTON_OFFSET_X;
+
+		public static int BADGEMENU_SLIDE_BUTTON_Y;
+
+		public static int BADGEMENU_CONTAINER_PADDING_X;
+
+		public static int BADGEMENU_CONTAINER_TOP;
+
+		public static int BADGEMENU_CONTAINER_BOTTOM;
+
+		public static int BADGEMENU_CONTAINER_PAGE_WIDTH;
+
+		public static int PROFILEMENU_BADGE_SINGLE_SECTION_WIDTH;
+
+		public static int BADGEMENU_CONTAINER_HEIGHT;
+
+		public static int GAMEDETAILMENU_HEADING_X;
+
+		public static int GAMEDETAILMENU_BACKBUTTON_X;
+
+		public static int GAMEDETAILMENU_PLAYBUTTON_X;
+
+		public static int GAMEDETAILMENU_PLAYBUTTON_Y;
+
+		public static int GAMEDETAILMENU_MODE_DESCRIPTION_WIDTH;
+
+		public static int GAMEDETAILMENU_MODE_DESCRIPTION_HEIGHT;
+
+		public static int GAMEDETAILMENU_MODE_DESCRIPTION_X;
+
+		public static int GAMEDETAILMENU_MODE_DESCRIPTION_Y;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_X;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_Y;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_WIDTH;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_HEIGHT;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_POST_GAME_X;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_POST_GAME_Y;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_POST_GAME_WIDTH;
+
+		public static int GAMEDETAILMENU_HIGHSCORES_POST_GAME_HEIGHT;
+
+		public static int GAMEDETAILMENU_POST_GAME_TAB_PADDING;
+
+		public static int GAMEDETAILMENU_POST_GAME_TAB_WIDTH;
+
+		public static int GAMEDETAILMENU_POST_GAME_CONTAINER_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_CONTAINER_WIDTH;
+
+		public static int GAMEDETAILMENU_POST_GAME_CONTAINER_HEIGHT;
+
+		public static int GAMEDETAILMENU_POST_GAME_CONTAINER_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_SCORE_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_SCORE_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_SWIPE_MSG_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_SWIPE_MSG_Y_1;
+
+		public static int GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_OFFSET_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_SLIDE_BUTTON_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_2_WIDTH;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_2_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_2_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_STATS_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_STATS_DATA_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_STATS_START_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_STATS_STEP_Y_BIG;
+
+		public static int GAMEDETAILMENU_POST_GAME_STATS_STEP_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_WIDTH;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_HEIGHT;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_HEADING_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_1;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_2;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_X_3;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_TEXT_OFFSET_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_1_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_FLAME_GEM_POS_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_2_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_STAR_GEM_POS_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_1_GEM_POS_3_X;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_HYPERCUBE_POS_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_INLAY_DIAMOND_MINE_POS_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_SCROLLWIDGET_CORRECTION;
+
+		public static int GAMEDETAILMENU_POST_GAME_DIVIDER_Y;
+
+		public static int GAMEDETAILMENU_GAMECENTER_X;
+
+		public static int GAMEDETAILMENU_GAMECENTER_Y;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_WIDTH_INCL_GC;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_X_INCL_GC;
+
+		public static int GAMEDETAILMENU_POST_GAME_RANKBAR_1_LABEL_X_INCL_GC;
+
+		public static int ZENOPTIONS_SLIDER_WIDTH;
+
+		public static int ZENOPTIONS_MENU_SELECT_Y;
+
+		public static int ZENOPTIONS_BUTTON_STEP_Y;
+
+		public static int ZENOPTIONS_DESC_WIDTH;
+
+		public static int ZENOPTIONS_DESC_HEIGHT;
+
+		public static int ZENOPTIONS_AMBIENT_SOUND_START_DELAY_FRAMES;
+
+		public static int ZENOPTIONS_DESC_Y;
+
+		public static int ZENOPTIONS_AMBIENT_SOUND_DESC_HEIGHT;
+
+		public static int ZENOPTIONS_MANTRAS_DESC_HEIGHT;
+
+		public static int ZENOPTIONS_BREATH_MOD_DESC_HEIGHT;
+
+		public static int ZENOPTIONS_AMBIENT_SOUND_SLIDE_OFFSET_Y;
+
+		public static int ZENOPTIONS_MANTRAS_SLIDE_OFFSET_Y;
+
+		public static int ZENOPTIONS_BREATH_MOD_ENABLE_OFFSET_Y;
+
+		public static int ZENOPTIONS_AMBIENT_SOUND_DESC_Y;
+
+		public static int ZENOPTIONS_MANTRAS_DESC_Y;
+
+		public static int ZENOPTIONS_BREATH_MOD_DESC_Y;
+
+		public static int ZENOPTIONS_AMBIENCE_ITEM_SIZE;
+
+		public static int ZENOPTIONS_AMBIENCE_WIDTH;
+
+		public static int ZENOPTIONS_AMBIENT_SOUND_SELECTOR_WIDTH;
+
+		public static int ZENOPTIONS_AMBIENT_SOUND_SELECTOR_HEIGHT;
+
+		public static int ZENOPTIONS_MANTRA_ITEM_SIZE;
+
+		public static int ZENOPTIONS_MANTRA_WIDTH;
+
+		public static int ZENOPTIONS_MANTRA_SELECTOR_WIDTH;
+
+		public static int ZENOPTIONS_MANTRA_SELECTOR_HEIGHT;
+
+		public static int ZENOPTIONS_SWIPE_AMBIENT_Y;
+
+		public static int ZENOPTIONS_SWIPE_AMBIENT_H;
+
+		public static int ZENOPTIONS_SWIPE_MANTRA_Y;
+
+		public static int ZENOPTIONS_SWIPE_MANTRA_H;
+
+		public static int ZENOPTIONS_SCROLL_HEIGHT;
+
+		public static int ZENOPTIONS_CENTER_X;
+
+		public static int ZENOPTIONS_MUSIC_SLIDER_Y;
+
+		public static int ZENOPTIONS_RESUME_BTN_Y;
+
+		public static int ZENOPTIONS_BACK_BTN_Y;
+
+		public static int ZENOPTIONS_ENABLE_OFFSET_Y;
+
+		public static int ZENOPTIONS_SLIDE_OFFSET_Y;
+
+		public static int ZENOPTIONS_SLIDE_ITEM_LABEL_OFFSET_Y;
+
+		public static int ZENOPTIONS_SLIDER_HOR_THRESHOLD;
+
+		public static int ZENOPTIONS_INLAY_PAD_Y;
+
+		public static int ZENOPTIONS_ITEM_LEFT_OFFSET;
+
+		public static int ZENOPTIONS_ITEM_RIGHT_OFFSET;
+
+		public static int ZENOPTIONS_BTN_LEFT_OFFSET;
+
+		public static int ZENOPTIONS_BTN_RIGHT_OFFSET;
+
+		public static int ZENOPTIONS_ENABLE_CHECK_OFFSET_X;
+
+		public static int ZENOPTIONS_CONTAINER_Y;
+
+		public static int ZENOPTIONS_DESC_OFFSET_Y;
+
+		public static int AMBIENT_VOL_OFFSET_Y;
+
+		public static int MANTRA_SUBLIMINAL_CHECK_OFFSET_Y;
+
+		public static int MANTRA_SPEED_VIS_SLIDER_OFFSET_Y;
+
+		public static int ZENOPTIONS_MENU_BREATH_MOD_Y;
+
+		public static int ZENOPTIONS_MENU_BREATH_MOD_BACK_BTN_Y;
+
+		public static int ZENOPTIONS_BREATHMOD_VIS_CHECK_OFFSET_Y;
+
+		public static int BREATHMOD_SPEED_SLIDER_OFFSET_Y;
+
+		public static int BREATHMOD_VOL_SLIDER_OFFSET_Y;
+
+		public static int ZENINFODIALOG_WIDTH;
+
+		public static int ZENINFODIALOG_MSG_LEFT_X;
+
+		public static int ZENINFODIALOG_MSG_START_Y;
+
+		public static int ZENINFODIALOG_MSG_HEIGHT;
+
+		public static int ZENINFODIALOG_GEM_BULLET_WIDTH;
+
+		public static int ZENINFODIALOG_GEM_BULLET_Y_OFFSET;
+
+		public static int HIGHSCORES_MENU_WIDTH;
+
+		public static int HIGHSCORES_MENU_HEADING_X;
+
+		public static int HIGHSCORES_MENU_SCROLLWIDGET_CORRECTION;
+
+		public static int HIGHSCORES_MENU_BOTTOM_MESSAGE_HEIGHT;
+
+		public static int HIGHSCORES_MENU_BOTTOM_MESSAGE_X;
+
+		public static int HIGHSCORES_MENU_BOTTOM_MESSAGE_Y;
+
+		public static int HIGHSCORES_MENU_CONTAINER_PADDING_X;
+
+		public static int HIGHSCORES_MENU_CONTAINER_TOP;
+
+		public static int HIGHSCORES_MENU_CONTAINER_BOTTOM;
+
+		public static int HIGHSCORES_MENU_CONTAINER_HEIGHT;
+
+		public static int HIGHSCORES_MENU_MODE_PADDING_TOP;
+
+		public static int HIGHSCORES_MENU_MODE_PADDING_BOTTOM;
+
+		public static int HIGHSCORES_MENU_MODE_PADDING_X;
+
+		public static int HIGHSCORES_MENU_MODEWIDTH;
+
+		public static int HIGHSCORES_MENU_CONTAINER_WIDTH;
+
+		public static int HIGHSCORES_MENU_SLIDE_BUTTON_OFFSET_X;
+
+		public static int HIGHSCORES_MENU_SLIDE_BUTTON_Y;
+
+		public static int HIGHSCORES_MENU_MODE_BTN_BACK_X;
+
+		public static int HIGHSCORES_MENU_MODE_BTN_BACK_Y;
+
+		public static int HIGHSCORES_MENU_GAMECENTER_X;
+
+		public static int HIGHSCORES_MENU_GAMECENTER_Y;
+
+		public static int HIGHSCORESWIDGET_HEADING_Y;
+
+		public static int HIGHSCORESWIDGET_BOX_Y;
+
+		public static int HIGHSCORESWIDGET_TOPSCORES_HEADING_Y;
+
+		public static int HIGHSCORESWIDGET_ENTRYNUMBER_X;
+
+		public static int HIGHSCORESWIDGET_ENTRYNUMBER_Y;
+
+		public static int HIGHSCORESWIDGET_NAME_X;
+
+		public static int HIGHSCORESWIDGET_NAME_Y;
+
+		public static int HIGHSCORESWIDGET_NAME_WIDTH;
+
+		public static int HIGHSCORESWIDGET_POINTS_X;
+
+		public static int HIGHSCORESWIDGET_POINTS_Y;
+
+		public static int HIGHSCORESWIDGET_PICTURE_X;
+
+		public static int HIGHSCORESWIDGET_PICTURE_Y_OFFSET;
+
+		public static int HIGHSCORESWIDGET_ITEM_HEIGHT;
+
+		public static int HIGHSCORESWIDGET_ITEM_LINE_OFFSET_ODD;
+
+		public static int HIGHSCORESWIDGET_ITEM_TEXT_OFFSET;
+
+		public static int HIGHSCORESWIDGET_CONTAINER_OFFSET_Y;
+
+		public static int HIGHSCORESWIDGET_SCROLL_TO_OFFSET;
+
+		public static int HIGHSCORESWIDGET_TOP_CURL_Y;
+
+		public static int HIGHSCORESWIDGET_TOP_CURL_WIDTH;
+
+		public static int HIGHSCORESWIDGET_TOP_CURL_OFFSET;
+
+		public static int HIGHSCORESWIDGET_BOTTOM_CURL_Y;
+
+		public static float HIGHSCORESWIDGET_BOTTOM_CURL_SCALE;
+
+		public static int HIGHSCORESWIDGET_BOTTOM_CURL_OFFSET;
+
+		public static int PROFILEMENU_WIDTH;
+
+		public static int PROFILEMENU_HEADING_LABEL_X;
+
+		public static int PROFILEMENU_NAME_LABEL_X;
+
+		public static int PROFILEMENU_NAME_LABEL_Y;
+
+		public static int PROFILEMENU_NAME_LABEL_WIDTH;
+
+		public static int PROFILEMENU_DIVIDER_NAME;
+
+		public static int PROFILEMENU_DIVIDER_1_Y;
+
+		public static int PROFILEMENU_DIVIDER_2_Y;
+
+		public static int PROFILEMENU_DIVIDER_3_Y;
+
+		public static int PROFILEMENU_PLAYER_IMAGE_X;
+
+		public static int PROFILEMENU_PLAYER_IMAGE_Y;
+
+		public static int PROFILEMENU_DIVIDER_RANK;
+
+		public static int PROFILEMENU_RANKBAR_WIDTH;
+
+		public static int PROFILEMENU_RANKBAR_X;
+
+		public static int PROFILEMENU_RANKBAR_Y;
+
+		public static int PROFILEMENU_RANK_LABEL_X;
+
+		public static int PROFILEMENU_RANK_LABEL_Y;
+
+		public static int PROFILEMENU_LABEL_OFFSET;
+
+		public static int PROFILEMENU_PADDING_X;
+
+		public static int PROFILEMENU_PADDING_TOP;
+
+		public static int PROFILEMENU_PADDING_BOTTOM;
+
+		public static int PROFILEMENU_CONTAINER_HEIGHT;
+
+		public static int PROFILEMENU_BUTTON_HEIGHT;
+
+		public static int PROFILEMENU_BUTTON_PADDING_X;
+
+		public static int PROFILEMENU_GOTO_BUTTON_WIDTH;
+
+		public static int PROFILEMENU_STATS_Y;
+
+		public static int PROFILEMENU_HIGHSCORES_Y;
+
+		public static int PROFILEMENU_BADGES_Y;
+
+		public static int PROFILEMENU_BUTTON_WIDTH;
+
+		public static int PROFILEMENU_BACK_X;
+
+		public static int PROFILEMENU_EDIT_X;
+
+		public static int PROFILEMENU_BOTTOM_BUTTON_Y;
+
+		public static int PROFILEMENU_BUTTON_HEADING_Y;
+
+		public static int PROFILEMENU_BUTTON_MESSAGE_X_1;
+
+		public static int PROFILEMENU_BUTTON_MESSAGE_X_2;
+
+		public static int PROFILEMENU_BUTTON_MESSAGE_Y_1;
+
+		public static int PROFILEMENU_BUTTON_MESSAGE_Y_2;
+
+		public static int PROFILEMENU_BUTTON_EXTRA_MESSAGE_WIDTH;
+
+		public static int PROFILEMENU_BUTTON_EXTRA_MESSAGE_X;
+
+		public static int PROFILEMENU_BUTTON_EXTRA_MESSAGE_Y;
+
+		public static int PROFILEMENU_BUTTON_MINI_BUTTON_X;
+
+		public static int PROFILEMENU_BUTTON_MINI_BUTTON_Y;
+
+		public static int PROFILEMENU_STATS_BTN_OFFSET_Y;
+
+		public static int PROFILEMENU_SCORES_BTN_OFFSET_Y;
+
+		public static int PROFILEMENU_BADGES_BTN_OFFSET_Y;
+
+		public static int PROFILEMENU_BADGE_X;
+
+		public static int PROFILEMENU_BADGE_Y;
+
+		public static int PROFILEMENU_BADGE_WIDTH;
+
+		public static float PROFILEMENU_BADGE_SCALE;
+
+		public static int PROFILEMENU_GAMECENTER_X;
+
+		public static int PROFILEMENU_GAMECENTER_Y;
+
+		public static int EDITPROFILEMENU_WIDTH;
+
+		public static int EDITPROFILEMENU_HEADING_X;
+
+		public static int EDITPROFILEMENU_HEADING_Y;
+
+		public static int EDITPROFILEMENU_NAME_LABEL_X;
+
+		public static int EDITPROFILEMENU_NAME_LABEL_Y;
+
+		public static int EDITPROFILEMENU_NAME_LABEL_WIDTH;
+
+		public static int EDITPROFILEMENU_DIVIDER_1_Y;
+
+		public static int EDITPROFILEMENU_PLAYER_IMAGE_X;
+
+		public static int EDITPROFILEMENU_PLAYER_IMAGE_Y;
+
+		public static int EDITPROFILEMENU_NAME_LABEL_X_FIRST_TIME;
+
+		public static int EDITPROFILEMENU_NAME_LABEL_Y_FIRST_TIME;
+
+		public static int EDITPROFILEMENU_PLAYER_IMAGE_X_FIRSTTIME;
+
+		public static int EDITPROFILEMENU_PLAYER_IMAGE_Y_FIRSTTIME;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_X;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_ITEM_SIZE_Y;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_ROWS;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_COLUMNS;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_WIDTH;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_X;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_Y;
+
+		public static int EDITPROFILEMENU_IMAGE_LIBRARY_HEIGHT;
+
+		public static int EDITPROFILEMENU_GET_PIC_X;
+
+		public static int EDITPROFILEMENU_GET_PIC_Y;
+
+		public static int EDITPROFILEMENU_BUTTON_WIDTH;
+
+		public static int EDITPROFILEMENU_EDIT_NAME_Y;
+
+		public static int EDITPROFILEMENU_EDIT_NAME_X;
+
+		public static int EDITPROFILEMENU_PIC_LIB_Y;
+
+		public static int EDITPROFILEMENU_PIC_CAM_Y;
+
+		public static int EDITPROFILEMENU_SAVE_X;
+
+		public static int EDITPROFILEMENU_SAVE_Y;
+
+		public static int NEWUSERDIALOG_HEIGHT;
+
+		public static int NEWUSERDIALOG_Y;
+
+		public static int NEWUSERDIALOG_WIDTH;
+
+		public static int NEWUSERDIALOG_EXTRA_TEXT_Y;
+
+		public static int NEWUSERDIALOG_EXTRA_TEXT_PADDING;
+
+		public static int NEWUSERDIALOG_EXTRA_TEXT_HEIGHT;
+
+		public static int NEWUSERDIALOG_TEXTBOX_WIDTH;
+
+		public static int NEWUSERDIALOG_TEXTBOX_Y_OFFSET;
+
+		public static int NEWUSERDIALOG_HEADING_Y;
+
+		public static int NEWUSERDIALOG_DIVIDER_Y;
+
+		public static int WELCOME_DIALOG_TEXTBOX_Y_OFFSET;
+
+		public static int WELCOME_DIALOG_MESSAGE_Y;
+
+		public static int CHANGEPICTUREDIALOG_CURRENT_IMAGE_X;
+
+		public static int CHANGEPICTUREDIALOG_CURRENT_IMAGE_Y;
+
+		public static int CHANGEPICTUREDIALOG_BUTTON_OFFSET;
+
+		public static int CHANGEPICTUREDIALOG_BUTTON_SIZE;
+
+		public static int CHANGEPICTUREDIALOG_IMAGE_SCROLLER_X;
+
+		public static int CHANGEPICTUREDIALOG_IMAGE_SCROLLER_Y;
+
+		public static int CHANGEPICTUREDIALOG_IMAGE_SCROLLER_WIDTH;
+
+		public static int CHANGEPICTUREDIALOG_IMAGE_X_OFFSET;
+
+		public static int CHANGEPICTUREDIALOG_IMAGE_Y_OFFSET;
+
+		public static int CHANGEPICTUREDIALOG_LIBRARY_BUTTON_WIDTH;
+
+		public static int CHANGEPICTUREDIALOG_CAMERA_BUTTON_WIDTH;
+
+		public static int CHANGEPICTUREDIALOG_LIBRARY_BUTTON_X;
+
+		public static int CHANGEPICTUREDIALOG_CAMERA_BUTTON_X;
+
+		public static int CHANGEPICTUREDIALOG_LIBRARY_BUTTON_Y;
+
+		public static int CHANGEPICTUREDIALOG_CAMERA_BUTTON_Y;
+
+		public static int STATS_MENU_HEADING_X;
+
+		public static int STATS_MENU_HEADINGS_STEP_Y;
+
+		public static int STATS_MENU_TOP_ALPHA;
+
+		public static int STATS_MENU_BOTTOM_ALPHA;
+
+		public static int STATS_MENU_ALPHA_PADDING;
+
+		public static int STATS_MENU_DIVIDER_2_Y;
+
+		public static int STATS_MENU_DIVIDER_3_Y;
+
+		public static int STATS_MENU_HEADINGS_START_Y_1;
+
+		public static int STATS_MENU_HEADINGS_START_Y_2;
+
+		public static int STATS_MENU_HEADINGS_START_Y_3;
+
+		public static int STATS_MENU_DATA_Y_OFFSET;
+
+		public static int STATS_MENU_CONTAINER_PADDING_X;
+
+		public static int STATS_MENU_CONTAINER_PADDING_TOP;
+
+		public static int STATS_MENU_CONTAINER_PADDING_BOTTOM;
+
+		public static int STATS_MENU_CONTAINER_HEIGHT;
+
+		public static int STATS_MENU_HEADINGS_X;
+
+		public static int STATS_MENU_STATS_X;
+
+		public static int STATS_MENU_BACK_X;
+
+		public static int STATS_MENU_BACK_Y;
+
+		public static int CREDITSMENU_WIDTH;
+
+		public static int CREDITSMENU_HEADING_LABEL_X;
+
+		public static int CREDITSMENU_PADDING_X;
+
+		public static int CREDITSMENU_PADDING_TOP;
+
+		public static int CREDITSMENU_PADDING_BOTTOM;
+
+		public static int CREDITSMENU_SCROLL_START;
+
+		public static int CREDITSMENU_HEIGHT;
+
+		public static float CREDITSMENU_SPEED;
+
+		public static float CREDITSMENU_SPEED_CHANGE;
+
+		public static int CREDITSMENU_START;
+
+		public static int CREDITSMENU_LOGO_Y;
+
+		public static int CREDITSMENU_LOGO_FADE_OFFSET_TOP;
+
+		public static int CREDITSMENU_LOGO_FADE_OFFSET_BOTTOM;
+
+		public static int CREDITSMENU_ROLE_DIST;
+
+		public static int CREDITSMENU_NAME_HEIGHT;
+
+		public static int CREDITSMENU_SUB_HEADING_DIST;
+
+		public static int CREDITSMENU_EXTRA_MESSAGE_HEIGHT;
+
+		public static int CREDITSMENU_EXTRA_MESSAGE_OFFSET;
+
+		public static int CREDITSMENU_TOP_ALPHA;
+
+		public static int CREDITSMENU_BOTTOM_ALPHA;
+
+		public static int CREDITSMENU_ALPHA_PADDING;
+
+		public static int CREDITSMENU_BUTTON_Y;
+
+		public static int MAINMENU_OPTIONSMENU_BUTTON_WIDTH;
+
+		public static int MAINMENU_OPTIONSMENU_EXPANDED_POS;
+
+		public static int MAINMENU_OPTIONSMENU_PROFILE_X;
+
+		public static int MAINMENU_OPTIONSMENU_PROFILE_Y;
+
+		public static int MAINMENU_OPTIONSMENU_OPTIONS_X;
+
+		public static int MAINMENU_OPTIONSMENU_OPTIONS_Y;
+
+		public static int MAINMENU_OPTIONSMENU_MOREGAMES_1_X;
+
+		public static int MAINMENU_OPTIONSMENU_MOREGAMES_1_Y;
+
+		public static int MAINMENU_OPTIONSMENU_HELP_X;
+
+		public static int MAINMENU_OPTIONSMENU_HELP_Y;
+
+		public static int MAINMENU_OPTIONSMENU_BACK_Y;
+
+		public static int MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_X;
+
+		public static int MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_Y;
+
+		public static int MAINMENU_OPTIONSMENU_FIRST_SHOW_MSG_W;
+
+		public static int OPTIONSMENU_CONTAINER_Y;
+
+		public static int OPTIONSMENU_CONTAINER_W;
+
+		public static int OPTIONSMENU_DIVIDER_1;
+
+		public static int OPTIONSMENU_BOX_1_X;
+
+		public static int OPTIONSMENU_BOX_1_Y;
+
+		public static int OPTIONSMENU_BOX_1_W;
+
+		public static int OPTIONSMENU_BOX_1_H;
+
+		public static int OPTIONSMENU_BOX_2_X;
+
+		public static int OPTIONSMENU_BOX_2_Y;
+
+		public static int OPTIONSMENU_BOX_2_W;
+
+		public static int OPTIONSMENU_BOX_2_H;
+
+		public static int OPTIONSMENU_CONTAINER_H;
+
+		public static int OPTIONSMENU_MUTE_CHECKBOX_X;
+
+		public static int OPTIONSMENU_MUTE_CHECKBOX_Y;
+
+		public static int OPTIONSMENU_MUTE_LABEL_X;
+
+		public static int OPTIONSMENU_MUTE_LABEL_Y;
+
+		public static int OPTIONSMENU_AUTOHINT_CHECKBOX_X;
+
+		public static int OPTIONSMENU_AUTOHINT_CHECKBOX_Y;
+
+		public static int OPTIONSMENU_AUTOHINT_LABEL_X;
+
+		public static int OPTIONSMENU_AUTOHINT_LABEL_Y;
+
+		public static int OPTIONSMENU_TUTORIAL_CHECKBOX_X;
+
+		public static int OPTIONSMENU_TUTORIAL_CHECKBOX_Y;
+
+		public static int OPTIONSMENU_TUTORIAL_LABEL_X;
+
+		public static int OPTIONSMENU_TUTORIAL_LABEL_Y;
+
+		public static int OPTIONSMENU_SLIDER_WIDTH;
+
+		public static int OPTIONSMENU_MUSIC_SLIDER_Y;
+
+		public static int OPTIONSMENU_VOICE_SLIDER_Y;
+
+		public static int OPTIONSMENU_FX_SLIDER_Y;
+
+		public static int OPTIONSMENU_MUSIC_SLIDER_X;
+
+		public static int OPTIONSMENU_FX_SLIDER_X;
+
+		public static int OPTIONSMENU_VOICE_SLIDER_X;
+
+		public static int OPTIONSMENU_MUSIC_LABEL_X;
+
+		public static int OPTIONSMENU_FX_LABEL_X;
+
+		public static int OPTIONSMENU_VOICE_LABEL_X;
+
+		public static int OPTIONSMENU_MUSIC_LABEL_Y;
+
+		public static int OPTIONSMENU_FX_LABEL_Y;
+
+		public static int OPTIONSMENU_VOICE_LABEL_Y;
+
+		public static int OPTIONSMENU_BUTTON_WIDTH;
+
+		public static int OPTIONSMENU_BUTTON_WIDTH_LONG;
+
+		public static int OPTIONSMENU_CREDITS_X;
+
+		public static int OPTIONSMENU_CREDITS_Y;
+
+		public static int OPTIONSMENU_BACK_X;
+
+		public static int OPTIONSMENU_BACK_Y;
+
+		public static int OPTIONSMENU_ABOUT_X;
+
+		public static int OPTIONSMENU_ABOUT_Y;
+
+		public static int OPTIONSMENU_ABOUT_Y_2;
+
+		public static int OPTIONSMENU_LEGAL_X;
+
+		public static int OPTIONSMENU_LEGAL_Y;
+
+		public static int PAUSEMENU_WIDTH;
+
+		public static int PAUSEMENU_HEIGHT;
+
+		public static int PAUSEMENU_HEIGHT_ZEN;
+
+		public static int PAUSEMENU_ZEN_OVERLAY_HEIGHT;
+
+		public static int PAUSEMENU_X;
+
+		public static int PAUSEMENU_Y;
+
+		public static int PAUSEMENU_BUTTON_HELP_X;
+
+		public static int PAUSEMENU_BUTTON_HELP_Y;
+
+		public static int PAUSEMENU_BUTTON_HELP_ZEN_X;
+
+		public static int PAUSEMENU_BUTTON_HELP_ZEN_Y;
+
+		public static int PAUSEMENU_BUTTON_RESTART_X;
+
+		public static int PAUSEMENU_BUTTON_RESTART_Y;
+
+		public static int PAUSEMENU_BUTTON_MAINMENU_X;
+
+		public static int PAUSEMENU_BUTTON_MAINMENU_Y;
+
+		public static int PAUSEMENU_BUTTON_RESUME_X;
+
+		public static int PAUSEMENU_BUTTON_RESUME_Y;
+
+		public static int PAUSEMENU_BUTTON_WIDTH;
+
+		public static int PAUSEMENU_FULL_BUTTON_WIDTH;
+
+		public static int PAUSEMENU_BUTTON_WIDTH_ZEN;
+
+		public static int PAUSEMENU_EXPANDER_DISTANCE;
+
+		public static int PAUSEMENU_ZEN_OFFSET_BREATH_Y;
+
+		public static int PAUSEMENU_ZEN_OFFSET_BREATH_Y_2;
+
+		public static int PAUSEMENU_ZEN_OFFSET_AMBIENT_Y;
+
+		public static int PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_2;
+
+		public static int PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_3;
+
+		public static int PAUSEMENU_ZEN_OFFSET_AMBIENT_Y_4;
+
+		public static int PAUSEMENU_ZEN_OFFSET_MANTRA_Y;
+
+		public static int PAUSEMENU_ZEN_OFFSET_MANTRA_Y_2;
+
+		public static int PAUSEMENU_ZEN_OFFSET_MANTRA_Y_3;
+
+		public static int PAUSEMENU_ZEN_OFFSET_MANTRA_Y_4;
+
+		public static int PAUSEMENU_HINT_LABEL_WIDTH;
+
+		public static int PAUSEMENU_HINT_LABEL_HEIGHT;
+
+		public static int PAUSEMENU_HINT_LABEL_X;
+
+		public static int PAUSEMENU_HINT_LABEL_Y;
+
+		public static int LEGALMENU_HEADING_LABEL_X;
+
+		public static int LEGALMENU_BOX_1_W;
+
+		public static int LEGALMENU_BOX_1_X;
+
+		public static int LEGALMENU_BOX_1_Y;
+
+		public static int LEGALMENU_BOX_1_H;
+
+		public static int LEGALMENU_BUTTON_WIDTH;
+
+		public static int LEGALMENU_BUTTON_BACK_X;
+
+		public static int LEGALMENU_BUTTON_BACK_Y;
+
+		public static int LEGALMENU_BUTTON_EULA_X;
+
+		public static int LEGALMENU_BUTTON_EULA_Y;
+
+		public static int LEGALMENU_BUTTON_PRIVACY_X;
+
+		public static int LEGALMENU_BUTTON_PRIVACY_Y;
+
+		public static int LEGALMENU_BUTTON_TERMS_X;
+
+		public static int LEGALMENU_BUTTON_TERMS_Y;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_CHECKBOX_X;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_CHECKBOX_Y;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_X;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_LABEL_HEADING_Y;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_LABEL_LINESPACING_OFFSET;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_LABEL_X;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_LABEL_Y;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_LABEL_HEIGHT;
+
+		public static int LEGALMENU_ANONYMOUS_STATS_LABEL_WIDTH;
+
+		public static int ABOUTMENU_OFFSET_Y;
+
+		public static int ABOUTMENU_HEADING_LABEL_X;
+
+		public static int ABOUTMENU_HEADING_LABEL_Y;
+
+		public static int ABOUTMENU_DIVIDER_1;
+
+		public static int ABOUTMENU_DIVIDER_2;
+
+		public static int ABOUTMENU_BOX_1_W;
+
+		public static int ABOUTMENU_BOX_1_H;
+
+		public static int ABOUTMENU_BOX_1_X;
+
+		public static int ABOUTMENU_BOX_1_Y;
+
+		public static int ABOUTMENU_BOX_2_W;
+
+		public static int ABOUTMENU_BOX_2_H;
+
+		public static int ABOUTMENU_BOX_2_X;
+
+		public static int ABOUTMENU_BOX_2_Y;
+
+		public static int ABOUTMENU_BACK_BUTTON_X;
+
+		public static int ABOUTMENU_BACK_BUTTON_Y;
+
+		public static int ABOUTMENU_BACK_BUTTON_WIDTH;
+
+		public static int ABOUTMENU_LINK_X;
+
+		public static int ABOUTMENU_MESSAGE_2_TEXT_OFFSET;
+
+		public static int ABOUTMENU_MESSAGE_2_LABEL_WIDTH;
+
+		public static int ABOUTMENU_MESSAGE_2_LABEL_HEIGHT;
+
+		public static int ABOUTMENU_MESSAGE_2_LABEL_HEIGHT_2;
+
+		public static int ABOUTMENU_MESSAGE_2_LINK_HEIGHT;
+
+		public static int ABOUTMENU_POST_LINK_OFFSET_Y;
+
+		public static int ABOUTMENU_SUPPORT_Y;
+
+		public static int ABOUTMENU_VERSION_Y_OFFSET;
+
+		public static int ABOUTMENU_MESSAGE_2_LABEL_X;
+
+		public static int ABOUTMENU_MESSAGE_2_LABEL_Y;
+
+		public static int ABOUTMENU_CLOSE_BUTTON_X;
+
+		public static int ABOUTMENU_CLOSE_BUTTON_Y;
+
+		public static int RANKUPDIALOG_WIDTH;
+
+		public static int RANKUPDIALOG_HEIGHT;
+
+		public static int RANKUPDIALOG_BUTTON_OK_WIDTH;
+
+		public static int RANKUPDIALOG_BUTTON_OK_X;
+
+		public static int RANKUPDIALOG_BUTTON_OK_Y;
+
+		public static int RANKUPDIALOG_RANKBAR_Y;
+
+		public static int RANKUPDIALOG_RANKBAR_WIDTH;
+
+		public static int RANKUPDIALOG_MSG_1_WIDTH;
+
+		public static int RANKUPDIALOG_MSG_1_HEIGHT;
+
+		public static int RANKUPDIALOG_MSG_1_Y;
+
+		public static int RANKUPDIALOG_MSG_2_Y;
+
+		public static int RANKUPDIALOG_MSG_3_Y;
+
+		public static int RANKUPDIALOG_MSG_4_Y;
+
+		public static int RANKUPDIALOG_MSG_5_Y;
+
+		public static int RANKUPDIALOG_FONT_SCALE_OFFSET;
+
+		public static int DIALOGBOX_BUTTON_1_Y_1_BUTTON;
+
+		public static int DIALOGBOX_BUTTON_WIDTH_1_BUTTON;
+
+		public static int DIALOGBOX_BUTTON_1_X_2_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_1_Y_2_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_2_X_2_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_2_Y_2_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_WIDTH_2_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_1_X_3_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_2_X_3_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_1_Y_3_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_2_Y_3_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_3_Y_3_BUTTONS;
+
+		public static int DIALOGBOX_BUTTON_WIDTH_3_BUTTONS;
+
+		public static int DIALOGBOX_MESSAGE_PADDING_X;
+
+		public static int DIALOGBOX_MESSAGE_PADDING_TOP;
+
+		public static int DIALOGBOX_MIN_WIDTH;
+
+		public static int DIALOGBOX_MIN_HEIGHT;
+
+		public static int DIALOGBOX_MAX_HEIGHT;
+
+		public static int DIALOGBOX_BUTTON_MEASURE_HEIGHT;
+
+		public static int DIALOGBOX_EXTRA_HEIGHT;
+
+		public static float MENU_BACKGROUND_FADE_IN_SPEED;
+
+		public static float MENU_BACKGROUND_FADE_OUT_SPEED;
+
+		public static int EDITWIDGET_BOX_PADDING_X;
+
+		public static int EDITWIDGET_CURSOR_OFFSET;
+
+		public static int EDITWIDGET_HEIGHT;
+
+		public static int EDITWIDGET_BACKGROUND_OFFSET;
+
+		public static int DIALOG_RESTART_GAME_WIDTH;
+
+		public static int DIALOGBOX_HEADING_LABEL_Y;
+
+		public static int DIALOGBOX_HEADING_LABEL_SPLIT_Y;
+
+		public static int DIALOGBOX_HEADING_LABEL_MAX_WIDTH_OFFSET;
+
+		public static int DIALOG_HEADING_LABEL_SPLIT_Y;
+
+		public static int LISTBOX_HEADING_OFFSET;
+
+		public static int LISTBOX_FOOTER_OFFSET;
+
+		public static int LISTBOX_BG_OFFSET_TOP;
+
+		public static int LISTBOX_BG_OFFSET_BOTTOM;
+
+		public static int LISTBOX_DIVIDER_OFFSET_1;
+
+		public static int LISTBOX_DIVIDER_OFFSET_2;
+
+		public static int LISTBOX_LINE_HEIGHT;
+
+		public static int LISTBOX_LINE_HEIGHT_2;
+
+		public static int LISTBOX_LINE_OFFSET_1;
+
+		public static int LISTBOX_SHADOW_X;
+
+		public static int LISTBOX_SHADOW_Y;
+
+		public static int LISTBOX_SHADOW_Y_BOTTOM;
+
+		public static float BEJ3BUTTON_ROTATION_SPEED;
+
+		public static float BEJ3BUTTON_DROPDOWN_SIZE;
+
+		public static float BEJ3BUTTON_DROPDOWN_ROT_CENTER_X;
+
+		public static float BEJ3BUTTON_DROPDOWN_ROT_CENTER_Y;
+
+		public static int BEJ3BUTTON_DROPDOWN_OFFSET_X;
+
+		public static int BEJ3BUTTON_DROPDOWN_OFFSET_Y;
+
+		public static int BEJ3BUTTON_HINT_OK_OFFSET_X;
+
+		public static int BEJ3BUTTON_HINT_OK_OFFSET_Y;
+
+		public static int BEJ3BUTTON_SLIDE_ARROW_DIST;
+
+		public static int BEJ3BUTTON_LONG_DEFAULT_WIDTH;
+
+		public static int BEJ3BUTTON_AUTOSCALE_DEFAULT_WIDTH;
+
+		public static int BEJ3BUTTON_AUTOSCALE_MIN_WIDTH;
+
+		public static int BEJ3BUTTON_AUTOSCALE_TEXT_WIDTH_OFFSET;
+
+		public static int BEJ3BUTTON_INSIDE_RECT_OFFSET;
+
+		public static int BEJ3BUTTON_ICESTORM_TEXT_OFFSET_Y;
+
+		public static int BEJ3BUTTON_TEXT_OFFSET_Y;
+
+		public static int BEJ3SLIDER_WIDTH_OFFSET;
+
+		public static int BEJ3SLIDER_HEIGHT;
+
+		public static int BEJ3SLIDER_X_OFFSET;
+
+		public static float BEJ3SLIDESELECTOR_ITEM_MULT;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_LEFT_X;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_LEFT_X_SMALL;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_Y;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_Y_SMALL;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_HEIGHT_OFFSET_SMALL;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X;
+
+		public static int BEJ3SLIDESELECTOR_OVERLAY_RIGHT_X_SMALL;
+
+		public static int BEJ3CHECKBOX_SIZE;
+
+		public static int TOOLTIP_ARROW_SIZE;
+
+		public static int TOOLTIP_ARROW_DISTANCE;
+
+		public static int TOOLTIP_ARROW_OFFSET_DOWN;
+
+		public static int TOOLTIP_ARROW_OFFSET_LEFT;
+
+		public static int TOOLTIP_ARROW_OFFSET_RIGHT;
+
+		public static int TOOLTIP_HEIGHT_OFFSET;
+
+		public static int TOOLTIP_BOX_OFFSET_Y;
+
+		public static int HELPDIALOG_HEADING_X;
+
+		public static int HELPDIALOG_HOWTOPLAY_LABEL_Y;
+
+		public static int HELPDIALOG_SWIPE_MSG_LABEL_X;
+
+		public static int HELPDIALOG_SWIPE_MSG_LABEL_Y;
+
+		public static int HELPDIALOG_DIVIDER_1_Y;
+
+		public static int HELPDIALOG_DISABLE_HINT_X;
+
+		public static int HELPDIALOG_DISABLE_HINT_Y;
+
+		public static int HELPDIALOG_DISABLE_HINT_LABEL_X;
+
+		public static int HELPDIALOG_DISABLE_HINT_LABEL_Y;
+
+		public static int HELPDIALOG_DIVIDER_BOX_1_X;
+
+		public static int HELPDIALOG_DIVIDER_BOX_1_Y;
+
+		public static int HELPDIALOG_DIVIDER_BOX_1_W;
+
+		public static int HELPDIALOG_DIVIDER_BOX_1_H;
+
+		public static int HELPDIALOG_CONTAINER_X;
+
+		public static int HELPDIALOG_CONTAINER_TAB_PADDING_SIDE;
+
+		public static int HELPDIALOG_CONTAINER_TAB_PADDING;
+
+		public static int HELPDIALOG_CONTAINER_TAB_WIDTH;
+
+		public static int HELPDIALOG_CONTAINER_WIDTH;
+
+		public static int HELPDIALOG_CONTAINER_HEIGHT;
+
+		public static int HELPDIALOG_CONTAINER_Y;
+
+		public static int HELPDIALOG_WINDOW_CLIP_OFFSET_TOP;
+
+		public static int HELPDIALOG_WINDOW_HEIGHT;
+
+		public static int HELPDIALOG_WINDOW_Y;
+
+		public static int HELPDIALOG_WINDOW_ANIMATION_Y_OFFSET;
+
+		public static int HELPDIALOG_WINDOW_BACKGROUND_OFFSET;
+
+		public static int HELPDIALOG_WINDOW_BACKGROUND_EXTRA_SIZE;
+
+		public static float HELPDIALOG_WINDOW_BACKGROUND_SCALE;
+
+		public static int HELPDIALOG_SLIDE_BUTTON_OFFSET_X;
+
+		public static int HELPDIALOG_SLIDE_BUTTON_Y;
+
+		public static float HELPDIALOG_POPANIM_SCALE;
+
+		public static float HELPDIALOG_POPANIM_CLIP_SCALE;
+
+		public static int HELPDIALOG_TEXT_X;
+
+		public static int HELPDIALOG_TEXT_Y;
+
+		public static int HELPDIALOG_TEXT_WIDTH;
+
+		public static int HELPDIALOG_TEXT_HEIGHT;
+
+		public static int HELPDIALOG_CLOSE_Y;
+
+		public static int HELPDIALOG_OFFSET_BASICS_1;
+
+		public static int HELPDIALOG_OFFSET_BASICS_2;
+
+		public static int HELPDIALOG_OFFSET_BASICS_3;
+
+		public static int HELPDIALOG_OFFSET_DIAMOND_1;
+
+		public static int HELPDIALOG_OFFSET_DIAMOND_2;
+
+		public static int HELPDIALOG_OFFSET_DIAMOND_3;
+
+		public static int DIALOG_HEADER_OFFSET;
+
+		public static int HINTDIALOG_PAD;
+
+		public static int HINTDIALOG_X;
+
+		public static int HINTDIALOG_Y;
+
+		public static int HINTDIALOG_WIDTH;
+
+		public static int HINTDIALOG_HEIGHT;
+
+		public static int HINTDIALOG_TEXT_LINE_SPACING_ADJUST;
+
+		public static int HINTDIALOG_TEXT_X;
+
+		public static int HINTDIALOG_TEXTCONTAINER_Y;
+
+		public static int HINTDIALOG_TEXT_Y;
+
+		public static int HINTDIALOG_TEXT_WIDTH_REPLAY;
+
+		public static int HINTDIALOG_TEXT_WIDTH_NO_REPLAY;
+
+		public static int HINTDIALOG_TEXT_HEIGHT;
+
+		public static int HINTDIALOG_TEXT_NO_SCROLL_HEIGHT;
+
+		public static int HINTDIALOG_HEIGHT_OFFSET;
+
+		public static int HINTDIALOG_BUTTON_X;
+
+		public static int HINTDIALOG_BUTTON_Y;
+
+		public static int RATEGAME_DIALOG_MSG_TOP;
+
+		public static int RATEGAME_DIALOG_HEIGHT;
+
+		public static int RATEGAME_DIALOG_BTN_RATE_WIDTH;
+
+		public static int RATEGAME_DIALOG_BTN_RATE_X;
+
+		public static int RATEGAME_DIALOG_BTN_RATE_Y;
+
+		public static int RATEGAME_DIALOG_BTN_NO_WIDTH;
+
+		public static int RATEGAME_DIALOG_BTN_NO_X;
+
+		public static int RATEGAME_DIALOG_BTN_NO_Y;
+
+		public static int RATEGAME_DIALOG_BTN_LATER_WIDTH;
+
+		public static int RATEGAME_DIALOG_BTN_LATER_X;
+
+		public static int RATEGAME_DIALOG_BTN_LATER_Y;
+
+		public static int RATEGAME_DIALOG_DECO_Y_1;
+
+		public static int GIFTGAME_DIALOG_MSG_TOP;
+
+		public static int GIFTGAME_DIALOG_HEIGHT;
+
+		public static int GIFTGAME_DIALOG_BTN_YES_WIDTH;
+
+		public static int GIFTGAME_DIALOG_BTN_YES_X;
+
+		public static int GIFTGAME_DIALOG_BTN_YES_Y;
+
+		public static int GIFTGAME_DIALOG_BTN_NO_WIDTH;
+
+		public static int GIFTGAME_DIALOG_BTN_NO_X;
+
+		public static int GIFTGAME_DIALOG_BTN_NO_Y;
+
+		public static int GIFTGAME_DIALOG_DECO_Y_1;
+
+		public static int GIFTGAME_LINE_SPACING_OFFSET;
+
+		public static int RESUME_DIALOG_WIDTH;
+
+		public static int MOREGAMES_WIDGET_WIDTH;
+
+		public static int MOREGAMES_WIDGET_HEIGHT;
+
+		public static int MOREGAMES_WIDGET_X;
+
+		public static int MOREGAMES_WIDGET_Y;
+
+		public static int MOREGAMES_WIDGET_BG_OFFSET;
+
+		public static int MOREGAMES_BACK_WIDTH;
+
+		public static int MOREGAMES_BACK_HEIGHT;
+
+		public static int MOREGAMES_BACK_X;
+
+		public static int MOREGAMES_BACK_Y;
+
+		public static int MOREGAMES_HEADER_TEXT_X;
+
+		public static int MOREGAMES_HEADER_TEXT_Y;
+
+		public static int MOREGAMES_LOADING_BALL_X;
+
+		public static int MOREGAMES_LOADING_BALL_Y;
+
+		public static int MOREGAMES_LOADING_TEXT_Y_OFFSET;
+
+		public static int MOREGAMES_LOADINGBALL_X;
+
+		public static int MOREGAMES_LOADINGBALL_Y;
+
+		public static int BEJ3WIDGET_IMAGEBOX_OFFSET_SMALL;
+
+		public static int BEJ3WIDGET_IMAGEBOX_OFFSET;
+	}
+}

@@ -1,0 +1,23 @@
+﻿using System;
+
+namespace ZumasRevenge.Achievement
+{
+	public enum EAchievementType
+	{
+		FE_RROG,
+		CHALLENGE_ACCEPTED,
+		FROZEN_FROG,
+		POWER_PLAYER,
+		C_C_C_C_CHAIN_BONUS,
+		THREAD_THE_NEEDLE,
+		TIME_FOR_TADPOLES,
+		YOU_WIN,
+		CEPHALOPOD_SMASHE,
+		PESTILENCE_PACIFIER,
+		BONE_PICKER,
+		TIKI_TRAMPLER,
+		JAW_BREAKER,
+		FROG_STATUE,
+		ACHIEVEMENT_TOTAL
+	}
+}

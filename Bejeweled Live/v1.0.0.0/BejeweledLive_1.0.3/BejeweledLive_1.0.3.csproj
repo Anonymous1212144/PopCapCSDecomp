@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AC80A37-C2AD-4985-836A-9381E63F142A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BejeweledLive_1.0.3</RootNamespace>
+    <AssemblyName>BejeweledLive_1.0.3</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AtlasResources.cs" />
+    <Compile Include="AtlasResources_320x480.cs" />
+    <Compile Include="AtlasResources_480x800.cs" />
+    <Compile Include="Bejeweled3\BoardBejLive.cs" />
+    <Compile Include="Bejeweled3\Boost.cs" />
+    <Compile Include="Bejeweled3\ColorCycle.cs" />
+    <Compile Include="Bejeweled3\EffectBej3.cs" />
+    <Compile Include="Bejeweled3\EffectsManager.cs" />
+    <Compile Include="Bejeweled3\EffectTypePair.cs" />
+    <Compile Include="Bejeweled3\EmitterShape.cs" />
+    <Compile Include="Bejeweled3\FColor.cs" />
+    <Compile Include="Bejeweled3\GemColour.cs" />
+    <Compile Include="Bejeweled3\GemOutlines.cs" />
+    <Compile Include="Bejeweled3\GlobalMembersPieceBej3.cs" />
+    <Compile Include="Bejeweled3\LightningBej3.cs" />
+    <Compile Include="Bejeweled3\LightningStorm.cs" />
+    <Compile Include="Bejeweled3\LightningZap.cs" />
+    <Compile Include="Bejeweled3\Line.cs" />
+    <Compile Include="Bejeweled3\MatchSet.cs" />
+    <Compile Include="Bejeweled3\MenuHintButton.cs" />
+    <Compile Include="Bejeweled3\MoveAssistEval.cs" />
+    <Compile Include="Bejeweled3\MoveData.cs" />
+    <Compile Include="Bejeweled3\Particle.cs" />
+    <Compile Include="Bejeweled3\ParticleEmitter.cs" />
+    <Compile Include="Bejeweled3\ParticleType.cs" />
+    <Compile Include="Bejeweled3\PieceBejLive.cs" />
+    <Compile Include="Bejeweled3\PIECEFLAG.cs" />
+    <Compile Include="Bejeweled3\PieceParticleEmitter.cs" />
+    <Compile Include="Bejeweled3\PointsBej3.cs" />
+    <Compile Include="Bejeweled3\PointsManager.cs" />
+    <Compile Include="Bejeweled3\PowerUpPiecePair.cs" />
+    <Compile Include="Bejeweled3\QueuedMove.cs" />
+    <Compile Include="Bejeweled3\ReplayData.cs" />
+    <Compile Include="Bejeweled3\StateInfo.cs" />
+    <Compile Include="Bejeweled3\StaticParticleEmitter.cs" />
+    <Compile Include="Bejeweled3\SwapData.cs" />
+    <Compile Include="BejeweledLIVE\AbstractTimeline.cs" />
+    <Compile Include="BejeweledLIVE\AccelerometerReqs.cs" />
+    <Compile Include="BejeweledLIVE\AchievementFrame.cs" />
+    <Compile Include="BejeweledLIVE\AchievementItem.cs" />
+    <Compile Include="BejeweledLIVE\AchievementListWidget.cs" />
+    <Compile Include="BejeweledLIVE\Achievements.cs" />
+    <Compile Include="BejeweledLIVE\AchievementScreen.cs" />
+    <Compile Include="BejeweledLIVE\ActionSheet.cs" />
+    <Compile Include="BejeweledLIVE\Alert.cs" />
+    <Compile Include="BejeweledLIVE\BackgroundWidget.cs" />
+    <Compile Include="BejeweledLIVE\BigButtonColors.cs" />
+    <Compile Include="BejeweledLIVE\Board.cs" />
+    <Compile Include="BejeweledLIVE\ButtonIds.cs" />
+    <Compile Include="BejeweledLIVE\Constants_320x480.cs" />
+    <Compile Include="BejeweledLIVE\Constants_480x800.cs" />
+    <Compile Include="BejeweledLIVE\CPieceBej2.cs" />
+    <Compile Include="BejeweledLIVE\Credits.cs" />
+    <Compile Include="BejeweledLIVE\CurvedVal.cs" />
+    <Compile Include="BejeweledLIVE\CurvedValDefinition.cs" />
+    <Compile Include="BejeweledLIVE\Dialogoid.cs" />
+    <Compile Include="BejeweledLIVE\Effect.cs" />
+    <Compile Include="BejeweledLIVE\EffectOverlay.cs" />
+    <Compile Include="BejeweledLIVE\EffectType.cs" />
+    <Compile Include="BejeweledLIVE\Extras.cs" />
+    <Compile Include="BejeweledLIVE\FancyBigButton.cs" />
+    <Compile Include="BejeweledLIVE\FancyPodButton.cs" />
+    <Compile Include="BejeweledLIVE\FancySmallButton.cs" />
+    <Compile Include="BejeweledLIVE\FancySmallDoubleButton.cs" />
+    <Compile Include="BejeweledLIVE\FancyTextWidget.cs" />
+    <Compile Include="BejeweledLIVE\FloatingThing.cs" />
+    <Compile Include="BejeweledLIVE\FrameWidget.cs" />
+    <Compile Include="BejeweledLIVE\GameApp.cs" />
+    <Compile Include="BejeweledLIVE\GameConstants.cs" />
+    <Compile Include="BejeweledLIVE\GameMode.cs" />
+    <Compile Include="BejeweledLIVE\GameOverDialog.cs" />
+    <Compile Include="BejeweledLIVE\GAME_MUSIC_MODE.cs" />
+    <Compile Include="BejeweledLIVE\GemTypes.cs" />
+    <Compile Include="BejeweledLIVE\GlobalContentManager.cs" />
+    <Compile Include="BejeweledLIVE\GlobalMembersLoadingTextures.cs" />
+    <Compile Include="BejeweledLIVE\GlobalMembersWidgetTransition.cs" />
+    <Compile Include="BejeweledLIVE\HelpScreen.cs" />
+    <Compile Include="BejeweledLIVE\HighScoreDialog.cs" />
+    <Compile Include="BejeweledLIVE\HighScoreNameDialog.cs" />
+    <Compile Include="BejeweledLIVE\HyperPoint.cs" />
+    <Compile Include="BejeweledLIVE\HyperRing.cs" />
+    <Compile Include="BejeweledLIVE\Hyperspace.cs" />
+    <Compile Include="BejeweledLIVE\HyperWarpPoint.cs" />
+    <Compile Include="BejeweledLIVE\ImageWidget.cs" />
+    <Compile Include="BejeweledLIVE\InterfaceButton.cs" />
+    <Compile Include="BejeweledLIVE\InterfaceLayers.cs" />
+    <Compile Include="BejeweledLIVE\InterfaceLayouts.cs" />
+    <Compile Include="BejeweledLIVE\InterfaceParams.cs" />
+    <Compile Include="BejeweledLIVE\InterfaceStates.cs" />
+    <Compile Include="BejeweledLIVE\InterfaceWidget.cs" />
+    <Compile Include="BejeweledLIVE\InterfaceWidgets.cs" />
+    <Compile Include="BejeweledLIVE\LabelWidget.cs" />
+    <Compile Include="BejeweledLIVE\LeaderBoardComm.cs" />
+    <Compile Include="BejeweledLIVE\LeaderboardListWidget.cs" />
+    <Compile Include="BejeweledLIVE\LeaderBoardLoader.cs" />
+    <Compile Include="BejeweledLIVE\LeaderboardState.cs" />
+    <Compile Include="BejeweledLIVE\LeaderboardViewState.cs" />
+    <Compile Include="BejeweledLIVE\Light.cs" />
+    <Compile Include="BejeweledLIVE\Lightning.cs" />
+    <Compile Include="BejeweledLIVE\Line.cs" />
+    <Compile Include="BejeweledLIVE\LiveLeaderboard.cs" />
+    <Compile Include="BejeweledLIVE\LiveLeaderboardDialog.cs" />
+    <Compile Include="BejeweledLIVE\LiveRank.cs" />
+    <Compile Include="BejeweledLIVE\LoadingScreen.cs" />
+    <Compile Include="BejeweledLIVE\MainMenu.cs" />
+    <Compile Include="BejeweledLIVE\MoreGamesDialog.cs" />
+    <Compile Include="BejeweledLIVE\MoreGamesListWidget.cs" />
+    <Compile Include="BejeweledLIVE\MTRand.cs" />
+    <Compile Include="BejeweledLIVE\OptionsCheckbox.cs" />
+    <Compile Include="BejeweledLIVE\OptionsDialog.cs" />
+    <Compile Include="BejeweledLIVE\OptionsSlider.cs" />
+    <Compile Include="BejeweledLIVE\PauseMenu.cs" />
+    <Compile Include="BejeweledLIVE\Piece.cs" />
+    <Compile Include="BejeweledLIVE\PlayMenu.cs" />
+    <Compile Include="BejeweledLIVE\PodBigButton.cs" />
+    <Compile Include="BejeweledLIVE\PodBlitzButton.cs" />
+    <Compile Include="BejeweledLIVE\PodButton.cs" />
+    <Compile Include="BejeweledLIVE\PodMedalButton.cs" />
+    <Compile Include="BejeweledLIVE\PodPauseButton.cs" />
+    <Compile Include="BejeweledLIVE\PodPopCapButton.cs" />
+    <Compile Include="BejeweledLIVE\PodRoundButton.cs" />
+    <Compile Include="BejeweledLIVE\PodSmallButton.cs" />
+    <Compile Include="BejeweledLIVE\Points.cs" />
+    <Compile Include="BejeweledLIVE\Polygon.cs" />
+    <Compile Include="BejeweledLIVE\Profile.cs" />
+    <Compile Include="BejeweledLIVE\PuzzleStateOverlay.cs" />
+    <Compile Include="BejeweledLIVE\ReportAchievement.cs" />
+    <Compile Include="BejeweledLIVE\ResourceManagerBej2.cs" />
+    <Compile Include="BejeweledLIVE\ScoresWidget.cs" />
+    <Compile Include="BejeweledLIVE\Shard.cs" />
+    <Compile Include="BejeweledLIVE\SmallButtonColors.cs" />
+    <Compile Include="BejeweledLIVE\SolutionData.cs" />
+    <Compile Include="BejeweledLIVE\SparklyLogo.cs" />
+    <Compile Include="BejeweledLIVE\Stats.cs" />
+    <Compile Include="BejeweledLIVE\Strings.cs" />
+    <Compile Include="BejeweledLIVE\TableWidget.cs" />
+    <Compile Include="BejeweledLIVE\TableWidgetProxy.cs" />
+    <Compile Include="BejeweledLIVE\TextState.cs" />
+    <Compile Include="BejeweledLIVE\ThankYouForBuyingScreen.cs" />
+    <Compile Include="BejeweledLIVE\Timeline.cs" />
+    <Compile Include="BejeweledLIVE\TinyGem.cs" />
+    <Compile Include="BejeweledLIVE\TrialAchievementAlert.cs" />
+    <Compile Include="BejeweledLIVE\UpsellScreen.cs" />
+    <Compile Include="BejeweledLIVE\WarpLine.cs" />
+    <Compile Include="BejeweledLIVE\WarpPoint.cs" />
+    <Compile Include="BejeweledLIVE\WidgetExtensions.cs" />
+    <Compile Include="BejeweledLIVE\WidgetTransition.cs" />
+    <Compile Include="BejeweledLIVE\WidgetTransitionType.cs" />
+    <Compile Include="EquationSystem.cs" />
+    <Compile Include="GlobalMembersColorCycle.cs" />
+    <Compile Include="GlobalMembersCurvedVal.cs" />
+    <Compile Include="GlobalMembersDialogButton.cs" />
+    <Compile Include="GlobalMembersSexyMath.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomNumbers.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="Sexy\AnimInfo.cs" />
+    <Compile Include="Sexy\AnimType.cs" />
+    <Compile Include="Sexy\AutoModalFlags.cs" />
+    <Compile Include="Sexy\BaseRes.cs" />
+    <Compile Include="Sexy\BlitzScrapbook.cs" />
+    <Compile Include="Sexy\BSpline.cs" />
+    <Compile Include="Sexy\Buffer.cs" />
+    <Compile Include="Sexy\ButtonListener.cs" />
+    <Compile Include="Sexy\ButtonWidget.cs" />
+    <Compile Include="Sexy\CGMaths.cs" />
+    <Compile Include="Sexy\CGPoint.cs" />
+    <Compile Include="Sexy\CheckboxListener.cs" />
+    <Compile Include="Sexy\CollectionExtensions.cs" />
+    <Compile Include="Sexy\Common.cs" />
+    <Compile Include="Sexy\Constants.cs" />
+    <Compile Include="Sexy\CProfiler.cs" />
+    <Compile Include="Sexy\DDImage.cs" />
+    <Compile Include="Sexy\Debug.cs" />
+    <Compile Include="Sexy\Dialog.cs" />
+    <Compile Include="Sexy\DialogButton.cs" />
+    <Compile Include="Sexy\DialogListener.cs" />
+    <Compile Include="Sexy\Dialogs.cs" />
+    <Compile Include="Sexy\EaseFunction.cs" />
+    <Compile Include="Sexy\EditListener.cs" />
+    <Compile Include="Sexy\EditWidget.cs" />
+    <Compile Include="Sexy\EncodingParser.cs" />
+    <Compile Include="Sexy\FacebookInterface.cs" />
+    <Compile Include="Sexy\FacebookListener.cs" />
+    <Compile Include="Sexy\FacebookStatus.cs" />
+    <Compile Include="Sexy\FlagsMod.cs" />
+    <Compile Include="Sexy\Font.cs" />
+    <Compile Include="Sexy\FontRes.cs" />
+    <Compile Include="Sexy\FrameworkConstants.cs" />
+    <Compile Include="Sexy\GlobalMembersButtonWidget.cs" />
+    <Compile Include="Sexy\GlobalMembersDialog.cs" />
+    <Compile Include="Sexy\GlobalMembersFlags.cs" />
+    <Compile Include="Sexy\GlobalMembersInterpolator.cs" />
+    <Compile Include="Sexy\GlobalStaticVars.cs" />
+    <Compile Include="Sexy\Graphics.cs" />
+    <Compile Include="Sexy\GraphicsState.cs" />
+    <Compile Include="Sexy\Image.cs" />
+    <Compile Include="Sexy\ImageRes.cs" />
+    <Compile Include="Sexy\InputController.cs" />
+    <Compile Include="Sexy\Insets.cs" />
+    <Compile Include="Sexy\InterfaceControl.cs" />
+    <Compile Include="Sexy\InterfaceLayers.cs" />
+    <Compile Include="Sexy\InterfaceParams.cs" />
+    <Compile Include="Sexy\InterfaceWidgets.cs" />
+    <Compile Include="Sexy\Interpolator.cs" />
+    <Compile Include="Sexy\IReusable.cs" />
+    <Compile Include="Sexy\KeyCode.cs" />
+    <Compile Include="Sexy\KeyInterpolator.cs" />
+    <Compile Include="Sexy\KeyInterpolatorFloat.cs" />
+    <Compile Include="Sexy\KeyInterpolatorGeneric.cs" />
+    <Compile Include="Sexy\KeyInterpolatorInt.cs" />
+    <Compile Include="Sexy\KeyInterpolatorTPoint.cs" />
+    <Compile Include="Sexy\LayoutFlags.cs" />
+    <Compile Include="Sexy\LevelRes.cs" />
+    <Compile Include="Sexy\LinkedListExtensions.cs" />
+    <Compile Include="Sexy\Main.cs" />
+    <Compile Include="Sexy\MemoryImage.cs" />
+    <Compile Include="Sexy\ModalFlags.cs" />
+    <Compile Include="Sexy\MusicInterface.cs" />
+    <Compile Include="Sexy\MusicRes.cs" />
+    <Compile Include="Sexy\MyTypedKeyCollection.cs" />
+    <Compile Include="Sexy\PageControl.cs" />
+    <Compile Include="Sexy\PixelFormat.cs" />
+    <Compile Include="Sexy\PreModalInfo.cs" />
+    <Compile Include="Sexy\PrimitiveBatch.cs" />
+    <Compile Include="Sexy\ProfileElement.cs" />
+    <Compile Include="Sexy\ProxyWidget.cs" />
+    <Compile Include="Sexy\ProxyWidgetListener.cs" />
+    <Compile Include="Sexy\PuzzleRating.cs" />
+    <Compile Include="Sexy\ResourceManager.cs" />
+    <Compile Include="Sexy\ResType.cs" />
+    <Compile Include="Sexy\ReusableObjectHelper.cs" />
+    <Compile Include="Sexy\ScrollWidget.cs" />
+    <Compile Include="Sexy\ScrollWidgetListener.cs" />
+    <Compile Include="Sexy\SexyAppBase.cs" />
+    <Compile Include="Sexy\SexyAppBaseInterface.cs" />
+    <Compile Include="Sexy\SexyAppFrameworkConstants.cs" />
+    <Compile Include="Sexy\SexyChar.cs" />
+    <Compile Include="Sexy\SexyColor.cs" />
+    <Compile Include="Sexy\SexyMath.cs" />
+    <Compile Include="Sexy\SexyMathHermite.cs" />
+    <Compile Include="Sexy\SexyTransform2D.cs" />
+    <Compile Include="Sexy\SliderListener.cs" />
+    <Compile Include="Sexy\SongType.cs" />
+    <Compile Include="Sexy\SoundInstance.cs" />
+    <Compile Include="Sexy\SoundManager.cs" />
+    <Compile Include="Sexy\SoundRes.cs" />
+    <Compile Include="Sexy\stdC.cs" />
+    <Compile Include="Sexy\StringExtensions.cs" />
+    <Compile Include="Sexy\TPoint.cs" />
+    <Compile Include="Sexy\TPointFloat.cs" />
+    <Compile Include="Sexy\Transform.cs" />
+    <Compile Include="Sexy\TRect.cs" />
+    <Compile Include="Sexy\TRectDouble.cs" />
+    <Compile Include="Sexy\TriVertex.cs" />
+    <Compile Include="Sexy\TypedKey.cs" />
+    <Compile Include="Sexy\UI_ORIENTATION.cs" />
+    <Compile Include="Sexy\Widget.cs" />
+    <Compile Include="Sexy\WidgetContainer.cs" />
+    <Compile Include="Sexy\WidgetFlags.cs" />
+    <Compile Include="Sexy\WidgetManager.cs" />
+    <Compile Include="Sexy\WidgetOverlayPair.cs" />
+    <Compile Include="Sexy\WidgetSafeDeleteInfo.cs" />
+    <Compile Include="Sexy\WidgetTransitionSubType.cs" />
+    <Compile Include="Sexy\XMLElement.cs" />
+    <Compile Include="Sexy\XMLElementType.cs" />
+    <Compile Include="Sexy\XMLParam.cs" />
+    <Compile Include="Sexy\XMLParser.cs" />
+    <Compile Include="Sexy\XNAMusicInterface.cs" />
+    <Compile Include="Sexy\XNAMusicInterfaceConstants.cs" />
+    <Compile Include="Sexy\XNASoundConstants.cs" />
+    <Compile Include="Sexy\XNASoundEntry.cs" />
+    <Compile Include="Sexy\XNASoundInstance.cs" />
+    <Compile Include="Sexy\XNASoundManager.cs" />
+    <Compile Include="Sexy\_Phase.cs" />
+    <Compile Include="Sexy\_Touch.cs" />
+    <Compile Include="StringFunctions.cs" />
+    <Compile Include="UNPACK_INFO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BejeweledLIVE\Strings.resources" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.XlastConfiguration" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

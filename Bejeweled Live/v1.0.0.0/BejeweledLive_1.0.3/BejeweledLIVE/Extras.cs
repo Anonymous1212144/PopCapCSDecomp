@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace BejeweledLIVE
+{
+	public enum Extras
+	{
+		EXTRAS_MAIN_MENU,
+		EXTRAS_SOUNDS,
+		EXTRAS_PUZZLES_AND_BACKDROPS_1,
+		EXTRAS_ALL_BACKDROPS,
+		EXTRAS_UPSELL,
+		NUM_EXTRAS
+	}
+}

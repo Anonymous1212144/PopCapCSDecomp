@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace BejeweledLivePlus
+{
+	public enum PROF_FLAG
+	{
+		PROF_FLAG_HELPSEEN_POKER,
+		PROF_FLAG_HELPSEEN_BUTTERFLY,
+		PROF_FLAG_HELPSEEN_ICESTORM,
+		PROF_FLAG_HELPSEEN_GOLDRUSH
+	}
+}

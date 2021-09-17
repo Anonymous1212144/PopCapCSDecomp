@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace BejeweledLivePlus
+{
+	public enum BOOSTS
+	{
+		BOOST_5_SECONDS,
+		BOOST_FREE_MULTIPLIER,
+		BOOST_MYSTERY_GEM,
+		BOOST_DETONATE_BUTTON,
+		BOOST_SCRAMBLE_BUTTON,
+		NUM_BOOSTS
+	}
+}

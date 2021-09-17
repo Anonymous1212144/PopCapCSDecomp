@@ -1,0 +1,16 @@
+﻿using System;
+
+namespace Bejeweled3
+{
+	public enum Boost
+	{
+		BOOST_5_SECONDS,
+		BOOST_FREE_MULTIPLIER,
+		BOOST_MYSTERY_GEM,
+		BOOST_INFERNO_GEMS,
+		BOOST_FREEZE_BUTTON,
+		BOOST_DETONATE_BUTTON,
+		BOOST_SCRAMBLE_BUTTON,
+		NUM_BOOSTS
+	}
+}

@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace BejeweledLivePlus
+{
+	public enum UREPLAYSWAP
+	{
+		UREPLAYSWAP_FORWARD,
+		UREPLAYSWAP_BACK,
+		UREPLAYSWAP_FORWARD_DONE,
+		UREPLAYSWAP_BACK_DONE
+	}
+}

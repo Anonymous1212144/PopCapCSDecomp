@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SexyFramework", "SexyFramework\SexyFramework.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.10", "Zuma's Revenge!.resources.10\Zuma's Revenge!.resources.10.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E506F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.11", "Zuma's Revenge!.resources.11\Zuma's Revenge!.resources.11.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.2", "Zuma's Revenge!.resources.2\Zuma's Revenge!.resources.2.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.3", "Zuma's Revenge!.resources.3\Zuma's Revenge!.resources.3.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.4", "Zuma's Revenge!.resources.4\Zuma's Revenge!.resources.4.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.5", "Zuma's Revenge!.resources.5\Zuma's Revenge!.resources.5.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.6", "Zuma's Revenge!.resources.6\Zuma's Revenge!.resources.6.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.7", "Zuma's Revenge!.resources.7\Zuma's Revenge!.resources.7.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.8", "Zuma's Revenge!.resources.8\Zuma's Revenge!.resources.8.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources.9", "Zuma's Revenge!.resources.9\Zuma's Revenge!.resources.9.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E5071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!.resources", "Zuma's Revenge!.resources\Zuma's Revenge!.resources.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E506E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zuma's Revenge!", "Zuma's Revenge!\Zuma's Revenge!.csproj", "{F0EB7AD4-68C8-4056-8089-1EADC34E507A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E5071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E506E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E507A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E507A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E507A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EB7AD4-68C8-4056-8089-1EADC34E507A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace BejeweledLIVE
+{
+	public enum GameMode
+	{
+		MODE_CLASSIC,
+		MODE_TIMED,
+		MODE_PUZZLE,
+		MODE_ENDLESS,
+		MODE_CLASSIC_SECRET,
+		MODE_TIMED_SECRET,
+		MODE_PUZZLE_SECRET,
+		MODE_ENDLESS_SECRET,
+		MODE_TWILIGHT,
+		MODE_BLITZ,
+		MODE_MAX
+	}
+}

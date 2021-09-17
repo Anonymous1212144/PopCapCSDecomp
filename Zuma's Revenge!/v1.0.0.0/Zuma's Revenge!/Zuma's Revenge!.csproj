@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F0EB7AD4-68C8-4056-8089-1EADC34E507A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ZumasRevenge</RootNamespace>
+    <AssemblyName>Zuma's Revenge!</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>Zuma's Revenge!.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutInfo.cs" />
+    <Compile Include="Achievements.cs" />
+    <Compile Include="AchievementsButtonWidget.cs" />
+    <Compile Include="AchievementsPages.cs" />
+    <Compile Include="AchievementText.cs" />
+    <Compile Include="Achievement\AchievementEntry.cs" />
+    <Compile Include="Achievement\AchievementManager.cs" />
+    <Compile Include="Achievement\AchievementUpdateEntry.cs" />
+    <Compile Include="Achievement\EAchievementType.cs" />
+    <Compile Include="AdvModeTempleStats.cs" />
+    <Compile Include="AdvModeVars.cs" />
+    <Compile Include="AlphaFadeInfo.cs" />
+    <Compile Include="AppResources.cs" />
+    <Compile Include="AutoMonkey.cs" />
+    <Compile Include="Ball.cs" />
+    <Compile Include="BallColors.cs" />
+    <Compile Include="BallDrawer.cs" />
+    <Compile Include="BallExplosion.cs" />
+    <Compile Include="BallWake.cs" />
+    <Compile Include="BambooColumn.cs" />
+    <Compile Include="BambooTransition.cs" />
+    <Compile Include="BasicCurveVals.cs" />
+    <Compile Include="BeamComponent.cs" />
+    <Compile Include="BerserkModifier.cs" />
+    <Compile Include="BerserkTier.cs" />
+    <Compile Include="BetaStats.cs" />
+    <Compile Include="BGElementParams.cs" />
+    <Compile Include="BlendedImage.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="BoardScreen.cs" />
+    <Compile Include="BonusTextElement.cs" />
+    <Compile Include="Boss.cs" />
+    <Compile Include="BossBerserkMovement.cs" />
+    <Compile Include="BossBullet.cs" />
+    <Compile Include="BossBulletParticleSystem.cs" />
+    <Compile Include="BossDarkFrog.cs" />
+    <Compile Include="BossDoctor.cs" />
+    <Compile Include="BossFiringState.cs" />
+    <Compile Include="BossLame.cs" />
+    <Compile Include="BossMosquito.cs" />
+    <Compile Include="BossShoot.cs" />
+    <Compile Include="BossSkeleton.cs" />
+    <Compile Include="BossSquid.cs" />
+    <Compile Include="BossStoneHead.cs" />
+    <Compile Include="BossText.cs" />
+    <Compile Include="BossTiger.cs" />
+    <Compile Include="BossType.cs" />
+    <Compile Include="BossVolcano.cs" />
+    <Compile Include="BossWall.cs" />
+    <Compile Include="Boss_DDS_Vals.cs" />
+    <Compile Include="Boss_Param_Range.cs" />
+    <Compile Include="Bubble.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="BXMLElement.cs" />
+    <Compile Include="BXMLElement_TYPE.cs" />
+    <Compile Include="BXMLParser.cs" />
+    <Compile Include="CachedTorchEffect.cs" />
+    <Compile Include="CachedVolcanoEffect.cs" />
+    <Compile Include="CannonPowerEffect.cs" />
+    <Compile Include="ChallengeHelp.cs" />
+    <Compile Include="ChallengeLevelInfo.cs" />
+    <Compile Include="ChallengeMenu.cs" />
+    <Compile Include="ChallengeMenuScrollContainer.cs" />
+    <Compile Include="ChallengeState.cs" />
+    <Compile Include="ChallengeTempleStats.cs" />
+    <Compile Include="CheatWidget.cs" />
+    <Compile Include="Checkpoint.cs" />
+    <Compile Include="CheckpointScores.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="ConfusionMark.cs" />
+    <Compile Include="ConsoleCommandContexts.cs" />
+    <Compile Include="Credits.cs" />
+    <Compile Include="CreditsHackWidget.cs" />
+    <Compile Include="Critter.cs" />
+    <Compile Include="CSButton.cs" />
+    <Compile Include="CSDisplayItem.cs" />
+    <Compile Include="CursorBloom.cs" />
+    <Compile Include="CurveData.cs" />
+    <Compile Include="CurveDesc.cs" />
+    <Compile Include="CurveMgr.cs" />
+    <Compile Include="DaisRock.cs" />
+    <Compile Include="DarkFrogBulletFX.cs" />
+    <Compile Include="DarkFrogSequence.cs" />
+    <Compile Include="DataSync.cs" />
+    <Compile Include="DDS.cs" />
+    <Compile Include="DDS_Vals.cs" />
+    <Compile Include="DeathSkull.cs" />
+    <Compile Include="DialogHideInfo.cs" />
+    <Compile Include="DialogId.cs" />
+    <Compile Include="DoctorStaff.cs" />
+    <Compile Include="Effect.cs" />
+    <Compile Include="EffectItem.cs" />
+    <Compile Include="EffectManager.cs" />
+    <Compile Include="EffectParams.cs" />
+    <Compile Include="Egg.cs" />
+    <Compile Include="EggFragment.cs" />
+    <Compile Include="ElectricExplodeOverlay.cs" />
+    <Compile Include="EndLevelExplosion.cs" />
+    <Compile Include="EyeAnim.cs" />
+    <Compile Include="EyeBullet.cs" />
+    <Compile Include="FakeCredits.cs" />
+    <Compile Include="FakeCreditsText.cs" />
+    <Compile Include="Feather.cs" />
+    <Compile Include="FireRing.cs" />
+    <Compile Include="FlyingBug.cs" />
+    <Compile Include="Fog.cs" />
+    <Compile Include="FogElement.cs" />
+    <Compile Include="FrogBody.cs" />
+    <Compile Include="FrogFlyOff.cs" />
+    <Compile Include="FrogType.cs" />
+    <Compile Include="FruitExplode.cs" />
+    <Compile Include="FXCache.cs" />
+    <Compile Include="GameApp.cs" />
+    <Compile Include="GameMain.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="GameStats.cs" />
+    <Compile Include="GapInfo.cs" />
+    <Compile Include="GauntletHSInfo.cs" />
+    <Compile Include="Gauntlet_Vals.cs" />
+    <Compile Include="GenericCachedEffect.cs" />
+    <Compile Include="GenericHelp.cs" />
+    <Compile Include="GenericHelpItem.cs" />
+    <Compile Include="GlobalChallenge.cs" />
+    <Compile Include="Gun.cs" />
+    <Compile Include="GunState.cs" />
+    <Compile Include="HandheldBalance.cs" />
+    <Compile Include="HeaderLetter.cs" />
+    <Compile Include="HoleInfo.cs" />
+    <Compile Include="HoleMgr.cs" />
+    <Compile Include="HulaDancer.cs" />
+    <Compile Include="HulaEntry.cs" />
+    <Compile Include="IdxThumbPair.cs" />
+    <Compile Include="ImageSort.cs" />
+    <Compile Include="IndexMedal.cs" />
+    <Compile Include="InkBlot.cs" />
+    <Compile Include="InkCloud.cs" />
+    <Compile Include="InkParticle.cs" />
+    <Compile Include="IronFrogTempleStats.cs" />
+    <Compile Include="LavaShader.cs" />
+    <Compile Include="LeaderBoards.cs" />
+    <Compile Include="LeaderBoardsButtonWidget.cs" />
+    <Compile Include="LeaderBoardsPages.cs" />
+    <Compile Include="LeaderBoardText.cs" />
+    <Compile Include="LegalInfo.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="LevelMgr.cs" />
+    <Compile Include="LevelsXmlReader.cs" />
+    <Compile Include="LevelTransition.cs" />
+    <Compile Include="LillyPadImageInfo.cs" />
+    <Compile Include="LivesInfo.cs" />
+    <Compile Include="LoadingCloud.cs" />
+    <Compile Include="LoadingScreen.cs" />
+    <Compile Include="LoadingWave.cs" />
+    <Compile Include="LoadType.cs" />
+    <Compile Include="LogoLightning.cs" />
+    <Compile Include="LTSmokeParticle.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="MainMenuButtonsWidget.cs" />
+    <Compile Include="MainMenuOverlayWidget.cs" />
+    <Compile Include="MainMenu_Btn.cs" />
+    <Compile Include="MainMenu_State.cs" />
+    <Compile Include="MapButton.cs" />
+    <Compile Include="MapGenericButton.cs" />
+    <Compile Include="MapOverlay.cs" />
+    <Compile Include="MapScreen.cs" />
+    <Compile Include="MapScreenHackWidget.cs" />
+    <Compile Include="MathUtils.cs" />
+    <Compile Include="MirrorType.cs" />
+    <Compile Include="MonkeyMode.cs" />
+    <Compile Include="MonkeyState.cs" />
+    <Compile Include="MoreGames.cs" />
+    <Compile Include="Mosquito.cs" />
+    <Compile Include="MosquitoBall.cs" />
+    <Compile Include="MoveType.cs" />
+    <Compile Include="MultiplierBallEffect.cs" />
+    <Compile Include="Music.cs" />
+    <Compile Include="NewUserDialog.cs" />
+    <Compile Include="NewUserDialogListener.cs" />
+    <Compile Include="NotificationWidget.cs" />
+    <Compile Include="OptionsDialog.cs" />
+    <Compile Include="OrbParticle.cs" />
+    <Compile Include="OrbPowerRing.cs" />
+    <Compile Include="ParamData.cs" />
+    <Compile Include="PartnerLogo.cs" />
+    <Compile Include="PathPoint.cs" />
+    <Compile Include="PathSparkle.cs" />
+    <Compile Include="PowerEffect.cs" />
+    <Compile Include="PowerType.cs" />
+    <Compile Include="PowerupRegion.cs" />
+    <Compile Include="Profile\Profile.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProxBombManager.cs" />
+    <Compile Include="PSystemIntPair.cs" />
+    <Compile Include="Res.cs" />
+    <Compile Include="ResID.cs" />
+    <Compile Include="ReversePowerEffect.cs" />
+    <Compile Include="RockBits.cs" />
+    <Compile Include="RockChunk.cs" />
+    <Compile Include="RockParticle.cs" />
+    <Compile Include="RollerDigit.cs" />
+    <Compile Include="RollerScore.cs" />
+    <Compile Include="ScoreLetterEffect.cs" />
+    <Compile Include="ScoreTip.cs" />
+    <Compile Include="ShieldQuadrant.cs" />
+    <Compile Include="ShieldQuadrantData.cs" />
+    <Compile Include="SimpleFadeText.cs" />
+    <Compile Include="Skeleton.cs" />
+    <Compile Include="SkeletonPowerOrb.cs" />
+    <Compile Include="Skull.cs" />
+    <Compile Include="Song.cs" />
+    <Compile Include="SonicRing.cs" />
+    <Compile Include="SoundAttribs.cs" />
+    <Compile Include="Sound\BasicSound.cs" />
+    <Compile Include="Sound\BurstSound.cs" />
+    <Compile Include="Sound\DelayedSound.cs" />
+    <Compile Include="Sound\FadedSound.cs" />
+    <Compile Include="Sound\LoopingSound.cs" />
+    <Compile Include="Sound\Sound.cs" />
+    <Compile Include="Sound\SoundEffects.cs" />
+    <Compile Include="Sound\SoundFactory.cs" />
+    <Compile Include="Sound\StaggeredSound.cs" />
+    <Compile Include="Sound\UpdatedSound.cs" />
+    <Compile Include="SpawnColors.cs" />
+    <Compile Include="SpawnEffect.cs" />
+    <Compile Include="SquidAnim.cs" />
+    <Compile Include="SquidAnimCel.cs" />
+    <Compile Include="SquidSweat.cs" />
+    <Compile Include="Steam.cs" />
+    <Compile Include="Stopwatch.cs" />
+    <Compile Include="StringID.cs" />
+    <Compile Include="TableOfContents.cs" />
+    <Compile Include="TauntText.cs" />
+    <Compile Include="TempleText.cs" />
+    <Compile Include="TextManager.cs" />
+    <Compile Include="Tiki.cs" />
+    <Compile Include="TikiComponent.cs" />
+    <Compile Include="TikiTemple.cs" />
+    <Compile Include="TikiTempleButtonWidget.cs" />
+    <Compile Include="TikiTemplePages.cs" />
+    <Compile Include="Torch.cs" />
+    <Compile Include="TorchLevelEgg.cs" />
+    <Compile Include="TreasurePoint.cs" />
+    <Compile Include="Trial.cs" />
+    <Compile Include="TrialState.cs" />
+    <Compile Include="TriggeredEffect.cs" />
+    <Compile Include="Tunnel.cs" />
+    <Compile Include="TunnelData.cs" />
+    <Compile Include="UnderDialogWidget.cs" />
+    <Compile Include="Upsell.cs" />
+    <Compile Include="VolcanoProjectile.cs" />
+    <Compile Include="VortexBeam.cs" />
+    <Compile Include="VortexFace.cs" />
+    <Compile Include="WakeStruct.cs" />
+    <Compile Include="Wall.cs" />
+    <Compile Include="WallState.cs" />
+    <Compile Include="WallType.cs" />
+    <Compile Include="WarningLight.cs" />
+    <Compile Include="WaterEffect1.cs" />
+    <Compile Include="WaterShader1.cs" />
+    <Compile Include="WaterShaderImage.cs" />
+    <Compile Include="WayPoint.cs" />
+    <Compile Include="WayPointMgr.cs" />
+    <Compile Include="WidescreenBoardWidget.cs" />
+    <Compile Include="WillOWisp.cs" />
+    <Compile Include="ZoneFrame.cs" />
+    <Compile Include="ZoneInfo.cs" />
+    <Compile Include="ZumaDialog.cs" />
+    <Compile Include="ZumaDialogLine.cs" />
+    <Compile Include="ZumaProfile.cs" />
+    <Compile Include="ZumaProfileMgr.cs" />
+    <Compile Include="ZumaSlideBox.cs" />
+    <Compile Include="ZumaSlideBoxButton.cs" />
+    <Compile Include="ZumaSlider.cs" />
+    <Compile Include="ZumaTip.cs" />
+    <Compile Include="ZumaUserSelDlg.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppResources.resources" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.XlastConfiguration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SexyFramework\SexyFramework.csproj">
+      <Project>{f0eb7ad4-68c8-4056-8089-1eadc34e5077}</Project>
+      <Name>SexyFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

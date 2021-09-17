@@ -1,0 +1,16 @@
+﻿using System;
+
+namespace BejeweledLivePlus
+{
+	public enum GEMCOLOR
+	{
+		GEMCOLOR_RED,
+		GEMCOLOR_WHITE,
+		GEMCOLOR_GREEN,
+		GEMCOLOR_YELLOW,
+		GEMCOLOR_PURPLE,
+		GEMCOLOR_ORANGE,
+		GEMCOLOR_BLUE,
+		GEMCOLOR___COUNT
+	}
+}

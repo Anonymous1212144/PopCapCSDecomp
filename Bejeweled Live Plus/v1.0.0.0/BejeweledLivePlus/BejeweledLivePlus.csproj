@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{249D7F94-AB63-435B-BF48-1D071E491DFE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BejeweledLivePlus</RootNamespace>
+    <AssemblyName>BejeweledLivePlus</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>BejeweledLivePlus.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+    <Reference Include="Microsoft.Xna.Framework.GamerServices" />
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="Microsoft.Xna.Framework.Input.Touch" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AchievementHint.cs" />
+    <Compile Include="AchievementHintFinishedHandler.cs" />
+    <Compile Include="Audio\BasicSound.cs" />
+    <Compile Include="Audio\BurstSound.cs" />
+    <Compile Include="Audio\DelayedSound.cs" />
+    <Compile Include="Audio\FadedSound.cs" />
+    <Compile Include="Audio\LoopingSound.cs" />
+    <Compile Include="Audio\Music.cs" />
+    <Compile Include="Audio\MUSIC_TYPE.cs" />
+    <Compile Include="Audio\Song.cs" />
+    <Compile Include="Audio\Sound.cs" />
+    <Compile Include="Audio\SoundAttribs.cs" />
+    <Compile Include="Audio\SoundEffects.cs" />
+    <Compile Include="Audio\SoundFactory.cs" />
+    <Compile Include="Audio\StaggeredSound.cs" />
+    <Compile Include="Audio\UpdatedSound.cs" />
+    <Compile Include="Badge.cs" />
+    <Compile Include="BadgeBejGold.cs" />
+    <Compile Include="BadgeBlasterGold.cs" />
+    <Compile Include="BadgeBonanzaBronze.cs" />
+    <Compile Include="BadgeBonanzaPlatinum.cs" />
+    <Compile Include="BadgeBronze.cs" />
+    <Compile Include="BadgeChainreactionGlod.cs" />
+    <Compile Include="BadgeChromaticGold.cs" />
+    <Compile Include="BadgeFinalfrenzyBronze.cs" />
+    <Compile Include="BadgeFinalfrenzyPlatinum.cs" />
+    <Compile Include="BadgeHighvolatageBronze.cs" />
+    <Compile Include="BadgeHighvolatagePlatinum.cs" />
+    <Compile Include="BadgeLevel.cs" />
+    <Compile Include="BadgeLevelord.cs" />
+    <Compile Include="BadgeLuckyStreakGold.cs" />
+    <Compile Include="BadgeManager.cs" />
+    <Compile Include="BadgeMonarchPlatinum.cs" />
+    <Compile Include="BadgeMonarchSilver.cs" />
+    <Compile Include="BadgePlatinum.cs" />
+    <Compile Include="BadgeRelicPlatinum.cs" />
+    <Compile Include="BadgeRelicSilver.cs" />
+    <Compile Include="Badges.cs" />
+    <Compile Include="BadgeStellarGold.cs" />
+    <Compile Include="BadgeSuperStar.cs" />
+    <Compile Include="Bej3Com.cs" />
+    <Compile Include="Bej3Graphics\BlingParticleEffect.cs" />
+    <Compile Include="Bej3Graphics\ButterflyEffect.cs" />
+    <Compile Include="Bej3Graphics\CoinFlyEffect.cs" />
+    <Compile Include="Bej3Graphics\DiamondEffect.cs" />
+    <Compile Include="Bej3Graphics\DigBackground.cs" />
+    <Compile Include="Bej3Graphics\DistortEffect.cs" />
+    <Compile Include="Bej3Graphics\DistortEffectType.cs" />
+    <Compile Include="Bej3Graphics\Effect.cs" />
+    <Compile Include="Bej3Graphics\EffectsManager.cs" />
+    <Compile Include="Bej3Graphics\ElectroBolt.cs" />
+    <Compile Include="Bej3Graphics\GemCollectEffect.cs" />
+    <Compile Include="Bej3Graphics\GlobalMembersEffects.cs" />
+    <Compile Include="Bej3Graphics\GoldCollectEffect.cs" />
+    <Compile Include="Bej3Graphics\GraphicsOperation.cs" />
+    <Compile Include="Bej3Graphics\GraphicsOperationChain.cs" />
+    <Compile Include="Bej3Graphics\GraphicsOperationRef.cs" />
+    <Compile Include="Bej3Graphics\GraphicsRecorder.cs" />
+    <Compile Include="Bej3Graphics\LightningBarFillEffect.cs" />
+    <Compile Include="Bej3Graphics\ParticleEffect.cs" />
+    <Compile Include="Bej3Graphics\PointsEffect.cs" />
+    <Compile Include="Bej3Graphics\PopAnimEffect.cs" />
+    <Compile Include="Bej3Graphics\SexyVertex2DDT.cs" />
+    <Compile Include="Bej3Graphics\TextNotifyEffect.cs" />
+    <Compile Include="Bej3Graphics\TimeBonusEffect.cs" />
+    <Compile Include="Bej3Graphics\TriangleArray.cs" />
+    <Compile Include="Bej3P3DListener.cs" />
+    <Compile Include="BejeweledLivePlusApp.cs" />
+    <Compile Include="BejeweledLivePlusAppConstants.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="BOOSTS.cs" />
+    <Compile Include="BorderEffect.cs" />
+    <Compile Include="BtnSparkleEffect.cs" />
+    <Compile Include="ButterflyBoard.cs" />
+    <Compile Include="ButterflyGoal.cs" />
+    <Compile Include="ClassicBoard.cs" />
+    <Compile Include="ConstantsWP.cs" />
+    <Compile Include="DeferredTutorial.cs" />
+    <Compile Include="DefineConstants.cs" />
+    <Compile Include="DialogId.cs" />
+    <Compile Include="DigBoard.cs" />
+    <Compile Include="DigGoal.cs" />
+    <Compile Include="EBoardType.cs" />
+    <Compile Include="EEndlessMode.cs" />
+    <Compile Include="ElectrocutedCel.cs" />
+    <Compile Include="ETreasureType.cs" />
+    <Compile Include="FColor.cs" />
+    <Compile Include="FloatyOrb.cs" />
+    <Compile Include="FONT_DIALOG_LAYER.cs" />
+    <Compile Include="GameMain.cs" />
+    <Compile Include="GameMode.cs" />
+    <Compile Include="GameStat.cs" />
+    <Compile Include="GEMCOLOR.cs" />
+    <Compile Include="GlobalMembers.cs" />
+    <Compile Include="GlobalMembersHighScoreMgr.cs" />
+    <Compile Include="GlobalMembersProfile.cs" />
+    <Compile Include="GlobalMembersResources.cs" />
+    <Compile Include="GlobalMembersResourcesWP.cs" />
+    <Compile Include="GlobalMembersRotatingCounter.cs" />
+    <Compile Include="GridData.cs" />
+    <Compile Include="HighScoreEntryLive.cs" />
+    <Compile Include="HighScoreMgr.cs" />
+    <Compile Include="HighScoreTable.cs" />
+    <Compile Include="HYPERSPACEEVENT.cs" />
+    <Compile Include="HYPERSPACETRANS.cs" />
+    <Compile Include="InterfaceState.cs" />
+    <Compile Include="Last3MatchScoreManager.cs" />
+    <Compile Include="Lightning.cs" />
+    <Compile Include="LightningStorm.cs" />
+    <Compile Include="LightningZap.cs" />
+    <Compile Include="LocaleId.cs" />
+    <Compile Include="Localization\LocalizedString.cs" />
+    <Compile Include="Localization\Strings.cs" />
+    <Compile Include="MatchSet.cs" />
+    <Compile Include="Menu_Type.cs" />
+    <Compile Include="Misc\ArrowButton.cs" />
+    <Compile Include="Misc\Background.cs" />
+    <Compile Include="Misc\BitFlags.cs" />
+    <Compile Include="Misc\BkgPopAnim.cs" />
+    <Compile Include="Misc\ColorCycle.cs" />
+    <Compile Include="Misc\Common.cs" />
+    <Compile Include="Misc\CrystalBall.cs" />
+    <Compile Include="Misc\Curve.cs" />
+    <Compile Include="Misc\DefineConstants.cs" />
+    <Compile Include="Misc\FrameAnimation.cs" />
+    <Compile Include="Misc\GameChunkHeader.cs" />
+    <Compile Include="Misc\GameChunkId.cs" />
+    <Compile Include="Misc\GlobalMembersSerialiser.cs" />
+    <Compile Include="Misc\GlobalMembersUtils.cs" />
+    <Compile Include="Misc\Messager.cs" />
+    <Compile Include="Misc\Platforms.cs" />
+    <Compile Include="Misc\Points.cs" />
+    <Compile Include="Misc\PointsManager.cs" />
+    <Compile Include="Misc\PreCalculatedCurvedValManager.cs" />
+    <Compile Include="Misc\QuestData.cs" />
+    <Compile Include="Misc\QuestDataParser.cs" />
+    <Compile Include="Misc\SaveFileHeader.cs" />
+    <Compile Include="Misc\SaveFileHeaderV101.cs" />
+    <Compile Include="Misc\Serialiser.cs" />
+    <Compile Include="Misc\Utils.cs" />
+    <Compile Include="Misc\WorkerThread.cs" />
+    <Compile Include="MoveAssistEval.cs" />
+    <Compile Include="MoveData.cs" />
+    <Compile Include="Pair.cs" />
+    <Compile Include="PauseMode.cs" />
+    <Compile Include="Piece.cs" />
+    <Compile Include="PIECEFLAG.cs" />
+    <Compile Include="POINTTYPE.cs" />
+    <Compile Include="Profile.cs" />
+    <Compile Include="ProfilePictureConstants.cs" />
+    <Compile Include="PROF_FLAG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PuzzleProgress.cs" />
+    <Compile Include="QuasiRandom.cs" />
+    <Compile Include="QuestBoard.cs" />
+    <Compile Include="QuestGoal.cs" />
+    <Compile Include="QuestMenu.cs" />
+    <Compile Include="QuestMenuBtn.cs" />
+    <Compile Include="QuestObject.cs" />
+    <Compile Include="QuestObjectData.cs" />
+    <Compile Include="QueuedMove.cs" />
+    <Compile Include="RATE_GAME_CHOICE.cs" />
+    <Compile Include="ReplayData.cs" />
+    <Compile Include="Res.cs" />
+    <Compile Include="ResourceId.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="SimpleObjectPool.cs" />
+    <Compile Include="SoundPlayCondition.cs" />
+    <Compile Include="SoundPlayConditionWait.cs" />
+    <Compile Include="SoundPlayConditionWaitUpdates.cs" />
+    <Compile Include="SpeedBoard.cs" />
+    <Compile Include="SpeedCollectEffect.cs" />
+    <Compile Include="SpiderRandomBehStates.cs" />
+    <Compile Include="STAT.cs" />
+    <Compile Include="StateInfo.cs" />
+    <Compile Include="StatsArray.cs" />
+    <Compile Include="StatsDoubleBuffer.cs" />
+    <Compile Include="StreamerEffect.cs" />
+    <Compile Include="StringFunctions.cs" />
+    <Compile Include="SwapData.cs" />
+    <Compile Include="TimeLimitBoard.cs" />
+    <Compile Include="TutorialsEnum.cs" />
+    <Compile Include="TutorialsQuestConstants.cs" />
+    <Compile Include="UI\AboutMenu.cs" />
+    <Compile Include="UI\AMBIENCE.cs" />
+    <Compile Include="UI\Announcement.cs" />
+    <Compile Include="UI\BadgeMenu.cs" />
+    <Compile Include="UI\BadgeMenuContainer.cs" />
+    <Compile Include="UI\BlendColorsForPlayMenu.cs" />
+    <Compile Include="UI\ButterflyEndLevelDialog.cs" />
+    <Compile Include="UI\ClassicEndLevelDialog.cs" />
+    <Compile Include="UI\CreditsMenu.cs" />
+    <Compile Include="UI\CreditsMenuContainer.cs" />
+    <Compile Include="UI\CreditsMenuScrollWidget.cs" />
+    <Compile Include="UI\DigGoalEndLevelDialog.cs" />
+    <Compile Include="UI\EditProfileDialog.cs" />
+    <Compile Include="UI\EditProfileDialogImageContainer.cs" />
+    <Compile Include="UI\EndLevelDialog.cs" />
+    <Compile Include="UI\GameDetailMenu.cs" />
+    <Compile Include="UI\GameDetailMenuContainer.cs" />
+    <Compile Include="UI\HelpAndOptionsMenu.cs" />
+    <Compile Include="UI\HelpDialog.cs" />
+    <Compile Include="UI\HelpDialogContainer.cs" />
+    <Compile Include="UI\HelpWindow.cs" />
+    <Compile Include="UI\HighScoresMenu.cs" />
+    <Compile Include="UI\HighScoresMenuContainer.cs" />
+    <Compile Include="UI\HintDialog.cs" />
+    <Compile Include="UI\IntroDialog.cs" />
+    <Compile Include="UI\LegalMenu.cs" />
+    <Compile Include="UI\MainMenu.cs" />
+    <Compile Include="UI\MainMenuOptions.cs" />
+    <Compile Include="UI\MainMenuScrollContainer.cs" />
+    <Compile Include="UI\MainMenuStar.cs" />
+    <Compile Include="UI\Menu.cs" />
+    <Compile Include="UI\MenuBackground.cs" />
+    <Compile Include="UI\MenuCloud.cs" />
+    <Compile Include="UI\NewUserDialog.cs" />
+    <Compile Include="UI\OptionsContainer.cs" />
+    <Compile Include="UI\OptionsMenu.cs" />
+    <Compile Include="UI\PartnerLogo.cs" />
+    <Compile Include="UI\PauseMenu.cs" />
+    <Compile Include="UI\PlayMenu.cs" />
+    <Compile Include="UI\ProfileMenu.cs" />
+    <Compile Include="UI\ProfileMenuBase.cs" />
+    <Compile Include="UI\ProfileMenuButton.cs" />
+    <Compile Include="UI\ProfileMenuButtonBadges.cs" />
+    <Compile Include="UI\ProfileMenuButtonHighscores.cs" />
+    <Compile Include="UI\ProfileMenuButtonStats.cs" />
+    <Compile Include="UI\ProfileMenuContainer.cs" />
+    <Compile Include="UI\PROFILE_PIC.cs" />
+    <Compile Include="UI\RankBarWidget.cs" />
+    <Compile Include="UI\RankUpDialog.cs" />
+    <Compile Include="UI\SecretMenu.cs" />
+    <Compile Include="UI\SpeedEndLevelDialog.cs" />
+    <Compile Include="UI\StatsMenu.cs" />
+    <Compile Include="UI\StatsMenuContainer.cs" />
+    <Compile Include="UI\TextContainer.cs" />
+    <Compile Include="UI\UnderDialogWidget.cs" />
+    <Compile Include="UI\ZenInfoDialog.cs" />
+    <Compile Include="UI\ZenOptionsContainer.cs" />
+    <Compile Include="UI\ZenOptionsMenu.cs" />
+    <Compile Include="UI\ZenOptionsMode.cs" />
+    <Compile Include="UI\ZENOPTIONS_IDS.cs" />
+    <Compile Include="UREPLAYCMD.cs" />
+    <Compile Include="UREPLAYGAMEFLAGS.cs" />
+    <Compile Include="UREPLAYMATCHFLAG.cs" />
+    <Compile Include="UREPLAYPIECE.cs" />
+    <Compile Include="UREPLAYSWAP.cs" />
+    <Compile Include="VoicePlayArgs.cs" />
+    <Compile Include="Widget\Bej3Button.cs" />
+    <Compile Include="Widget\Bej3ButtonListener.cs" />
+    <Compile Include="Widget\Bej3ButtonListenerImpl.cs" />
+    <Compile Include="Widget\Bej3ButtonType.cs" />
+    <Compile Include="Widget\Bej3Checkbox.cs" />
+    <Compile Include="Widget\Bej3Dialog.cs" />
+    <Compile Include="Widget\Bej3EditListener.cs" />
+    <Compile Include="Widget\Bej3EditWidget.cs" />
+    <Compile Include="Widget\Bej3Expander.cs" />
+    <Compile Include="Widget\Bej3ExpanderListener.cs" />
+    <Compile Include="Widget\Bej3HyperlinkWidget.cs" />
+    <Compile Include="Widget\Bej3ScrollWidget.cs" />
+    <Compile Include="Widget\Bej3ScrollWidgetClickListener.cs" />
+    <Compile Include="Widget\Bej3ScrollWidgetListener.cs" />
+    <Compile Include="Widget\Bej3Slider.cs" />
+    <Compile Include="Widget\Bej3SlideSelector.cs" />
+    <Compile Include="Widget\Bej3SlideSelectorContainer.cs" />
+    <Compile Include="Widget\Bej3SlideSelectorListener.cs" />
+    <Compile Include="Widget\Bej3Widget.cs" />
+    <Compile Include="Widget\Bej3WidgetBase.cs" />
+    <Compile Include="Widget\Bej3WidgetState.cs" />
+    <Compile Include="Widget\BinauralManager.cs" />
+    <Compile Include="Widget\BinauralTimeSequence.cs" />
+    <Compile Include="Widget\BinauralToneDef.cs" />
+    <Compile Include="Widget\BinauralToneSet.cs" />
+    <Compile Include="Widget\Channel.cs" />
+    <Compile Include="Widget\FloatingThing.cs" />
+    <Compile Include="Widget\HighScoreLabel.cs" />
+    <Compile Include="Widget\HighScoresContainer.cs" />
+    <Compile Include="Widget\HighScoresWidget.cs" />
+    <Compile Include="Widget\Hyperspace.cs" />
+    <Compile Include="Widget\HyperspaceFallback.cs" />
+    <Compile Include="Widget\HyperspaceWhirlpool.cs" />
+    <Compile Include="Widget\ImageWidget.cs" />
+    <Compile Include="Widget\IMAGEWIDGET_ALIGNMENT.cs" />
+    <Compile Include="Widget\Label.cs" />
+    <Compile Include="Widget\Label_Alignment_Horizontal.cs" />
+    <Compile Include="Widget\Label_Alignment_Vertical.cs" />
+    <Compile Include="Widget\RotatingCounter.cs" />
+    <Compile Include="Widget\RotatingSeg.cs" />
+    <Compile Include="Widget\SpeedText.cs" />
+    <Compile Include="Widget\SpreadCurve.cs" />
+    <Compile Include="Widget\Tooltip.cs" />
+    <Compile Include="Widget\TooltipManager.cs" />
+    <Compile Include="Widget\TRANSITION_STATE.cs" />
+    <Compile Include="Widget\WarpLine.cs" />
+    <Compile Include="ZenBoard.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\Strings.resources" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.XlastConfiguration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SexyFramework\SexyFramework.csproj">
+      <Project>{249d7f94-ab63-435b-bf48-1d071e491e03}</Project>
+      <Name>SexyFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

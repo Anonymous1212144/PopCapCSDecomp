@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace BejeweledLivePlus
+{
+	public enum POINTTYPE
+	{
+		POINTTYPE_MATCH,
+		POINTTYPE_SPECIAL,
+		POINTTYPE_SPEED,
+		POINTTYPE_COLUMN_CLEAR,
+		POINTTYPE_COLUMN_COMBO,
+		NUM_POINTTYPES
+	}
+}
