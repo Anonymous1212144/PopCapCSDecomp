@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{249D7F94-AB63-435B-BF48-1D071E491E02}</ProjectGuid>
+    <ProjectGuid>{E27110EC-49F1-4915-ACD8-5C5D005363B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>BejeweledLivePlus.resources</RootNamespace>
     <AssemblyName>BejeweledLivePlus.resources</AssemblyName>

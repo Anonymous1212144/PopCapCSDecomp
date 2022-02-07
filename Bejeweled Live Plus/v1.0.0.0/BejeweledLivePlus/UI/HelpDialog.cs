@@ -633,6 +633,11 @@ namespace BejeweledLivePlus.UI
 
 		public HelpDialog.HELPDIALOG_STATE mHelpDialogState;
 
+		public enum HELP_WINDOW
+		{
+			HELP_WINDOW_COUNT = 4
+		}
+
 		public enum HELPDIALOG_STATE
 		{
 			HELPDIALOG_STATE_PREGAME,
@@ -640,11 +645,6 @@ namespace BejeweledLivePlus.UI
 			HELPDIALOG_STATE_MAINMENU,
 			HELPDIALOG_STATE_OPTIONS,
 			HELPDIALOG_STATE_FIRSTGAME
-		}
-
-		public enum HELP_WINDOW
-		{
-			HELP_WINDOW_COUNT = 4
 		}
 
 		private enum HELPDIALOG_IDS

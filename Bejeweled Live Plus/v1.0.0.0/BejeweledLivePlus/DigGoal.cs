@@ -1247,7 +1247,11 @@ namespace BejeweledLivePlus
 							{ 1166, 1167, 1168 },
 							{ 1169, 1170, 1171 }
 						};
-						int theId4 = checked(array[(int)((IntPtr)(unchecked((long)(num13 - 1)))), (int)((IntPtr)(unchecked((ulong)(tile.mRandCfg * 10232U % 3U))))]);
+						int theId4;
+						checked
+						{
+							theId4 = array[(int)((IntPtr)(unchecked((long)(num13 - 1)))), (int)((IntPtr)(unchecked((ulong)(tile.mRandCfg * 10232U % 3U))))];
+						}
 						g.DrawImage(GlobalMembersResourcesWP.GetImageById(theId4), (int)GlobalMembers.S(GlobalMembersResourcesWP.ImgXOfs(theId4) + piece.GetScreenX()), (int)GlobalMembers.S(GlobalMembersResourcesWP.ImgYOfs(theId4) + piece.GetScreenY()));
 					}
 					IL_950:;
@@ -3166,23 +3170,6 @@ namespace BejeweledLivePlus
 
 		private static Rect TriggerDigPiece_goldCollectRect;
 
-		public class ArtifactData
-		{
-			public string mId;
-
-			public string mName = string.Empty;
-
-			public int mMinDepth;
-
-			public int mValue;
-
-			public int mImageId;
-
-			public int mUnderlayImgId;
-
-			public int mOverlayImgId;
-		}
-
 		public enum EDigPieceType
 		{
 			eDigPiece_Artifact,
@@ -3333,6 +3320,23 @@ namespace BejeweledLivePlus
 			public bool mIsDeleting;
 
 			public DiamondEffect mDiamondFx;
+		}
+
+		public class ArtifactData
+		{
+			public string mId;
+
+			public string mName = string.Empty;
+
+			public int mMinDepth;
+
+			public int mValue;
+
+			public int mImageId;
+
+			public int mUnderlayImgId;
+
+			public int mOverlayImgId;
 		}
 
 		public class OldPieceData

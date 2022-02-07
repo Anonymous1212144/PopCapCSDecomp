@@ -234,49 +234,52 @@ namespace BejeweledLivePlus
 					{
 						piece3 = this.UL_anElectrocutedPieces[(int)((IntPtr)(unchecked((ulong)this.mBoard.mRand.Next() % (ulong)((long)num))))];
 					}
-				}
-				if (piece3 != null)
-				{
-					int maxValue = int.MaxValue;
-					for (int k = 0; k < num3; k++)
+					if (piece3 != null)
 					{
-						Piece piece4 = this.UL_aMatchingPieces[k];
-						int num5 = Math.Min(Math.Abs(piece4.mCol - piece3.mCol), Math.Abs(piece4.mRow - piece3.mRow));
-						if (num5 < maxValue)
+						int maxValue = int.MaxValue;
+						unchecked
 						{
-							piece2 = piece4;
+							for (int k = 0; k < num3; k++)
+							{
+								Piece piece4 = this.UL_aMatchingPieces[k];
+								int num5 = Math.Min(Math.Abs(piece4.mCol - piece3.mCol), Math.Abs(piece4.mRow - piece3.mRow));
+								if (num5 < maxValue)
+								{
+									piece2 = piece4;
+								}
+							}
+							this.AddLightning((int)piece2.mX + 50, (int)piece2.mY + 50, (int)piece3.mX + 50, (int)piece3.mY + 50);
+							Effect effect = this.mBoard.mPostFXManager.AllocEffect(Effect.Type.TYPE_LIGHT);
+							effect.mFlags = 2;
+							effect.mX = piece2.CX();
+							effect.mY = piece2.CY();
+							effect.mZ = GlobalMembers.M(0.08f);
+							effect.mValue[0] = GlobalMembers.M(16.1f);
+							effect.mValue[1] = GlobalMembers.M(-0.8f);
+							effect.mAlpha = GlobalMembers.M(0f);
+							effect.mDAlpha = GlobalMembers.M(0.1f);
+							effect.mScale = GlobalMembers.M(140f);
+							this.mBoard.mPostFXManager.AddEffect(effect);
+							if (this.mUpdateCnt - this.mLastElectroSound >= GlobalMembers.M(20) || this.mLastElectroSound == 0)
+							{
+								if (flag)
+								{
+									GlobalMembers.gApp.PlaySample(GlobalMembersResourcesWP.SOUND_ELECTRO_PATH2, GlobalMembers.M(0), GlobalMembers.MS(0.67), GlobalMembers.MS(-1.0));
+								}
+								else
+								{
+									GlobalMembers.gApp.PlaySample(GlobalMembersResourcesWP.SOUND_ELECTRO_PATH2);
+								}
+								this.mLastElectroSound = 0;
+							}
 						}
 					}
-					this.AddLightning((int)piece2.mX + 50, (int)piece2.mY + 50, (int)piece3.mX + 50, (int)piece3.mY + 50);
-					Effect effect = this.mBoard.mPostFXManager.AllocEffect(Effect.Type.TYPE_LIGHT);
-					effect.mFlags = 2;
-					effect.mX = piece2.CX();
-					effect.mY = piece2.CY();
-					effect.mZ = GlobalMembers.M(0.08f);
-					effect.mValue[0] = GlobalMembers.M(16.1f);
-					effect.mValue[1] = GlobalMembers.M(-0.8f);
-					effect.mAlpha = GlobalMembers.M(0f);
-					effect.mDAlpha = GlobalMembers.M(0.1f);
-					effect.mScale = GlobalMembers.M(140f);
-					this.mBoard.mPostFXManager.AddEffect(effect);
-					if (this.mUpdateCnt - this.mLastElectroSound >= GlobalMembers.M(20) || this.mLastElectroSound == 0)
+					else
 					{
-						if (flag)
-						{
-							GlobalMembers.gApp.PlaySample(GlobalMembersResourcesWP.SOUND_ELECTRO_PATH2, GlobalMembers.M(0), GlobalMembers.MS(0.67), GlobalMembers.MS(-1.0));
-						}
-						else
-						{
-							GlobalMembers.gApp.PlaySample(GlobalMembersResourcesWP.SOUND_ELECTRO_PATH2);
-						}
-						this.mLastElectroSound = 0;
+						piece2 = this.UL_aMatchingPieces[(int)((IntPtr)(unchecked((ulong)this.mBoard.mRand.Next() % (ulong)((long)num3))))];
 					}
+					piece2.mIsElectrocuting = true;
 				}
-				else
-				{
-					piece2 = this.UL_aMatchingPieces[(int)(checked((IntPtr)(unchecked((ulong)this.mBoard.mRand.Next() % (ulong)((long)num3)))))];
-				}
-				piece2.mIsElectrocuting = true;
 			}
 			float num6 = (GlobalMembers.gIs3D ? GlobalMembers.M(32f) : GlobalMembers.M(24f));
 			for (int l = 0; l < this.mLightningVector.size<Lightning>(); l++)

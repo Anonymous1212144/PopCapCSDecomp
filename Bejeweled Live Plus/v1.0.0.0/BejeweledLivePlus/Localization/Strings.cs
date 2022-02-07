@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 
 namespace BejeweledLivePlus.Localization
 {
-	[CompilerGenerated]
-	[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
 	[DebuggerNonUserCode]
+	[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+	[CompilerGenerated]
 	public class Strings
 	{
 		internal Strings()

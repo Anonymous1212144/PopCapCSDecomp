@@ -2588,6 +2588,10 @@ namespace BejeweledLivePlus
 
 		private int LastSfxId;
 
+		public delegate void InitStepFunc();
+
+		public delegate bool ExtractResourceFunc(ResourceManager manager);
+
 		public enum EAutoPlayState
 		{
 			AUTOPLAY_OFF,
@@ -2597,9 +2601,5 @@ namespace BejeweledLivePlus
 			AUTOPLAY_TEST_HYPER,
 			AUTOPLAY__COUNT
 		}
-
-		public delegate void InitStepFunc();
-
-		public delegate bool ExtractResourceFunc(ResourceManager manager);
 	}
 }

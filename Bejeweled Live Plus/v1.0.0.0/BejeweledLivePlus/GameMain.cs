@@ -32,6 +32,8 @@ namespace BejeweledLivePlus
 			GlobalMembers.gSexyApp = this.theApp;
 			GlobalMembers.gSexyAppBase = this.theApp;
 			GlobalMembers.gApp = this.theApp;
+			this.mGamerService = new GamerServicesComponent(this);
+			base.Components.Add(this.mGamerService);
 			Guide.SimulateTrialMode = false;
 			Guide.SimulateTrialMode = false;
 			this.mAppService = PhoneApplicationService.Current;

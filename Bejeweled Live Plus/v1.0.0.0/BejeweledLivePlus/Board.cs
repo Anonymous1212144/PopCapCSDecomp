@@ -13727,29 +13727,6 @@ namespace BejeweledLivePlus
 
 		private Piece[] DP_pQuestPieces = new Piece[128];
 
-		public class DistortionQuad
-		{
-			public DistortionQuad()
-			{
-			}
-
-			public DistortionQuad(float inX1, float inY1, float inX2, float inY2)
-			{
-				this.x1 = inX1;
-				this.y1 = inY1;
-				this.x2 = inX2;
-				this.y2 = inY2;
-			}
-
-			public float x1;
-
-			public float y1;
-
-			public float x2;
-
-			public float y2;
-		}
-
 		public enum BUTTON
 		{
 			BUTTON_HINT,
@@ -13789,6 +13766,29 @@ namespace BejeweledLivePlus
 			public int mOnGameTick;
 
 			public double mVolume;
+		}
+
+		public class DistortionQuad
+		{
+			public DistortionQuad()
+			{
+			}
+
+			public DistortionQuad(float inX1, float inY1, float inX2, float inY2)
+			{
+				this.x1 = inX1;
+				this.y1 = inY1;
+				this.x2 = inX2;
+				this.y2 = inY2;
+			}
+
+			public float x1;
+
+			public float y1;
+
+			public float x2;
+
+			public float y2;
 		}
 	}
 }

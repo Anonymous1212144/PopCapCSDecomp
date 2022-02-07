@@ -500,18 +500,18 @@ namespace BejeweledLivePlus.UI
 
 		private int ScrollTargetReached_lastPage = -1;
 
-		public enum GAMEDETAILMENU_STATE
-		{
-			STATE_PRE_GAME,
-			STATE_POST_GAME
-		}
-
 		public enum GAMEDETAILMENU_IDS
 		{
 			BTN_PLAY_ID,
 			BTN_BACK_ID,
 			BTN_RIGHT_ID,
 			BTN_LEFT_ID
+		}
+
+		public enum GAMEDETAILMENU_STATE
+		{
+			STATE_PRE_GAME,
+			STATE_POST_GAME
 		}
 	}
 }

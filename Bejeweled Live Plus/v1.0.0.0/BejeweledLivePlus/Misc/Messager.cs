@@ -134,6 +134,12 @@ namespace BejeweledLivePlus.Misc
 
 		protected int mDefaultColor;
 
+		public enum EJustification
+		{
+			eJustification_Left,
+			eJustification_Right
+		}
+
 		public class Msg
 		{
 			public string Text = string.Empty;
@@ -141,12 +147,6 @@ namespace BejeweledLivePlus.Misc
 			public double LifeLeft;
 
 			public int TextColor;
-		}
-
-		public enum EJustification
-		{
-			eJustification_Left,
-			eJustification_Right
 		}
 	}
 }
