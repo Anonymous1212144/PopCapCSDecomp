@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E27110EC-49F1-4915-ACD8-5C5D005363B6}</ProjectGuid>
+    <ProjectGuid>{4E5C7C38-4EC7-47D9-888F-3A7CDE798E97}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>SexyFramework</RootNamespace>
     <AssemblyName>SexyFramework</AssemblyName>

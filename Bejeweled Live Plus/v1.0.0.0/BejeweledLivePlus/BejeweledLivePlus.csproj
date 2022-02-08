@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E27110EC-49F1-4915-ACD8-5C5D005363B1}</ProjectGuid>
+    <ProjectGuid>{4E5C7C38-4EC7-47D9-888F-3A7CDE798E92}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>BejeweledLivePlus</RootNamespace>
     <AssemblyName>BejeweledLivePlus</AssemblyName>
@@ -349,7 +349,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SexyFramework\SexyFramework.csproj">
-      <Project>{e27110ec-49f1-4915-acd8-5c5d005363b6}</Project>
+      <Project>{4e5c7c38-4ec7-47d9-888f-3a7cde798e97}</Project>
       <Name>SexyFramework</Name>
     </ProjectReference>
   </ItemGroup>

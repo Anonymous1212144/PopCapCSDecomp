@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources.2", "BejeweledLivePlus.resources.2\BejeweledLivePlus.resources.2.csproj", "{E27110EC-49F1-4915-ACD8-5C5D005363B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources.2", "BejeweledLivePlus.resources.2\BejeweledLivePlus.resources.2.csproj", "{4E5C7C38-4EC7-47D9-888F-3A7CDE798E94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources.3", "BejeweledLivePlus.resources.3\BejeweledLivePlus.resources.3.csproj", "{E27110EC-49F1-4915-ACD8-5C5D005363B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources.3", "BejeweledLivePlus.resources.3\BejeweledLivePlus.resources.3.csproj", "{4E5C7C38-4EC7-47D9-888F-3A7CDE798E95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources.4", "BejeweledLivePlus.resources.4\BejeweledLivePlus.resources.4.csproj", "{E27110EC-49F1-4915-ACD8-5C5D005363B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources.4", "BejeweledLivePlus.resources.4\BejeweledLivePlus.resources.4.csproj", "{4E5C7C38-4EC7-47D9-888F-3A7CDE798E96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources", "BejeweledLivePlus.resources\BejeweledLivePlus.resources.csproj", "{E27110EC-49F1-4915-ACD8-5C5D005363B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus.resources", "BejeweledLivePlus.resources\BejeweledLivePlus.resources.csproj", "{4E5C7C38-4EC7-47D9-888F-3A7CDE798E93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus", "BejeweledLivePlus\BejeweledLivePlus.csproj", "{E27110EC-49F1-4915-ACD8-5C5D005363B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLivePlus", "BejeweledLivePlus\BejeweledLivePlus.csproj", "{4E5C7C38-4EC7-47D9-888F-3A7CDE798E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SexyFramework", "SexyFramework\SexyFramework.csproj", "{E27110EC-49F1-4915-ACD8-5C5D005363B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SexyFramework", "SexyFramework\SexyFramework.csproj", "{4E5C7C38-4EC7-47D9-888F-3A7CDE798E97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,30 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E27110EC-49F1-4915-ACD8-5C5D005363B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E27110EC-49F1-4915-ACD8-5C5D005363B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5C7C38-4EC7-47D9-888F-3A7CDE798E97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
