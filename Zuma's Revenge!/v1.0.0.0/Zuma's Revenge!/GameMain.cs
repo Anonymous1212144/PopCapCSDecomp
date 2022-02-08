@@ -25,6 +25,7 @@ namespace ZumasRevenge
 			this.gApplicationService = PhoneApplicationService.Current;
 			this.gApplicationService.Deactivated += new EventHandler<DeactivatedEventArgs>(this.OnServiceDeactivated);
 			this.gApplicationService.Activated += new EventHandler<ActivatedEventArgs>(this.OnServiceActivated);
+			base.Components.Add(new GamerServicesComponent(this));
 			Guide.SimulateTrialMode = false;
 		}
 

@@ -953,9 +953,6 @@ namespace ZumasRevenge
 			this.mMusic.LoadMusic(127, "music/MUSIC_BOSS");
 			this.mMusic.LoadMusic(144, "music/MUSIC_WON_GAME");
 			this.mMusic.LoadMusic(126, "music/MUSIC_GAME_OVER");
-			GameApp.gInitialProfLoadSuccessful = true;
-			this.mUserProfile = (ZumaProfile)this.mProfileMgr.AddProfile(this.m_DefaultProfileName);
-			GameApp.gDDS.ChangeProfile(this.mUserProfile);
 		}
 
 		public override void LoadingThreadCompleted()
@@ -2802,7 +2799,7 @@ namespace ZumasRevenge
 
 		public static bool UN_UPDATE_VERSION = false;
 
-		public static bool USE_XBOX_SERVICE = false;
+		public static bool USE_XBOX_SERVICE = true;
 
 		public WebBrowserTask mWbt;
 
@@ -2994,9 +2991,9 @@ namespace ZumasRevenge
 
 		public BambooTransition mBambooTransition;
 
-		public string m_DefaultProfileName = "DewinterWang";
+		public string m_DefaultProfileName = "Player 1";
 
-		public string m_DefaultName = "DewinterWang";
+		public string m_DefaultName = "Player 1";
 
 		public LegalInfo mLegalInfo;
 
@@ -3028,11 +3025,7 @@ namespace ZumasRevenge
 
 		public int mOffset160X = 160;
 
-		protected GameApp.EXLiveWaiting m_XLiveState = GameApp.EXLiveWaiting.E_NONE;
-
-		public delegate void YesNoDialogDelegate(int buttonId);
-
-		public delegate void PreBlockCallback();
+		protected GameApp.EXLiveWaiting m_XLiveState = GameApp.EXLiveWaiting.E_WaitingForSignIn;
 
 		public enum Metrics_AppEventType
 		{
@@ -3042,6 +3035,10 @@ namespace ZumasRevenge
 			Metrics_AppEvent_MovedToForeground,
 			Metrics_AppEvent_StartFromPushNotification
 		}
+
+		public delegate void PreBlockCallback();
+
+		public delegate void YesNoDialogDelegate(int buttonId);
 
 		public enum EXLiveWaiting
 		{

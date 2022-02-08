@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0EB7AD4-68C8-4056-8089-1EADC34E507A}</ProjectGuid>
+    <ProjectGuid>{9393E17F-4D4D-45CA-ACB1-2E6411DC4314}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>ZumasRevenge</RootNamespace>
     <AssemblyName>Zuma's Revenge!</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationIcon>Zuma's Revenge!.ico</ApplicationIcon>
   </PropertyGroup>
@@ -328,7 +328,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SexyFramework\SexyFramework.csproj">
-      <Project>{f0eb7ad4-68c8-4056-8089-1eadc34e5077}</Project>
+      <Project>{9393e17f-4d4d-45ca-acb1-2e6411dc4311}</Project>
       <Name>SexyFramework</Name>
     </ProjectReference>
   </ItemGroup>

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0EB7AD4-68C8-4056-8089-1EADC34E5072}</ProjectGuid>
+    <ProjectGuid>{9393E17F-4D4D-45CA-ACB1-2E6411DC4313}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Zuma's Revenge!.resources</RootNamespace>
     <AssemblyName>Zuma's Revenge!.resources</AssemblyName>
@@ -37,7 +37,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ZumasRevenge.AppResources.it-IT.resources" />
+    <EmbeddedResource Include="ZumasRevenge.AppResources.zh-TW.resources" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

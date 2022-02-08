@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-[assembly: AssemblyCulture("zh-CN")]
+[assembly: AssemblyCulture("pt-BR")]
 [assembly: AssemblyVersion("1.0.1.0")]
 [assembly: AssemblyTitle("Zuma's Revenge!")]
 [assembly: AssemblyDescription(null)]

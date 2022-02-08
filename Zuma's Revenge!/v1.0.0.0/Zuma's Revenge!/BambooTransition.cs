@@ -309,8 +309,6 @@ namespace ZumasRevenge
 
 		private int mUpdateNum;
 
-		public delegate void BambooTransitionDelegate();
-
 		private enum BambooTransitionState
 		{
 			BAMBOO_TRANSITION_INIT,
@@ -321,5 +319,7 @@ namespace ZumasRevenge
 			BAMBOO_TRANSITION_OPEN,
 			NUM_BAMBOO_TRANSITION_STATES
 		}
+
+		public delegate void BambooTransitionDelegate();
 	}
 }

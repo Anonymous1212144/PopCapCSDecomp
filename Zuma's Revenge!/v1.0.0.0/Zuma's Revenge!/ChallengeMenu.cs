@@ -721,6 +721,18 @@ namespace ZumasRevenge
 
 		private Image IMAGE_UI_CHALLENGE_PAGE_INDICATOR;
 
+		public enum Zoom
+		{
+			Zooming_Crown,
+			Zooming_AceCrown
+		}
+
+		protected enum EChallengeState
+		{
+			State_Challenge,
+			State_LevelInfo
+		}
+
 		public class DefaultStringContainer
 		{
 			public DefaultStringContainer()
@@ -754,18 +766,6 @@ namespace ZumasRevenge
 			}
 
 			public string mDefaultStr;
-		}
-
-		public enum Zoom
-		{
-			Zooming_Crown,
-			Zooming_AceCrown
-		}
-
-		protected enum EChallengeState
-		{
-			State_Challenge,
-			State_LevelInfo
 		}
 	}
 }
