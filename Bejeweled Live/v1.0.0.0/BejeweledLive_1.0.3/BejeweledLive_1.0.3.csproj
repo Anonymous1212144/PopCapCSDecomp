@@ -4,12 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2AC80A37-C2AD-4985-836A-9381E63F142A}</ProjectGuid>
+    <ProjectGuid>{A1D16801-6F61-4285-97C8-D09147853423}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>BejeweledLive_1.0.3</RootNamespace>
     <AssemblyName>BejeweledLive_1.0.3</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>BejeweledLive_1.0.3.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

@@ -8,8 +8,8 @@ using System.Runtime.CompilerServices;
 
 namespace BejeweledLIVE
 {
-	[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
 	[DebuggerNonUserCode]
+	[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
 	[CompilerGenerated]
 	internal class Strings
 	{

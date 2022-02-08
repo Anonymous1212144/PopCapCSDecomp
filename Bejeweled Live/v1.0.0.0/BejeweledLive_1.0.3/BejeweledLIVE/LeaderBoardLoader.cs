@@ -194,8 +194,6 @@ namespace BejeweledLIVE
 
 		private LeaderboardReader reader;
 
-		public delegate void LoadingCompletedhandler(LeaderBoardLoader loader);
-
 		public enum LoaderState
 		{
 			Idle,
@@ -209,5 +207,7 @@ namespace BejeweledLIVE
 			GameUpdateRequired,
 			Error
 		}
+
+		public delegate void LoadingCompletedhandler(LeaderBoardLoader loader);
 	}
 }

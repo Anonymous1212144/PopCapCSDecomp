@@ -36,6 +36,8 @@ namespace Sexy
 			PhoneApplicationService.Current.Activated += new EventHandler<ActivatedEventArgs>(this.Game_Activated);
 			PhoneApplicationService.Current.Closing += new EventHandler<ClosingEventArgs>(this.Current_Closing);
 			PhoneApplicationService.Current.Deactivated += new EventHandler<DeactivatedEventArgs>(this.Current_Deactivated);
+			Main.GamerServicesComp = new GamerServicesComponent(this);
+			base.Components.Add(Main.GamerServicesComp);
 		}
 
 		private void Current_Deactivated(object sender, DeactivatedEventArgs e)

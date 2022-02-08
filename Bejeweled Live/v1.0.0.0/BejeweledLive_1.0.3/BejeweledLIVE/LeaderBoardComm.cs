@@ -454,8 +454,6 @@ namespace BejeweledLIVE
 
 		private static List<Gamer> loadingGamers = new List<Gamer>();
 
-		public delegate void LoadingCompletedHandler();
-
 		public enum ConnectionState
 		{
 			Connected,
@@ -474,5 +472,7 @@ namespace BejeweledLIVE
 		{
 			Score
 		}
+
+		public delegate void LoadingCompletedHandler();
 	}
 }

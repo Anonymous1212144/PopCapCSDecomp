@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources.2", "BejeweledLive_1.0.3.resources.2\BejeweledLive_1.0.3.resources.2.csproj", "{2AC80A37-C2AD-4985-836A-9381E63F142D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources.2", "BejeweledLive_1.0.3.resources.2\BejeweledLive_1.0.3.resources.2.csproj", "{A1D16801-6F61-4285-97C8-D09147853425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources.3", "BejeweledLive_1.0.3.resources.3\BejeweledLive_1.0.3.resources.3.csproj", "{2AC80A37-C2AD-4985-836A-9381E63F142B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources.3", "BejeweledLive_1.0.3.resources.3\BejeweledLive_1.0.3.resources.3.csproj", "{A1D16801-6F61-4285-97C8-D09147853426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources.4", "BejeweledLive_1.0.3.resources.4\BejeweledLive_1.0.3.resources.4.csproj", "{2AC80A37-C2AD-4985-836A-9381E63F142E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources.4", "BejeweledLive_1.0.3.resources.4\BejeweledLive_1.0.3.resources.4.csproj", "{A1D16801-6F61-4285-97C8-D09147853427}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources", "BejeweledLive_1.0.3.resources\BejeweledLive_1.0.3.resources.csproj", "{2AC80A37-C2AD-4985-836A-9381E63F142C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3.resources", "BejeweledLive_1.0.3.resources\BejeweledLive_1.0.3.resources.csproj", "{A1D16801-6F61-4285-97C8-D09147853424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3", "BejeweledLive_1.0.3\BejeweledLive_1.0.3.csproj", "{2AC80A37-C2AD-4985-836A-9381E63F142A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BejeweledLive_1.0.3", "BejeweledLive_1.0.3\BejeweledLive_1.0.3.csproj", "{A1D16801-6F61-4285-97C8-D09147853423}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AC80A37-C2AD-4985-836A-9381E63F142D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AC80A37-C2AD-4985-836A-9381E63F142A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D16801-6F61-4285-97C8-D09147853423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

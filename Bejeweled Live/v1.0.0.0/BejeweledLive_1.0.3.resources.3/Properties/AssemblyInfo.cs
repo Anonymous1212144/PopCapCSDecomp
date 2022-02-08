@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-[assembly: AssemblyCulture("de")]
+[assembly: AssemblyCulture("fr")]
 [assembly: AssemblyVersion("1.0.3.0")]
 [assembly: AssemblyTitle("Bejeweled LIVE")]
 [assembly: AssemblyDescription(null)]

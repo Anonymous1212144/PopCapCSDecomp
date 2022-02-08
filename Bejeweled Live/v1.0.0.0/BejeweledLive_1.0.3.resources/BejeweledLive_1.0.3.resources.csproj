@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2AC80A37-C2AD-4985-836A-9381E63F142C}</ProjectGuid>
+    <ProjectGuid>{A1D16801-6F61-4285-97C8-D09147853424}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>BejeweledLive_1.0.3.resources</RootNamespace>
     <AssemblyName>BejeweledLive_1.0.3.resources</AssemblyName>
@@ -37,7 +37,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="BejeweledLIVE.Strings.es.resources" />
+    <EmbeddedResource Include="BejeweledLIVE.Strings.de.resources" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
