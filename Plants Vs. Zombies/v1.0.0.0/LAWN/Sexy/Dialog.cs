@@ -472,18 +472,6 @@ namespace Sexy
 
 		public int mButtonSidePadding;
 
-		public enum DialogColour
-		{
-			COLOR_HEADER,
-			COLOR_LINES,
-			COLOR_FOOTER,
-			COLOR_BUTTON_TEXT,
-			COLOR_BUTTON_TEXT_HILITE,
-			COLOR_BKG,
-			COLOR_OUTLINE,
-			NUM_COLORS
-		}
-
 		public enum DialogButtons
 		{
 			BUTTONS_NONE,
@@ -499,6 +487,18 @@ namespace Sexy
 			ID_OK = 1000,
 			ID_CANCEL,
 			ID_FOOTER = 1000
+		}
+
+		public enum DialogColour
+		{
+			COLOR_HEADER,
+			COLOR_LINES,
+			COLOR_FOOTER,
+			COLOR_BUTTON_TEXT,
+			COLOR_BUTTON_TEXT_HILITE,
+			COLOR_BKG,
+			COLOR_OUTLINE,
+			NUM_COLORS
 		}
 	}
 }

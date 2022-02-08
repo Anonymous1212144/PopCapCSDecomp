@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 
 namespace Lawn
 {
-	[DebuggerNonUserCode]
-	[CompilerGenerated]
 	[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+	[CompilerGenerated]
+	[DebuggerNonUserCode]
 	internal class Strings
 	{
 		internal Strings()

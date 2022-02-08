@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{722BFF79-789A-47DC-805D-6D9A171C5489}</ProjectGuid>
+    <ProjectGuid>{18CC8DE6-77E3-404D-AC12-E5F507E8A111}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>LAWN</RootNamespace>
     <AssemblyName>LAWN</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

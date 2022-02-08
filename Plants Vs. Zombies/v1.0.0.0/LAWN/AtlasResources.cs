@@ -3596,397 +3596,399 @@ internal class AtlasResources
 	public static int GetIdByImageInAtlas(Image theImage)
 	{
 		/*
-An exception occurred when decompiling this method (060001DD)
+An exception occurred when decompiling this method (060005BB)
 
 ICSharpCode.Decompiler.DecompilerException: Error decompiling System.Int32 AtlasResources::GetIdByImageInAtlas(Sexy.Image)
  ---> System.InsufficientExecutionStackException: Insufficient stack to continue executing the program safely. This can happen from having too many functions on the call stack or function on the stack using too much stack space.
    at System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack()
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindDominatedNodes(HashSet`1 scope, ControlFlowNode head)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode)
-   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(ILBlock block)
-   at ICSharpCode.Decompiler.ILAst.ILAstOptimizer.Optimize(DecompilerContext context, ILBlock method, AutoPropertyProvider autoPropertyProvider, StateMachineKind& stateMachineKind, MethodDef& inlinedMethod, AsyncMethodDebugInfo& asyncInfo, ILAstOptimizationStep abortBeforeStep)
-   at ICSharpCode.Decompiler.Ast.AstMethodBodyBuilder.CreateMethodBody(IEnumerable`1 parameters, MethodDebugInfoBuilder& builder)
-   at ICSharpCode.Decompiler.Ast.AstMethodBodyBuilder.CreateMethodBody(MethodDef methodDef, DecompilerContext context, AutoPropertyProvider autoPropertyProvider, IEnumerable`1 parameters, Boolean valueParameterIsKeyword, StringBuilder sb, MethodDebugInfoBuilder& stmtsBuilder)
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindDominatedNodes(HashSet`1 scope, ControlFlowNode head) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 442
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 402
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(HashSet`1 scope, ControlFlowNode entryNode) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 409
+   at ICSharpCode.Decompiler.ILAst.LoopsAndConditions.FindConditions(ILBlock block) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\LoopsAndConditions.cs:line 69
+   at ICSharpCode.Decompiler.ILAst.ILAstOptimizer.Optimize(DecompilerContext context, ILBlock method, AutoPropertyProvider autoPropertyProvider, StateMachineKind& stateMachineKind, MethodDef& inlinedMethod, AsyncMethodDebugInfo& asyncInfo, ILAstOptimizationStep abortBeforeStep) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\ILAst\ILAstOptimizer.cs:line 334
+   at ICSharpCode.Decompiler.Ast.AstMethodBodyBuilder.CreateMethodBody(IEnumerable`1 parameters, MethodDebugInfoBuilder& builder) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\Ast\AstMethodBodyBuilder.cs:line 123
+   at ICSharpCode.Decompiler.Ast.AstMethodBodyBuilder.CreateMethodBody(MethodDef methodDef, DecompilerContext context, AutoPropertyProvider autoPropertyProvider, IEnumerable`1 parameters, Boolean valueParameterIsKeyword, StringBuilder sb, MethodDebugInfoBuilder& stmtsBuilder) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\Ast\AstMethodBodyBuilder.cs:line 88
    --- End of inner exception stack trace ---
-   at ICSharpCode.Decompiler.Ast.AstMethodBodyBuilder.CreateMethodBody(MethodDef methodDef, DecompilerContext context, AutoPropertyProvider autoPropertyProvider, IEnumerable`1 parameters, Boolean valueParameterIsKeyword, StringBuilder sb, MethodDebugInfoBuilder& stmtsBuilder)
-   at ICSharpCode.Decompiler.Ast.AstBuilder.AddMethodBody(EntityDeclaration methodNode, EntityDeclaration& updatedNode, MethodDef method, IEnumerable`1 parameters, Boolean valueParameterIsKeyword, MethodKind methodKind)
+   at ICSharpCode.Decompiler.Ast.AstMethodBodyBuilder.CreateMethodBody(MethodDef methodDef, DecompilerContext context, AutoPropertyProvider autoPropertyProvider, IEnumerable`1 parameters, Boolean valueParameterIsKeyword, StringBuilder sb, MethodDebugInfoBuilder& stmtsBuilder) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\Ast\AstMethodBodyBuilder.cs:line 92
+   at ICSharpCode.Decompiler.Ast.AstBuilder.AddMethodBody(EntityDeclaration methodNode, EntityDeclaration& updatedNode, MethodDef method, IEnumerable`1 parameters, Boolean valueParameterIsKeyword, MethodKind methodKind) in dnSpy\Extensions\ILSpy.Decompiler\ICSharpCode.Decompiler\ICSharpCode.Decompiler\Ast\AstBuilder.cs:line 1534
 */;
 	}
 

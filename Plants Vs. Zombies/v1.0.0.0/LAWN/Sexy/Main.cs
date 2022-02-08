@@ -97,6 +97,7 @@ namespace Sexy
 		{
 			base.Window.OrientationChanged += new EventHandler<EventArgs>(this.Window_OrientationChanged);
 			Main.GamerServicesComp = new GamerServicesComponent(this);
+			base.Components.Add(Main.GamerServicesComp);
 			ReportAchievement.Initialise();
 			base.Initialize();
 		}
